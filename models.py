@@ -33,5 +33,5 @@ class InputPayload(BaseModel):
     calories_breakfast: int
     calories_lunch: int
     calories_dinner: int
-    calories_snacks: Optional[List[int]] = []
+    calories_snacks: int
     
