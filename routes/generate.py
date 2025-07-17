@@ -4,7 +4,7 @@ from models import InputPayload, OutputPayload
 
 router = APIRouter()
 
-@router.post("/generate")
+@router.post("/debugtest123")
 async def generate_meal_plan(request: Request):
     try:
         data = await request.json()
