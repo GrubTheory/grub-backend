@@ -1,5 +1,6 @@
-from models import InputPayload, OutputPayload
+# main.py
 from fastapi import FastAPI
+from routes.generate import router as generate_router
 
 app = FastAPI()
 
@@ -7,16 +8,4 @@ app = FastAPI()
 def ping():
     return {"message": "Grub backend is alive!"}
 
-
-@app.post("/test", response_model=OutputPayload)
-def test_generate(payload: InputPayload):
-    return {
-        "uuid": payload.uuid,
-        "daily_totals": {
-            "calories": payload.calorie_target,
-            "protein": 0,
-            "fat": 0,
-            "carbs": 0
-        },
-        "meals": []
-    }
+app.include_router(generate_router)
