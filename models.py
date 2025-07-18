@@ -27,11 +27,8 @@ class OutputPayload(BaseModel):
     meals: List[Meal]
 
 class InputPayload(BaseModel):
-    uuid: str
-    diet_type: str
+    record_id: str
     calorie_target: int
-    calories_breakfast: int
-    calories_lunch: int
-    calories_dinner: int
-    calories_snacks: int
+    diet_type: Optional[str]
+    meal_plan: str  # Still a raw JSON string
     

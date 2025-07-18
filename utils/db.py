@@ -1,5 +1,30 @@
-# utils/db.py
+import psycopg2
+from psycopg2.extras import RealDictCursor
+import os
+from dotenv import load_dotenv
+import random
+from typing import Dict
 
-def get_ingredient_by_name(name):
-    # Placeholder: this will query the database later
-    return {"name": name, "calories": 0, "protein": 0, "fat": 0, "carbs": 0}
+# Load DB URL
+load_dotenv()
+DATABASE_URL = os.getenv("DATABASE_URL")
+
+def get_db_connection():
+    return psycopg2.connect(DATABASE_URL)
+
+def fetch_random_ingredient_by_category(category: str) -> Dict:
+    conn = get_db_connection()
+    cursor = conn.cursor(cursor_factory=RealDictCursor)
+
+    try:
+        cursor.execute(
+            "SELECT * FROM ingredientsDB WHERE category = %s;",
+            (category,)
+        )
+        results = cursor.fetchall()
+        if not results:
+            raise ValueError(f"No ingredients found for category: {category}")
+        return random.choice(results)
+    finally:
+        cursor.close()
+        conn.close()
