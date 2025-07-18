@@ -1,6 +1,6 @@
-# routes/generate.py
 from fastapi import APIRouter, Request
-from models import InputPayload, OutputPayload
+from models import InputPayload
+from utils.parser import parse_meal_plan
 
 router = APIRouter()
 
@@ -10,10 +10,19 @@ async def generate_meal_plan(request: Request):
         data = await request.json()
         payload = InputPayload(**data)
 
-        # Debug log (optional)
-        print("Received:", payload.dict())
+        # ✅ Parse the meal_plan string into a Python dict
+        meal_plan = parse_meal_plan(payload.meal_plan)
+        print("Parsed meal plan:", meal_plan)
 
-        return {"status": "ok", "uuid": payload.uuid}
+        # Placeholder: future macro logic goes here
+
+        return {
+            "status": "ok",
+            "uuid": payload.uuid
+        }
 
     except Exception as e:
-        return {"status": "error", "message": str(e)}
+        return {
+            "status": "error",
+            "message": str(e)
+        }
