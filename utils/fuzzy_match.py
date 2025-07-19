@@ -12,7 +12,7 @@ def load_ingredient_names():
         _ingredient_cache = [row[0] for row in rows]
     conn.close()
 
-def fuzzy_match_ingredient(ingredient: str, threshold: int = 85) -> dict:
+def fuzzy_match_ingredient(ingredient: str, threshold: int = 80) -> dict:
     if not _ingredient_cache:
         raise ValueError("Ingredient cache not loaded")
 

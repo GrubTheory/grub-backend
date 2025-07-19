@@ -3,7 +3,8 @@ from models import InputPayload
 from utils.parser import parse_meal_plan
 from utils.macro_allocation import allocate_macros
 from utils.normalize_ingredients import extract_normalized_ingredients
-from utils.fuzzy_match import fuzzy_match_ingredient  # ✅ NEW IMPORT
+from utils.fuzzy_match import fuzzy_match_ingredient
+from utils.db_lookup import fetch_ingredients_by_name  # ✅ NEW IMPORT
 
 router = APIRouter()
 
@@ -35,6 +36,20 @@ async def generate_meal_plan(request: Request):
                 fuzzy_match_ingredient(ing) for ing in ingredients
             ]
         print("Fuzzy matched ingredients:", fuzzy_matched_ingredients)
+
+        # ✅ Extract matched names
+        matched_names = [
+            item["matched"]
+            for ingredients in fuzzy_matched_ingredients.values()
+            for item in ingredients
+            if item["matched"]
+        ]
+        print("Matched names:", matched_names)
+        print("Matched name count:", len(matched_names))
+
+        # ✅ Fetch full ingredient records from DB
+        ingredient_records = fetch_ingredients_by_name(matched_names)
+        print("Fetched ingredient records:", ingredient_records)
 
         return {
             "status": "ok",
