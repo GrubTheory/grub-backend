@@ -16,6 +16,9 @@ async def generate_meal_plan(request: Request):
         meal_plan = parse_meal_plan(payload.meal_plan)
         print("Parsed meal plan:", meal_plan)
 
+        # ✅ Flatten meals list into dict by 'time' field
+        meal_plan.update({m["time"]: m for m in meal_plan.get("meals", [])})
+
         # ✅ Allocate calories and macros
         allocate_macros(meal_plan, payload.calorie_target)
         print("Meal plan after macro allocation:", meal_plan)

@@ -29,12 +29,19 @@ def normalize_ingredient_name(name: str) -> str:
 
 def extract_normalized_ingredients(meal_plan: dict) -> Dict[str, List[str]]:
     result = {}
-    for meal_name, meal_data in meal_plan.items():
+
+    # Meals: breakfast, lunch, dinner
+    for key in ("breakfast", "lunch", "dinner", "snacks"):
+        meal_data = meal_plan.get(key)
+        if not meal_data:
+            continue
+
         ingredients = meal_data.get("ingredients", [])
         cleaned = []
         for item in ingredients:
             raw = item.get("name")
             if raw:
                 cleaned.append(normalize_ingredient_name(raw))
-        result[meal_name] = cleaned
+        result[key] = cleaned
+
     return result
