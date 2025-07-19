@@ -1,47 +1,41 @@
 import re
 from typing import Dict, List
 
-# Words that add noise but don't affect core ingredient identity
 TRASH_WORDS = {
     "fresh", "plain", "chopped", "grilled", "boiled", "raw", "sliced",
-    "extra virgin", "unsalted", "whole", "low fat", "fat free"
+    "extra virgin", "unsalted", "whole", "low fat", "fat free" , "chopped", "minced", "low sodium", "low sugar", "low-fat"
 }
 
 def normalize_ingredient_name(name: str) -> str:
-    # Lowercase
     name = name.lower()
-
-    # Remove parentheses content
     name = re.sub(r"\([^)]*\)", "", name)
-
-    # Remove commas
     name = name.replace(",", " ")
-
-    # Remove trash words
     for word in TRASH_WORDS:
         name = name.replace(word, "")
-
-    # Collapse multiple spaces
     name = re.sub(r"\s+", " ", name).strip()
-
     return name
 
 
 def extract_normalized_ingredients(meal_plan: dict) -> Dict[str, List[str]]:
     result = {}
 
-    # Meals: breakfast, lunch, dinner
-    for key in ("breakfast", "lunch", "dinner", "snacks"):
-        meal_data = meal_plan.get(key)
-        if not meal_data:
-            continue
+    for key in ("breakfast", "lunch", "dinner"):
+        for meal in meal_plan.get("meals", []):
+            if meal.get("time") == key:
+                cleaned = []
+                for item in meal.get("ingredients", []):
+                    raw = item.get("name")
+                    if raw:
+                        cleaned.append(normalize_ingredient_name(raw))
+                result[key] = cleaned
 
-        ingredients = meal_data.get("ingredients", [])
-        cleaned = []
-        for item in ingredients:
+    # Handle snacks (list of snack dicts)
+    snack_ingredients = []
+    for snack in meal_plan.get("snacks", []):
+        for item in snack.get("ingredients", []):
             raw = item.get("name")
             if raw:
-                cleaned.append(normalize_ingredient_name(raw))
-        result[key] = cleaned
+                snack_ingredients.append(normalize_ingredient_name(raw))
+    result["snacks"] = snack_ingredients
 
     return result
