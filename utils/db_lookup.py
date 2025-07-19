@@ -5,8 +5,12 @@ def fetch_structured_ingredients(matches: list[dict]) -> list[dict]:
     if not matches:
         return []
 
-    names = list({m["matched_name"] for m in matches})
-    placeholders = ', '.join(['%s'] * len(names))
+    # Filter out unmatched
+    matched_names = [m["matched_name"] for m in matches if m["matched_name"]]
+    if not matched_names:
+        return []
+
+    placeholders = ', '.join(['%s'] * len(matched_names))
     query = f"""
         SELECT * FROM ingredientsdb
         WHERE name IN ({placeholders})
@@ -16,13 +20,16 @@ def fetch_structured_ingredients(matches: list[dict]) -> list[dict]:
     cursor = conn.cursor(cursor_factory=RealDictCursor)
 
     try:
-        cursor.execute(query, names)
+        cursor.execute(query, matched_names)
         raw_results = cursor.fetchall()
         record_lookup = {rec["name"].lower(): rec for rec in raw_results}
 
         structured = []
         for m in matches:
-            rec = record_lookup.get(m["matched_name"].lower())
+            matched_name = m.get("matched_name")
+            if not matched_name:
+                continue
+            rec = record_lookup.get(matched_name.lower())
             if rec:
                 structured.append({
                     **m,
@@ -34,4 +41,3 @@ def fetch_structured_ingredients(matches: list[dict]) -> list[dict]:
     finally:
         cursor.close()
         conn.close()
-

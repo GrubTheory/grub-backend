@@ -1,0 +1,161 @@
+{
+  "title": "Fuzzy matched names",
+  "output": [
+    {
+      "meal_time": "breakfast",
+      "ingredient_index": 0,
+      "original": "greek yogurt",
+      "matched_name": "greek yogurt"
+    },
+    {
+      "meal_time": "breakfast",
+      "ingredient_index": 2,
+      "original": "almonds",
+      "matched_name": "almonds"
+    },
+    {
+      "meal_time": "breakfast",
+      "ingredient_index": 3,
+      "original": "honey",
+      "matched_name": "honey"
+    },
+    {
+      "meal_time": "breakfast",
+      "ingredient_index": 4,
+      "original": "vanilla extract",
+      "matched_name": "vanilla extract"
+    },
+    {
+      "meal_time": "lunch",
+      "ingredient_index": 0,
+      "original": "beef sirloin",
+      "matched_name": "beef sirloin"
+    },
+    {
+      "meal_time": "lunch",
+      "ingredient_index": 1,
+      "original": "bell pepper",
+      "matched_name": "bell pepper"
+    },
+    {
+      "meal_time": "lunch",
+      "ingredient_index": 2,
+      "original": "broccoli",
+      "matched_name": "broccoli"
+    },
+    {
+      "meal_time": "lunch",
+      "ingredient_index": 3,
+      "original": "soy sauce",
+      "matched_name": "soy sauce"
+    },
+    {
+      "meal_time": "lunch",
+      "ingredient_index": 4,
+      "original": "olive oil",
+      "matched_name": "olive oil"
+    },
+    {
+      "meal_time": "lunch",
+      "ingredient_index": 5,
+      "original": "garlic",
+      "matched_name": "garlic"
+    },
+    {
+      "meal_time": "lunch",
+      "ingredient_index": 6,
+      "original": "green onions",
+      "matched_name": "green onions"
+    },
+    {
+      "meal_time": "lunch",
+      "ingredient_index": 7,
+      "original": "carrot",
+      "matched_name": "carrot"
+    },
+    {
+      "meal_time": "dinner",
+      "ingredient_index": 0,
+      "original": "top sirloin steak",
+      "matched_name": "top sirloin steak"
+    },
+    {
+      "meal_time": "dinner",
+      "ingredient_index": 1,
+      "original": "olive oil",
+      "matched_name": "olive oil"
+    },
+    {
+      "meal_time": "dinner",
+      "ingredient_index": 2,
+      "original": "garlic",
+      "matched_name": "garlic"
+    },
+    {
+      "meal_time": "dinner",
+      "ingredient_index": 3,
+      "original": "dried rosemary",
+      "matched_name": "dried rosemary"
+    },
+    {
+      "meal_time": "dinner",
+      "ingredient_index": 4,
+      "original": "dried thyme",
+      "matched_name": "dried thyme"
+    },
+    {
+      "meal_time": "dinner",
+      "ingredient_index": 5,
+      "original": "salt",
+      "matched_name": "salt"
+    },
+    {
+      "meal_time": "dinner",
+      "ingredient_index": 6,
+      "original": "black pepper",
+      "matched_name": "black pepper"
+    },
+    {
+      "meal_time": "dinner",
+      "ingredient_index": 7,
+      "original": "spinach",
+      "matched_name": "spinach"
+    },
+    {
+      "meal_time": "snacks",
+      "ingredient_index": 0,
+      "original": "cottage cheese",
+      "matched_name": "cottage cheese"
+    },
+    {
+      "meal_time": "snacks",
+      "ingredient_index": 1,
+      "original": "peach",
+      "matched_name": "peach"
+    },
+    {
+      "meal_time": "snacks",
+      "ingredient_index": 2,
+      "original": "chia seeds",
+      "matched_name": "chia seeds"
+    },
+    {
+      "meal_time": "snacks",
+      "ingredient_index": 3,
+      "original": "hummus",
+      "matched_name": "hummus"
+    },
+    {
+      "meal_time": "snacks",
+      "ingredient_index": 4,
+      "original": "carrot",
+      "matched_name": "carrot"
+    },
+    {
+      "meal_time": "snacks",
+      "ingredient_index": 5,
+      "original": "celery",
+      "matched_name": "celery"
+    }
+  ]
+}

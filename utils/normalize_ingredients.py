@@ -4,8 +4,9 @@ from typing import Dict, List
 TRASH_WORDS = {
     "fresh", "plain", "chopped", "grilled", "boiled", "raw", "sliced",
     "extra virgin", "unsalted", "whole", "low fat", "fat free" , "chopped", "minced", "low sodium", "low sugar", "low-fat", 
-    "organic", "reduced", "sodium", "jullienned", "sticks", "pieces", "diced", "cubed", "shredded", "crushed",
-    "ground", "powdered", "cooked", "baked", "steamed", "roasted", "flowerets", "halved", "quartered", "mixed", "chopped"
+    "organic", "reduced", "sodium", "julienned", "sticks", "pieces", "diced", "cubed", "shredded", "crushed",
+    "ground", "powdered", "cooked", "baked", "steamed", "roasted", "flowerets", "halved", "quartered", "mixed", "chopped", "thinly", "mixed", "florets",
+    "small", "large", "medium", "thick", "thin", "whole", "pieces", "slices", "strips", "bits", "baby", "jumbo"
 }
 
 def normalize_ingredient_name(name: str) -> str:

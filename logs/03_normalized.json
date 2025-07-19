@@ -1,0 +1,40 @@
+{
+  "title": "Normalized ingredients",
+  "output": {
+    "breakfast": [
+      "greek yogurt",
+      "berries",
+      "almonds",
+      "honey",
+      "vanilla extract"
+    ],
+    "lunch": [
+      "beef sirloin",
+      "bell pepper",
+      "broccoli",
+      "soy sauce",
+      "olive oil",
+      "garlic",
+      "green onions",
+      "carrot"
+    ],
+    "dinner": [
+      "top sirloin steak",
+      "olive oil",
+      "garlic",
+      "dried rosemary",
+      "dried thyme",
+      "salt",
+      "black pepper",
+      "spinach"
+    ],
+    "snacks": [
+      "cottage cheese",
+      "peach",
+      "chia seeds",
+      "hummus",
+      "carrot",
+      "celery"
+    ]
+  }
+}

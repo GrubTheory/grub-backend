@@ -1,98 +1,82 @@
+from typing import Dict
 from copy import deepcopy
 
+PRIORITY_ORDER = ["protein", "carbs", "green"]
 
-def add_macros(record, grams):
-    factor = grams / 100
-    return {
-        "calories": record["calories"] * factor,
-        "protein": record["protein"] * factor,
-        "fat": record["fat"] * factor,
-        "carbs": record["carbs"] * factor
-    }
+# ✅ Units like “medium”, “stick”, etc., should just be treated as “unit”
+DUMB_UNITS = {
+    "medium", "large", "small", "stick", "slice", "clove", "piece", "serving",
+    "container", "package", "bag", "unit", "head", "cup", "bunch"
+}
 
+def normalize_unit(unit: str) -> str:
+    unit = unit.lower().strip()
+    if unit in DUMB_UNITS:
+        return "unit"
+    return unit
 
-def scale_group(group, current_macros, target_macros):
-    for ing in group:
-        record = ing["db_record"]
-        if not record.get("scalable"):
-            continue
+def scale_meal_plan(meal_plan: Dict) -> Dict:
+    scaled = deepcopy(meal_plan)
+    scaled["meals"] = []
 
-        max_grams = float(record.get("max_per_meal", 100))
-        unit_macros = add_macros(record, 100)
-
-        for macro in ["calories", "protein", "fat", "carbs"]:
-            needed = target_macros[macro] - current_macros[macro]
-            if needed < 0:
-                needed = 0
-            unit_val = unit_macros[macro]
-            grams = min((needed / unit_val) * 100 if unit_val else 0, max_grams)
-            grams = round(grams, 1)
-            ing["quantity"] = f"{grams}g"
-            ing["unit"] = "g"
-            added = add_macros(record, grams)
-            for k in current_macros:
-                current_macros[k] += added[k]
-            break  # only scale one macro per ingredient
-
-
-def scale_single_meal(meal: dict) -> dict:
-    """
-    Adjust ingredient quantities to meet the target macros for a single meal.
-    This modifies the meal in-place and returns it.
-    """
-    if "ingredients" not in meal:
-        return meal
-
-    ingredients = deepcopy(meal["ingredients"])
-    target_macros = {
-        "calories": meal.get("calories", 0),
-        "protein": meal.get("protein", 0),
-        "fat": meal.get("fat", 0),
-        "carbs": meal.get("carbs", 0)
-    }
-    current_macros = {"calories": 0, "protein": 0, "fat": 0, "carbs": 0}
-
-    protein_ings = []
-    carb_ings = []
-    green_ings = []
-    fixed_ings = []
-
-    for ing in ingredients:
-        record = ing.get("db_record")
-        if not record:
-            continue
-        if record.get("cooking_ingredient"):
-            fixed_ings.append(ing)
-            continue
-
-        category = record.get("category", "").lower()
-        if "protein" in category:
-            protein_ings.append(ing)
-        elif "carb" in category:
-            carb_ings.append(ing)
-        else:
-            green_ings.append(ing)
-
-    # Apply scaling by priority
-    scale_group(protein_ings, current_macros, target_macros)
-    scale_group(carb_ings, current_macros, target_macros)
-    scale_group(green_ings, current_macros, target_macros)
-
-    # Final trim: round macros
-    for k in target_macros:
-        meal[k] = round(current_macros[k], 1)
-
-    # Update ingredients
-    meal["ingredients"] = protein_ings + carb_ings + green_ings + fixed_ings
-    return meal
-
-
-def scale_meal_plan(meal_plan: dict) -> dict:
-    """
-    Adjust all meals and snacks in the meal plan to match their target macros.
-    """
     for meal in meal_plan.get("meals", []):
-        scale_single_meal(meal)
+        scaled_meal = scale_single_meal(meal)
+        scaled["meals"].append(scaled_meal)
+
+    # ✅ Debug print to inspect snack macros
+    print("\n=== SCALING SNACKS ===")
     for snack in meal_plan.get("snacks", []):
-        scale_single_meal(snack)
-    return meal_plan
+        print(f"- {snack.get('name', 'Unnamed snack')}, target: {snack.get('target_macros')}")
+
+    # ✅ Handle snacks
+    scaled["snacks"] = []
+    for snack in meal_plan.get("snacks", []):
+        scaled_snack = scale_single_meal(snack)
+        scaled["snacks"].append(scaled_snack)
+
+    return scaled
+
+
+def scale_single_meal(meal: Dict) -> Dict:
+    ingredients = meal.get("ingredients", [])
+    target = meal.get("target_macros", {})
+    total_p = total_c = total_f = total_kcal = 0
+    
+    for ing in ingredients:
+        rec = ing.get("db_record")
+        qty = ing.get("quantity")
+        if not rec or qty is None:
+            continue
+        print(f"▶ INGREDIENT: {ing.get('name')}")
+        print(f"   - quantity: {qty}")
+        print(f"   - unit: {ing.get('unit')}")
+        print(f"   - db_record unit: {rec.get('unit_of_measure')}")
+        print(f"   - db qty: {rec.get('qty')}")
+        print(f"   - protein: {rec.get('protein')}")
+        print(f"   - fat: {rec.get('fat')}")
+        print(f"   - carbs: {rec.get('carbs')}")
+        print("---")
+
+        # 🔥 Normalize weird units both from ingredient and db_record
+        unit = normalize_unit(ing.get("unit", ""))
+        db_unit = normalize_unit(rec.get("unit_of_measure", ""))
+        if unit != db_unit:
+            unit = db_unit  # force alignment with db if possible
+
+        try:
+            base_qty = float(rec["qty"])
+            multiplier = qty / base_qty
+        except (ValueError, TypeError, ZeroDivisionError):
+            continue
+
+        total_p += rec["protein"] * multiplier
+        total_c += rec["carbs"] * multiplier
+        total_f += rec["fat"] * multiplier
+        total_kcal += rec["calories"] * multiplier
+
+    meal["protein"] = round(total_p, 1)
+    meal["carbs"] = round(total_c, 1)
+    meal["fat"] = round(total_f, 1)
+    meal["calories"] = round(total_kcal)
+
+    return meal
