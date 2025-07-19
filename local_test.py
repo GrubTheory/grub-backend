@@ -3,6 +3,7 @@ from models import InputPayload
 from utils.parser import parse_meal_plan
 from utils.macro_allocation import allocate_macros
 from utils.normalize_ingredients import extract_normalized_ingredients
+from utils.fuzzy_match import fuzzy_match_ingredient, load_ingredient_names  # ✅ NEW IMPORT
 
 # Load payload from file
 with open("tests/payload.json", "r") as f:
@@ -20,3 +21,13 @@ print("After macro allocation:", meal_plan)
 
 normalized = extract_normalized_ingredients(meal_plan)
 print("Normalized ingredients:", normalized)
+
+# ✅ Load DB ingredients into fuzzy matcher
+load_ingredient_names()
+
+# ✅ Fuzzy match test
+fuzzy_matched = {
+    meal: [fuzzy_match_ingredient(ing) for ing in ingredients]
+    for meal, ingredients in normalized.items()
+}
+print("Fuzzy matched ingredients:", fuzzy_matched)
