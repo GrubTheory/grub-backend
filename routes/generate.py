@@ -14,6 +14,7 @@ async def generate_meal_plan(request: Request):
 
         # ✅ Parse the meal_plan string into a Python dict
         meal_plan = parse_meal_plan(payload.meal_plan)
+        
         print("Parsed meal plan:", meal_plan)
 
         # ✅ Flatten meals list into dict by 'time' field
