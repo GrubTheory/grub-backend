@@ -4,7 +4,7 @@ from utils.parser import parse_meal_plan
 from utils.macro_allocation import allocate_macros
 from utils.normalize_ingredients import extract_normalized_ingredients
 from utils.fuzzy_match import fuzzy_match_ingredient
-from utils.db_lookup import fetch_ingredients_by_name
+from utils.db_lookup import fetch_structured_ingredients
 from utils.unit_conversion import convert_units_to_metric 
 from utils.logger import log_final_output  # ⬅️ Updated import
 
@@ -40,7 +40,7 @@ async def generate_meal_plan(request: Request):
                     matched_names.add(match["matched"])
                     normalized_ingredients[meal_time][idx]["matched_name"] = match["matched"]
 
-        ingredient_records = fetch_ingredients_by_name(list(matched_names))
+        ingredient_records = fetch_structured_ingredients(list(matched_names))
 
         # Step 7: Attach db_record to matched ingredients
         name_to_record = {r["name"]: r for r in ingredient_records}
