@@ -3,6 +3,7 @@ from models import InputPayload
 from utils.parser import parse_meal_plan
 from utils.macro_allocation import allocate_macros
 from utils.normalize_ingredients import extract_normalized_ingredients
+from utils.fuzzy_match import fuzzy_match_ingredient  # ✅ NEW IMPORT
 
 router = APIRouter()
 
@@ -14,7 +15,6 @@ async def generate_meal_plan(request: Request):
 
         # ✅ Parse the meal_plan string into a Python dict
         meal_plan = parse_meal_plan(payload.meal_plan)
-        
         print("Parsed meal plan:", meal_plan)
 
         # ✅ Flatten meals list into dict by 'time' field
@@ -27,6 +27,14 @@ async def generate_meal_plan(request: Request):
         # ✅ Normalize ingredient names per meal
         normalized_ingredients = extract_normalized_ingredients(meal_plan)
         print("Normalized ingredients:", normalized_ingredients)
+
+        # ✅ Fuzzy match each normalized ingredient
+        fuzzy_matched_ingredients = {}
+        for meal_time, ingredients in normalized_ingredients.items():
+            fuzzy_matched_ingredients[meal_time] = [
+                fuzzy_match_ingredient(ing) for ing in ingredients
+            ]
+        print("Fuzzy matched ingredients:", fuzzy_matched_ingredients)
 
         return {
             "status": "ok",
