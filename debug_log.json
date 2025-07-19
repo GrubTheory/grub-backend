@@ -1,0 +1,5716 @@
+[
+  {
+    "label": "Step 1: Parsed meal_plan",
+    "data": {
+      "meals": [
+        {
+          "name": "Berry Nut Yogurt Parfait",
+          "time": "breakfast",
+          "description": "A simple, protein-rich breakfast parfait filled with nutritious berries and crunchy nuts, perfect for supporting your weight loss journey.",
+          "ingredients": [
+            {
+              "name": "Greek yogurt, plain",
+              "quantity": "200.0g",
+              "unit": "g",
+              "db_record": {
+                "id": 1,
+                "name": "greek yogurt",
+                "qty": "100",
+                "protein": 10.0,
+                "fat": 0.4,
+                "carbs": 3.6,
+                "calories": 59.0,
+                "category": "protein",
+                "flavor_profile": "neutral",
+                "scalable": true,
+                "cooking_ingredient": false,
+                "max_per_meal": "200",
+                "unit_of_measure": "g"
+              }
+            },
+            {
+              "name": "Honey",
+              "quantity": 1,
+              "unit": "teaspoon",
+              "db_record": {
+                "id": 4,
+                "name": "honey",
+                "qty": "100",
+                "protein": 0.3,
+                "fat": 0.0,
+                "carbs": 82.0,
+                "calories": 304.0,
+                "category": "carb",
+                "flavor_profile": "sweet",
+                "scalable": false,
+                "cooking_ingredient": false,
+                "max_per_meal": "15",
+                "unit_of_measure": "g"
+              }
+            },
+            {
+              "name": "Almonds, chopped",
+              "quantity": "30.0g",
+              "unit": "g",
+              "db_record": {
+                "id": 3,
+                "name": "almonds",
+                "qty": "100",
+                "protein": 21.0,
+                "fat": 49.0,
+                "carbs": 22.0,
+                "calories": 579.0,
+                "category": "fat",
+                "flavor_profile": "nutty",
+                "scalable": true,
+                "cooking_ingredient": false,
+                "max_per_meal": "30",
+                "unit_of_measure": "g"
+              }
+            },
+            {
+              "name": "Vanilla extract",
+              "quantity": 0.5,
+              "unit": "teaspoon",
+              "db_record": {
+                "id": 5,
+                "name": "vanilla extract",
+                "qty": "100",
+                "protein": 0.0,
+                "fat": 0.0,
+                "carbs": 13.0,
+                "calories": 288.0,
+                "category": "carb",
+                "flavor_profile": "sweet",
+                "scalable": false,
+                "cooking_ingredient": true,
+                "max_per_meal": "5",
+                "unit_of_measure": "ml"
+              }
+            }
+          ],
+          "instructions": [
+            "1. In a bowl, mix the Greek yogurt and vanilla extract until smooth.",
+            "2. Layer half of the yogurt into a glass or bowl.",
+            "3. Add a layer of mixed berries over the yogurt.",
+            "4. Add a tablespoon of chopped almonds over the berries.",
+            "5. Repeat with the remaining yogurt, berries, and almonds.",
+            "6. Drizzle honey over the top before serving."
+          ],
+          "calories": 291.7,
+          "protein": 26.3,
+          "fat": 15.5,
+          "carbs": 13.8
+        },
+        {
+          "name": "Beef and Veggie Stir Fry",
+          "time": "lunch",
+          "description": "This delicious beef and veggie stir fry is a high-protein, balanced meal perfect for weight loss, full of nutrients and flavor.",
+          "ingredients": [
+            {
+              "name": "Bell pepper, sliced",
+              "quantity": "100.0g",
+              "unit": "g",
+              "db_record": {
+                "id": 7,
+                "name": "bell pepper",
+                "qty": "100",
+                "protein": 1.0,
+                "fat": 0.3,
+                "carbs": 6.0,
+                "calories": 26.0,
+                "category": "carb",
+                "flavor_profile": "sweet",
+                "scalable": true,
+                "cooking_ingredient": false,
+                "max_per_meal": "100",
+                "unit_of_measure": "g"
+              }
+            },
+            {
+              "name": "Green onions, chopped",
+              "quantity": "50.0g",
+              "unit": "g",
+              "db_record": {
+                "id": 12,
+                "name": "green onions",
+                "qty": "100",
+                "protein": 1.8,
+                "fat": 0.2,
+                "carbs": 7.3,
+                "calories": 32.0,
+                "category": "carb",
+                "flavor_profile": "savory",
+                "scalable": true,
+                "cooking_ingredient": false,
+                "max_per_meal": "50",
+                "unit_of_measure": "g"
+              }
+            },
+            {
+              "name": "Soy sauce, reduced sodium",
+              "quantity": 2,
+              "unit": "tablespoons",
+              "db_record": {
+                "id": 9,
+                "name": "soy sauce",
+                "qty": "100",
+                "protein": 5.0,
+                "fat": 0.1,
+                "carbs": 4.9,
+                "calories": 53.0,
+                "category": "carb",
+                "flavor_profile": "salty",
+                "scalable": false,
+                "cooking_ingredient": true,
+                "max_per_meal": "20",
+                "unit_of_measure": "ml"
+              }
+            },
+            {
+              "name": "Olive oil",
+              "quantity": 1,
+              "unit": "tablespoon",
+              "db_record": {
+                "id": 10,
+                "name": "olive oil",
+                "qty": "100",
+                "protein": 0.0,
+                "fat": 100.0,
+                "carbs": 0.0,
+                "calories": 884.0,
+                "category": "fat",
+                "flavor_profile": "neutral",
+                "scalable": false,
+                "cooking_ingredient": true,
+                "max_per_meal": "15",
+                "unit_of_measure": "ml"
+              }
+            },
+            {
+              "name": "Garlic, minced",
+              "quantity": 2,
+              "unit": "cloves",
+              "db_record": {
+                "id": 11,
+                "name": "garlic",
+                "qty": "100",
+                "protein": 6.4,
+                "fat": 0.5,
+                "carbs": 33.0,
+                "calories": 149.0,
+                "category": "carb",
+                "flavor_profile": "pungent",
+                "scalable": false,
+                "cooking_ingredient": true,
+                "max_per_meal": "10",
+                "unit_of_measure": "g"
+              }
+            }
+          ],
+          "instructions": [
+            "1. Heat olive oil in a large skillet over medium-high heat.",
+            "2. Add garlic and sautÃ© for about 30 seconds until fragrant.",
+            "3. Add beef slices and cook until browned, about 2-3 minutes.",
+            "4. Remove beef from the skillet and set aside.",
+            "5. In the same skillet, add broccoli, bell pepper, and carrot. Stir-fry for about 5 minutes until the veggies are crispy-tender.",
+            "6. Return beef to the skillet and pour in the soy sauce.",
+            "7. Stir well to combine all ingredients and heat through.",
+            "8. Sprinkle with chopped green onions before serving."
+          ],
+          "calories": 42.0,
+          "protein": 1.9,
+          "fat": 0.4,
+          "carbs": 9.7
+        },
+        {
+          "name": "Garlic Herb Grilled Steak with Spinach",
+          "time": "dinner",
+          "description": "A flavorful and protein-rich dinner that's great for weight loss, featuring deliciously seasoned grilled steak and fresh spinach.",
+          "ingredients": [
+            {
+              "name": "Top sirloin steak",
+              "quantity": "200.0g",
+              "unit": "g",
+              "db_record": {
+                "id": 14,
+                "name": "top sirloin steak",
+                "qty": "100",
+                "protein": 26.0,
+                "fat": 9.0,
+                "carbs": 0.0,
+                "calories": 250.0,
+                "category": "protein",
+                "flavor_profile": "savory",
+                "scalable": true,
+                "cooking_ingredient": false,
+                "max_per_meal": "200",
+                "unit_of_measure": "g"
+              }
+            },
+            {
+              "name": "Spinach",
+              "quantity": "100.0g",
+              "unit": "g",
+              "db_record": {
+                "id": 19,
+                "name": "spinach",
+                "qty": "100",
+                "protein": 2.9,
+                "fat": 0.4,
+                "carbs": 3.6,
+                "calories": 23.0,
+                "category": "carb",
+                "flavor_profile": "bitter",
+                "scalable": true,
+                "cooking_ingredient": false,
+                "max_per_meal": "100",
+                "unit_of_measure": "g"
+              }
+            },
+            {
+              "name": "Olive oil",
+              "quantity": 1,
+              "unit": "tablespoon",
+              "db_record": {
+                "id": 10,
+                "name": "olive oil",
+                "qty": "100",
+                "protein": 0.0,
+                "fat": 100.0,
+                "carbs": 0.0,
+                "calories": 884.0,
+                "category": "fat",
+                "flavor_profile": "neutral",
+                "scalable": false,
+                "cooking_ingredient": true,
+                "max_per_meal": "15",
+                "unit_of_measure": "ml"
+              }
+            },
+            {
+              "name": "Garlic, minced",
+              "quantity": 2,
+              "unit": "cloves",
+              "db_record": {
+                "id": 11,
+                "name": "garlic",
+                "qty": "100",
+                "protein": 6.4,
+                "fat": 0.5,
+                "carbs": 33.0,
+                "calories": 149.0,
+                "category": "carb",
+                "flavor_profile": "pungent",
+                "scalable": false,
+                "cooking_ingredient": true,
+                "max_per_meal": "10",
+                "unit_of_measure": "g"
+              }
+            },
+            {
+              "name": "Dried rosemary",
+              "quantity": 0.5,
+              "unit": "teaspoon",
+              "db_record": {
+                "id": 15,
+                "name": "dried rosemary",
+                "qty": "100",
+                "protein": 4.9,
+                "fat": 15.0,
+                "carbs": 64.0,
+                "calories": 331.0,
+                "category": "carb",
+                "flavor_profile": "bitter",
+                "scalable": false,
+                "cooking_ingredient": true,
+                "max_per_meal": "5",
+                "unit_of_measure": "g"
+              }
+            },
+            {
+              "name": "Dried thyme",
+              "quantity": 0.5,
+              "unit": "teaspoon",
+              "db_record": {
+                "id": 16,
+                "name": "dried thyme",
+                "qty": "100",
+                "protein": 9.1,
+                "fat": 7.4,
+                "carbs": 63.0,
+                "calories": 276.0,
+                "category": "carb",
+                "flavor_profile": "bitter",
+                "scalable": false,
+                "cooking_ingredient": true,
+                "max_per_meal": "5",
+                "unit_of_measure": "g"
+              }
+            },
+            {
+              "name": "Salt",
+              "quantity": 0.25,
+              "unit": "teaspoon",
+              "db_record": {
+                "id": 17,
+                "name": "salt",
+                "qty": "100",
+                "protein": 0.0,
+                "fat": 0.0,
+                "carbs": 0.0,
+                "calories": 0.0,
+                "category": "carb",
+                "flavor_profile": "salty",
+                "scalable": false,
+                "cooking_ingredient": true,
+                "max_per_meal": "5",
+                "unit_of_measure": "g"
+              }
+            },
+            {
+              "name": "Black pepper",
+              "quantity": 0.25,
+              "unit": "teaspoon",
+              "db_record": {
+                "id": 18,
+                "name": "black pepper",
+                "qty": "100",
+                "protein": 10.0,
+                "fat": 3.3,
+                "carbs": 64.0,
+                "calories": 251.0,
+                "category": "carb",
+                "flavor_profile": "pungent",
+                "scalable": false,
+                "cooking_ingredient": true,
+                "max_per_meal": "5",
+                "unit_of_measure": "g"
+              }
+            }
+          ],
+          "instructions": [
+            "1. Preheat the grill to medium-high heat.",
+            "2. In a small bowl, mix olive oil, minced garlic, rosemary, thyme, salt, and pepper.",
+            "3. Rub the mixture all over the steak.",
+            "4. Grill the steak for 4-5 minutes on each side or until desired doneness.",
+            "5. Remove steak from grill and let it rest for a couple of minutes.",
+            "6. Meanwhile, lightly sautÃ© the spinach in a pan until just wilted.",
+            "7. Serve the grilled steak with the sautÃ©ed spinach on the side."
+          ],
+          "calories": 523.0,
+          "protein": 54.9,
+          "fat": 18.4,
+          "carbs": 3.6
+        }
+      ],
+      "snacks": [
+        {
+          "name": "Cottage Cheese with Sliced Peaches",
+          "description": "A creamy and protein-packed snack with the natural sweetness of peaches, offering a satisfying and nutritious option to support weight loss.",
+          "ingredients": [],
+          "instructions": [
+            "1. Place cottage cheese in a bowl.",
+            "2. Top with sliced peach.",
+            "3. Sprinkle chia seeds on top and serve."
+          ],
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Hummus and Veggie Sticks",
+          "description": "A quick, fiber-rich snack featuring creamy hummus paired with crisp, fresh veggie sticks, perfect for healthy weight management.",
+          "ingredients": [],
+          "instructions": [
+            "1. Arrange carrot and celery sticks on a plate.",
+            "2. Add hummus alongside the veggies.",
+            "3. Dip veggie sticks in hummus and enjoy."
+          ],
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        }
+      ],
+      "totals": {
+        "calories": null,
+        "protein": null,
+        "fat": null,
+        "carbs": null
+      },
+      "grocery_list": [],
+      "total_price": null,
+      "breakfast": {
+        "name": "Berry Nut Yogurt Parfait",
+        "time": "breakfast",
+        "description": "A simple, protein-rich breakfast parfait filled with nutritious berries and crunchy nuts, perfect for supporting your weight loss journey.",
+        "ingredients": [
+          {
+            "name": "Greek yogurt, plain",
+            "quantity": "200.0g",
+            "unit": "g",
+            "db_record": {
+              "id": 1,
+              "name": "greek yogurt",
+              "qty": "100",
+              "protein": 10.0,
+              "fat": 0.4,
+              "carbs": 3.6,
+              "calories": 59.0,
+              "category": "protein",
+              "flavor_profile": "neutral",
+              "scalable": true,
+              "cooking_ingredient": false,
+              "max_per_meal": "200",
+              "unit_of_measure": "g"
+            }
+          },
+          {
+            "name": "Honey",
+            "quantity": 1,
+            "unit": "teaspoon",
+            "db_record": {
+              "id": 4,
+              "name": "honey",
+              "qty": "100",
+              "protein": 0.3,
+              "fat": 0.0,
+              "carbs": 82.0,
+              "calories": 304.0,
+              "category": "carb",
+              "flavor_profile": "sweet",
+              "scalable": false,
+              "cooking_ingredient": false,
+              "max_per_meal": "15",
+              "unit_of_measure": "g"
+            }
+          },
+          {
+            "name": "Almonds, chopped",
+            "quantity": "30.0g",
+            "unit": "g",
+            "db_record": {
+              "id": 3,
+              "name": "almonds",
+              "qty": "100",
+              "protein": 21.0,
+              "fat": 49.0,
+              "carbs": 22.0,
+              "calories": 579.0,
+              "category": "fat",
+              "flavor_profile": "nutty",
+              "scalable": true,
+              "cooking_ingredient": false,
+              "max_per_meal": "30",
+              "unit_of_measure": "g"
+            }
+          },
+          {
+            "name": "Vanilla extract",
+            "quantity": 0.5,
+            "unit": "teaspoon",
+            "db_record": {
+              "id": 5,
+              "name": "vanilla extract",
+              "qty": "100",
+              "protein": 0.0,
+              "fat": 0.0,
+              "carbs": 13.0,
+              "calories": 288.0,
+              "category": "carb",
+              "flavor_profile": "sweet",
+              "scalable": false,
+              "cooking_ingredient": true,
+              "max_per_meal": "5",
+              "unit_of_measure": "ml"
+            }
+          }
+        ],
+        "instructions": [
+          "1. In a bowl, mix the Greek yogurt and vanilla extract until smooth.",
+          "2. Layer half of the yogurt into a glass or bowl.",
+          "3. Add a layer of mixed berries over the yogurt.",
+          "4. Add a tablespoon of chopped almonds over the berries.",
+          "5. Repeat with the remaining yogurt, berries, and almonds.",
+          "6. Drizzle honey over the top before serving."
+        ],
+        "calories": 291.7,
+        "protein": 26.3,
+        "fat": 15.5,
+        "carbs": 13.8
+      },
+      "lunch": {
+        "name": "Beef and Veggie Stir Fry",
+        "time": "lunch",
+        "description": "This delicious beef and veggie stir fry is a high-protein, balanced meal perfect for weight loss, full of nutrients and flavor.",
+        "ingredients": [
+          {
+            "name": "Bell pepper, sliced",
+            "quantity": "100.0g",
+            "unit": "g",
+            "db_record": {
+              "id": 7,
+              "name": "bell pepper",
+              "qty": "100",
+              "protein": 1.0,
+              "fat": 0.3,
+              "carbs": 6.0,
+              "calories": 26.0,
+              "category": "carb",
+              "flavor_profile": "sweet",
+              "scalable": true,
+              "cooking_ingredient": false,
+              "max_per_meal": "100",
+              "unit_of_measure": "g"
+            }
+          },
+          {
+            "name": "Green onions, chopped",
+            "quantity": "50.0g",
+            "unit": "g",
+            "db_record": {
+              "id": 12,
+              "name": "green onions",
+              "qty": "100",
+              "protein": 1.8,
+              "fat": 0.2,
+              "carbs": 7.3,
+              "calories": 32.0,
+              "category": "carb",
+              "flavor_profile": "savory",
+              "scalable": true,
+              "cooking_ingredient": false,
+              "max_per_meal": "50",
+              "unit_of_measure": "g"
+            }
+          },
+          {
+            "name": "Soy sauce, reduced sodium",
+            "quantity": 2,
+            "unit": "tablespoons",
+            "db_record": {
+              "id": 9,
+              "name": "soy sauce",
+              "qty": "100",
+              "protein": 5.0,
+              "fat": 0.1,
+              "carbs": 4.9,
+              "calories": 53.0,
+              "category": "carb",
+              "flavor_profile": "salty",
+              "scalable": false,
+              "cooking_ingredient": true,
+              "max_per_meal": "20",
+              "unit_of_measure": "ml"
+            }
+          },
+          {
+            "name": "Olive oil",
+            "quantity": 1,
+            "unit": "tablespoon",
+            "db_record": {
+              "id": 10,
+              "name": "olive oil",
+              "qty": "100",
+              "protein": 0.0,
+              "fat": 100.0,
+              "carbs": 0.0,
+              "calories": 884.0,
+              "category": "fat",
+              "flavor_profile": "neutral",
+              "scalable": false,
+              "cooking_ingredient": true,
+              "max_per_meal": "15",
+              "unit_of_measure": "ml"
+            }
+          },
+          {
+            "name": "Garlic, minced",
+            "quantity": 2,
+            "unit": "cloves",
+            "db_record": {
+              "id": 11,
+              "name": "garlic",
+              "qty": "100",
+              "protein": 6.4,
+              "fat": 0.5,
+              "carbs": 33.0,
+              "calories": 149.0,
+              "category": "carb",
+              "flavor_profile": "pungent",
+              "scalable": false,
+              "cooking_ingredient": true,
+              "max_per_meal": "10",
+              "unit_of_measure": "g"
+            }
+          }
+        ],
+        "instructions": [
+          "1. Heat olive oil in a large skillet over medium-high heat.",
+          "2. Add garlic and sautÃ© for about 30 seconds until fragrant.",
+          "3. Add beef slices and cook until browned, about 2-3 minutes.",
+          "4. Remove beef from the skillet and set aside.",
+          "5. In the same skillet, add broccoli, bell pepper, and carrot. Stir-fry for about 5 minutes until the veggies are crispy-tender.",
+          "6. Return beef to the skillet and pour in the soy sauce.",
+          "7. Stir well to combine all ingredients and heat through.",
+          "8. Sprinkle with chopped green onions before serving."
+        ],
+        "calories": 42.0,
+        "protein": 1.9,
+        "fat": 0.4,
+        "carbs": 9.7
+      },
+      "dinner": {
+        "name": "Garlic Herb Grilled Steak with Spinach",
+        "time": "dinner",
+        "description": "A flavorful and protein-rich dinner that's great for weight loss, featuring deliciously seasoned grilled steak and fresh spinach.",
+        "ingredients": [
+          {
+            "name": "Top sirloin steak",
+            "quantity": "200.0g",
+            "unit": "g",
+            "db_record": {
+              "id": 14,
+              "name": "top sirloin steak",
+              "qty": "100",
+              "protein": 26.0,
+              "fat": 9.0,
+              "carbs": 0.0,
+              "calories": 250.0,
+              "category": "protein",
+              "flavor_profile": "savory",
+              "scalable": true,
+              "cooking_ingredient": false,
+              "max_per_meal": "200",
+              "unit_of_measure": "g"
+            }
+          },
+          {
+            "name": "Spinach",
+            "quantity": "100.0g",
+            "unit": "g",
+            "db_record": {
+              "id": 19,
+              "name": "spinach",
+              "qty": "100",
+              "protein": 2.9,
+              "fat": 0.4,
+              "carbs": 3.6,
+              "calories": 23.0,
+              "category": "carb",
+              "flavor_profile": "bitter",
+              "scalable": true,
+              "cooking_ingredient": false,
+              "max_per_meal": "100",
+              "unit_of_measure": "g"
+            }
+          },
+          {
+            "name": "Olive oil",
+            "quantity": 1,
+            "unit": "tablespoon",
+            "db_record": {
+              "id": 10,
+              "name": "olive oil",
+              "qty": "100",
+              "protein": 0.0,
+              "fat": 100.0,
+              "carbs": 0.0,
+              "calories": 884.0,
+              "category": "fat",
+              "flavor_profile": "neutral",
+              "scalable": false,
+              "cooking_ingredient": true,
+              "max_per_meal": "15",
+              "unit_of_measure": "ml"
+            }
+          },
+          {
+            "name": "Garlic, minced",
+            "quantity": 2,
+            "unit": "cloves",
+            "db_record": {
+              "id": 11,
+              "name": "garlic",
+              "qty": "100",
+              "protein": 6.4,
+              "fat": 0.5,
+              "carbs": 33.0,
+              "calories": 149.0,
+              "category": "carb",
+              "flavor_profile": "pungent",
+              "scalable": false,
+              "cooking_ingredient": true,
+              "max_per_meal": "10",
+              "unit_of_measure": "g"
+            }
+          },
+          {
+            "name": "Dried rosemary",
+            "quantity": 0.5,
+            "unit": "teaspoon",
+            "db_record": {
+              "id": 15,
+              "name": "dried rosemary",
+              "qty": "100",
+              "protein": 4.9,
+              "fat": 15.0,
+              "carbs": 64.0,
+              "calories": 331.0,
+              "category": "carb",
+              "flavor_profile": "bitter",
+              "scalable": false,
+              "cooking_ingredient": true,
+              "max_per_meal": "5",
+              "unit_of_measure": "g"
+            }
+          },
+          {
+            "name": "Dried thyme",
+            "quantity": 0.5,
+            "unit": "teaspoon",
+            "db_record": {
+              "id": 16,
+              "name": "dried thyme",
+              "qty": "100",
+              "protein": 9.1,
+              "fat": 7.4,
+              "carbs": 63.0,
+              "calories": 276.0,
+              "category": "carb",
+              "flavor_profile": "bitter",
+              "scalable": false,
+              "cooking_ingredient": true,
+              "max_per_meal": "5",
+              "unit_of_measure": "g"
+            }
+          },
+          {
+            "name": "Salt",
+            "quantity": 0.25,
+            "unit": "teaspoon",
+            "db_record": {
+              "id": 17,
+              "name": "salt",
+              "qty": "100",
+              "protein": 0.0,
+              "fat": 0.0,
+              "carbs": 0.0,
+              "calories": 0.0,
+              "category": "carb",
+              "flavor_profile": "salty",
+              "scalable": false,
+              "cooking_ingredient": true,
+              "max_per_meal": "5",
+              "unit_of_measure": "g"
+            }
+          },
+          {
+            "name": "Black pepper",
+            "quantity": 0.25,
+            "unit": "teaspoon",
+            "db_record": {
+              "id": 18,
+              "name": "black pepper",
+              "qty": "100",
+              "protein": 10.0,
+              "fat": 3.3,
+              "carbs": 64.0,
+              "calories": 251.0,
+              "category": "carb",
+              "flavor_profile": "pungent",
+              "scalable": false,
+              "cooking_ingredient": true,
+              "max_per_meal": "5",
+              "unit_of_measure": "g"
+            }
+          }
+        ],
+        "instructions": [
+          "1. Preheat the grill to medium-high heat.",
+          "2. In a small bowl, mix olive oil, minced garlic, rosemary, thyme, salt, and pepper.",
+          "3. Rub the mixture all over the steak.",
+          "4. Grill the steak for 4-5 minutes on each side or until desired doneness.",
+          "5. Remove steak from grill and let it rest for a couple of minutes.",
+          "6. Meanwhile, lightly sautÃ© the spinach in a pan until just wilted.",
+          "7. Serve the grilled steak with the sautÃ©ed spinach on the side."
+        ],
+        "calories": 523.0,
+        "protein": 54.9,
+        "fat": 18.4,
+        "carbs": 3.6
+      }
+    }
+  },
+  {
+    "label": "Step 2: After unit conversion to metric",
+    "data": {
+      "meals": [
+        {
+          "name": "Berry Nut Yogurt Parfait",
+          "time": "breakfast",
+          "description": "A simple, protein-rich breakfast parfait filled with nutritious berries and crunchy nuts, perfect for supporting your weight loss journey.",
+          "ingredients": [
+            {
+              "name": "Greek yogurt, plain",
+              "quantity": "200.0g",
+              "unit": "g",
+              "db_record": {
+                "id": 1,
+                "name": "greek yogurt",
+                "qty": "100",
+                "protein": 10.0,
+                "fat": 0.4,
+                "carbs": 3.6,
+                "calories": 59.0,
+                "category": "protein",
+                "flavor_profile": "neutral",
+                "scalable": true,
+                "cooking_ingredient": false,
+                "max_per_meal": "200",
+                "unit_of_measure": "g"
+              }
+            },
+            {
+              "name": "Honey",
+              "quantity": 1,
+              "unit": "teaspoon",
+              "db_record": {
+                "id": 4,
+                "name": "honey",
+                "qty": "100",
+                "protein": 0.3,
+                "fat": 0.0,
+                "carbs": 82.0,
+                "calories": 304.0,
+                "category": "carb",
+                "flavor_profile": "sweet",
+                "scalable": false,
+                "cooking_ingredient": false,
+                "max_per_meal": "15",
+                "unit_of_measure": "g"
+              }
+            },
+            {
+              "name": "Almonds, chopped",
+              "quantity": "30.0g",
+              "unit": "g",
+              "db_record": {
+                "id": 3,
+                "name": "almonds",
+                "qty": "100",
+                "protein": 21.0,
+                "fat": 49.0,
+                "carbs": 22.0,
+                "calories": 579.0,
+                "category": "fat",
+                "flavor_profile": "nutty",
+                "scalable": true,
+                "cooking_ingredient": false,
+                "max_per_meal": "30",
+                "unit_of_measure": "g"
+              }
+            },
+            {
+              "name": "Vanilla extract",
+              "quantity": 0.5,
+              "unit": "teaspoon",
+              "db_record": {
+                "id": 5,
+                "name": "vanilla extract",
+                "qty": "100",
+                "protein": 0.0,
+                "fat": 0.0,
+                "carbs": 13.0,
+                "calories": 288.0,
+                "category": "carb",
+                "flavor_profile": "sweet",
+                "scalable": false,
+                "cooking_ingredient": true,
+                "max_per_meal": "5",
+                "unit_of_measure": "ml"
+              }
+            }
+          ],
+          "instructions": [
+            "1. In a bowl, mix the Greek yogurt and vanilla extract until smooth.",
+            "2. Layer half of the yogurt into a glass or bowl.",
+            "3. Add a layer of mixed berries over the yogurt.",
+            "4. Add a tablespoon of chopped almonds over the berries.",
+            "5. Repeat with the remaining yogurt, berries, and almonds.",
+            "6. Drizzle honey over the top before serving."
+          ],
+          "calories": 291.7,
+          "protein": 26.3,
+          "fat": 15.5,
+          "carbs": 13.8
+        },
+        {
+          "name": "Beef and Veggie Stir Fry",
+          "time": "lunch",
+          "description": "This delicious beef and veggie stir fry is a high-protein, balanced meal perfect for weight loss, full of nutrients and flavor.",
+          "ingredients": [
+            {
+              "name": "Bell pepper, sliced",
+              "quantity": "100.0g",
+              "unit": "g",
+              "db_record": {
+                "id": 7,
+                "name": "bell pepper",
+                "qty": "100",
+                "protein": 1.0,
+                "fat": 0.3,
+                "carbs": 6.0,
+                "calories": 26.0,
+                "category": "carb",
+                "flavor_profile": "sweet",
+                "scalable": true,
+                "cooking_ingredient": false,
+                "max_per_meal": "100",
+                "unit_of_measure": "g"
+              }
+            },
+            {
+              "name": "Green onions, chopped",
+              "quantity": "50.0g",
+              "unit": "g",
+              "db_record": {
+                "id": 12,
+                "name": "green onions",
+                "qty": "100",
+                "protein": 1.8,
+                "fat": 0.2,
+                "carbs": 7.3,
+                "calories": 32.0,
+                "category": "carb",
+                "flavor_profile": "savory",
+                "scalable": true,
+                "cooking_ingredient": false,
+                "max_per_meal": "50",
+                "unit_of_measure": "g"
+              }
+            },
+            {
+              "name": "Soy sauce, reduced sodium",
+              "quantity": 2,
+              "unit": "tablespoons",
+              "db_record": {
+                "id": 9,
+                "name": "soy sauce",
+                "qty": "100",
+                "protein": 5.0,
+                "fat": 0.1,
+                "carbs": 4.9,
+                "calories": 53.0,
+                "category": "carb",
+                "flavor_profile": "salty",
+                "scalable": false,
+                "cooking_ingredient": true,
+                "max_per_meal": "20",
+                "unit_of_measure": "ml"
+              }
+            },
+            {
+              "name": "Olive oil",
+              "quantity": 1,
+              "unit": "tablespoon",
+              "db_record": {
+                "id": 10,
+                "name": "olive oil",
+                "qty": "100",
+                "protein": 0.0,
+                "fat": 100.0,
+                "carbs": 0.0,
+                "calories": 884.0,
+                "category": "fat",
+                "flavor_profile": "neutral",
+                "scalable": false,
+                "cooking_ingredient": true,
+                "max_per_meal": "15",
+                "unit_of_measure": "ml"
+              }
+            },
+            {
+              "name": "Garlic, minced",
+              "quantity": 2,
+              "unit": "cloves",
+              "db_record": {
+                "id": 11,
+                "name": "garlic",
+                "qty": "100",
+                "protein": 6.4,
+                "fat": 0.5,
+                "carbs": 33.0,
+                "calories": 149.0,
+                "category": "carb",
+                "flavor_profile": "pungent",
+                "scalable": false,
+                "cooking_ingredient": true,
+                "max_per_meal": "10",
+                "unit_of_measure": "g"
+              }
+            }
+          ],
+          "instructions": [
+            "1. Heat olive oil in a large skillet over medium-high heat.",
+            "2. Add garlic and sautÃ© for about 30 seconds until fragrant.",
+            "3. Add beef slices and cook until browned, about 2-3 minutes.",
+            "4. Remove beef from the skillet and set aside.",
+            "5. In the same skillet, add broccoli, bell pepper, and carrot. Stir-fry for about 5 minutes until the veggies are crispy-tender.",
+            "6. Return beef to the skillet and pour in the soy sauce.",
+            "7. Stir well to combine all ingredients and heat through.",
+            "8. Sprinkle with chopped green onions before serving."
+          ],
+          "calories": 42.0,
+          "protein": 1.9,
+          "fat": 0.4,
+          "carbs": 9.7
+        },
+        {
+          "name": "Garlic Herb Grilled Steak with Spinach",
+          "time": "dinner",
+          "description": "A flavorful and protein-rich dinner that's great for weight loss, featuring deliciously seasoned grilled steak and fresh spinach.",
+          "ingredients": [
+            {
+              "name": "Top sirloin steak",
+              "quantity": "200.0g",
+              "unit": "g",
+              "db_record": {
+                "id": 14,
+                "name": "top sirloin steak",
+                "qty": "100",
+                "protein": 26.0,
+                "fat": 9.0,
+                "carbs": 0.0,
+                "calories": 250.0,
+                "category": "protein",
+                "flavor_profile": "savory",
+                "scalable": true,
+                "cooking_ingredient": false,
+                "max_per_meal": "200",
+                "unit_of_measure": "g"
+              }
+            },
+            {
+              "name": "Spinach",
+              "quantity": "100.0g",
+              "unit": "g",
+              "db_record": {
+                "id": 19,
+                "name": "spinach",
+                "qty": "100",
+                "protein": 2.9,
+                "fat": 0.4,
+                "carbs": 3.6,
+                "calories": 23.0,
+                "category": "carb",
+                "flavor_profile": "bitter",
+                "scalable": true,
+                "cooking_ingredient": false,
+                "max_per_meal": "100",
+                "unit_of_measure": "g"
+              }
+            },
+            {
+              "name": "Olive oil",
+              "quantity": 1,
+              "unit": "tablespoon",
+              "db_record": {
+                "id": 10,
+                "name": "olive oil",
+                "qty": "100",
+                "protein": 0.0,
+                "fat": 100.0,
+                "carbs": 0.0,
+                "calories": 884.0,
+                "category": "fat",
+                "flavor_profile": "neutral",
+                "scalable": false,
+                "cooking_ingredient": true,
+                "max_per_meal": "15",
+                "unit_of_measure": "ml"
+              }
+            },
+            {
+              "name": "Garlic, minced",
+              "quantity": 2,
+              "unit": "cloves",
+              "db_record": {
+                "id": 11,
+                "name": "garlic",
+                "qty": "100",
+                "protein": 6.4,
+                "fat": 0.5,
+                "carbs": 33.0,
+                "calories": 149.0,
+                "category": "carb",
+                "flavor_profile": "pungent",
+                "scalable": false,
+                "cooking_ingredient": true,
+                "max_per_meal": "10",
+                "unit_of_measure": "g"
+              }
+            },
+            {
+              "name": "Dried rosemary",
+              "quantity": 0.5,
+              "unit": "teaspoon",
+              "db_record": {
+                "id": 15,
+                "name": "dried rosemary",
+                "qty": "100",
+                "protein": 4.9,
+                "fat": 15.0,
+                "carbs": 64.0,
+                "calories": 331.0,
+                "category": "carb",
+                "flavor_profile": "bitter",
+                "scalable": false,
+                "cooking_ingredient": true,
+                "max_per_meal": "5",
+                "unit_of_measure": "g"
+              }
+            },
+            {
+              "name": "Dried thyme",
+              "quantity": 0.5,
+              "unit": "teaspoon",
+              "db_record": {
+                "id": 16,
+                "name": "dried thyme",
+                "qty": "100",
+                "protein": 9.1,
+                "fat": 7.4,
+                "carbs": 63.0,
+                "calories": 276.0,
+                "category": "carb",
+                "flavor_profile": "bitter",
+                "scalable": false,
+                "cooking_ingredient": true,
+                "max_per_meal": "5",
+                "unit_of_measure": "g"
+              }
+            },
+            {
+              "name": "Salt",
+              "quantity": 0.25,
+              "unit": "teaspoon",
+              "db_record": {
+                "id": 17,
+                "name": "salt",
+                "qty": "100",
+                "protein": 0.0,
+                "fat": 0.0,
+                "carbs": 0.0,
+                "calories": 0.0,
+                "category": "carb",
+                "flavor_profile": "salty",
+                "scalable": false,
+                "cooking_ingredient": true,
+                "max_per_meal": "5",
+                "unit_of_measure": "g"
+              }
+            },
+            {
+              "name": "Black pepper",
+              "quantity": 0.25,
+              "unit": "teaspoon",
+              "db_record": {
+                "id": 18,
+                "name": "black pepper",
+                "qty": "100",
+                "protein": 10.0,
+                "fat": 3.3,
+                "carbs": 64.0,
+                "calories": 251.0,
+                "category": "carb",
+                "flavor_profile": "pungent",
+                "scalable": false,
+                "cooking_ingredient": true,
+                "max_per_meal": "5",
+                "unit_of_measure": "g"
+              }
+            }
+          ],
+          "instructions": [
+            "1. Preheat the grill to medium-high heat.",
+            "2. In a small bowl, mix olive oil, minced garlic, rosemary, thyme, salt, and pepper.",
+            "3. Rub the mixture all over the steak.",
+            "4. Grill the steak for 4-5 minutes on each side or until desired doneness.",
+            "5. Remove steak from grill and let it rest for a couple of minutes.",
+            "6. Meanwhile, lightly sautÃ© the spinach in a pan until just wilted.",
+            "7. Serve the grilled steak with the sautÃ©ed spinach on the side."
+          ],
+          "calories": 523.0,
+          "protein": 54.9,
+          "fat": 18.4,
+          "carbs": 3.6
+        }
+      ],
+      "snacks": [
+        {
+          "name": "Cottage Cheese with Sliced Peaches",
+          "description": "A creamy and protein-packed snack with the natural sweetness of peaches, offering a satisfying and nutritious option to support weight loss.",
+          "ingredients": [],
+          "instructions": [
+            "1. Place cottage cheese in a bowl.",
+            "2. Top with sliced peach.",
+            "3. Sprinkle chia seeds on top and serve."
+          ],
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Hummus and Veggie Sticks",
+          "description": "A quick, fiber-rich snack featuring creamy hummus paired with crisp, fresh veggie sticks, perfect for healthy weight management.",
+          "ingredients": [],
+          "instructions": [
+            "1. Arrange carrot and celery sticks on a plate.",
+            "2. Add hummus alongside the veggies.",
+            "3. Dip veggie sticks in hummus and enjoy."
+          ],
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        }
+      ],
+      "totals": {
+        "calories": null,
+        "protein": null,
+        "fat": null,
+        "carbs": null
+      },
+      "grocery_list": [],
+      "total_price": null,
+      "breakfast": {
+        "name": "Berry Nut Yogurt Parfait",
+        "time": "breakfast",
+        "description": "A simple, protein-rich breakfast parfait filled with nutritious berries and crunchy nuts, perfect for supporting your weight loss journey.",
+        "ingredients": [
+          {
+            "name": "Greek yogurt, plain",
+            "quantity": "200.0g",
+            "unit": "g",
+            "db_record": {
+              "id": 1,
+              "name": "greek yogurt",
+              "qty": "100",
+              "protein": 10.0,
+              "fat": 0.4,
+              "carbs": 3.6,
+              "calories": 59.0,
+              "category": "protein",
+              "flavor_profile": "neutral",
+              "scalable": true,
+              "cooking_ingredient": false,
+              "max_per_meal": "200",
+              "unit_of_measure": "g"
+            }
+          },
+          {
+            "name": "Honey",
+            "quantity": 1,
+            "unit": "teaspoon",
+            "db_record": {
+              "id": 4,
+              "name": "honey",
+              "qty": "100",
+              "protein": 0.3,
+              "fat": 0.0,
+              "carbs": 82.0,
+              "calories": 304.0,
+              "category": "carb",
+              "flavor_profile": "sweet",
+              "scalable": false,
+              "cooking_ingredient": false,
+              "max_per_meal": "15",
+              "unit_of_measure": "g"
+            }
+          },
+          {
+            "name": "Almonds, chopped",
+            "quantity": "30.0g",
+            "unit": "g",
+            "db_record": {
+              "id": 3,
+              "name": "almonds",
+              "qty": "100",
+              "protein": 21.0,
+              "fat": 49.0,
+              "carbs": 22.0,
+              "calories": 579.0,
+              "category": "fat",
+              "flavor_profile": "nutty",
+              "scalable": true,
+              "cooking_ingredient": false,
+              "max_per_meal": "30",
+              "unit_of_measure": "g"
+            }
+          },
+          {
+            "name": "Vanilla extract",
+            "quantity": 0.5,
+            "unit": "teaspoon",
+            "db_record": {
+              "id": 5,
+              "name": "vanilla extract",
+              "qty": "100",
+              "protein": 0.0,
+              "fat": 0.0,
+              "carbs": 13.0,
+              "calories": 288.0,
+              "category": "carb",
+              "flavor_profile": "sweet",
+              "scalable": false,
+              "cooking_ingredient": true,
+              "max_per_meal": "5",
+              "unit_of_measure": "ml"
+            }
+          }
+        ],
+        "instructions": [
+          "1. In a bowl, mix the Greek yogurt and vanilla extract until smooth.",
+          "2. Layer half of the yogurt into a glass or bowl.",
+          "3. Add a layer of mixed berries over the yogurt.",
+          "4. Add a tablespoon of chopped almonds over the berries.",
+          "5. Repeat with the remaining yogurt, berries, and almonds.",
+          "6. Drizzle honey over the top before serving."
+        ],
+        "calories": 291.7,
+        "protein": 26.3,
+        "fat": 15.5,
+        "carbs": 13.8
+      },
+      "lunch": {
+        "name": "Beef and Veggie Stir Fry",
+        "time": "lunch",
+        "description": "This delicious beef and veggie stir fry is a high-protein, balanced meal perfect for weight loss, full of nutrients and flavor.",
+        "ingredients": [
+          {
+            "name": "Bell pepper, sliced",
+            "quantity": "100.0g",
+            "unit": "g",
+            "db_record": {
+              "id": 7,
+              "name": "bell pepper",
+              "qty": "100",
+              "protein": 1.0,
+              "fat": 0.3,
+              "carbs": 6.0,
+              "calories": 26.0,
+              "category": "carb",
+              "flavor_profile": "sweet",
+              "scalable": true,
+              "cooking_ingredient": false,
+              "max_per_meal": "100",
+              "unit_of_measure": "g"
+            }
+          },
+          {
+            "name": "Green onions, chopped",
+            "quantity": "50.0g",
+            "unit": "g",
+            "db_record": {
+              "id": 12,
+              "name": "green onions",
+              "qty": "100",
+              "protein": 1.8,
+              "fat": 0.2,
+              "carbs": 7.3,
+              "calories": 32.0,
+              "category": "carb",
+              "flavor_profile": "savory",
+              "scalable": true,
+              "cooking_ingredient": false,
+              "max_per_meal": "50",
+              "unit_of_measure": "g"
+            }
+          },
+          {
+            "name": "Soy sauce, reduced sodium",
+            "quantity": 2,
+            "unit": "tablespoons",
+            "db_record": {
+              "id": 9,
+              "name": "soy sauce",
+              "qty": "100",
+              "protein": 5.0,
+              "fat": 0.1,
+              "carbs": 4.9,
+              "calories": 53.0,
+              "category": "carb",
+              "flavor_profile": "salty",
+              "scalable": false,
+              "cooking_ingredient": true,
+              "max_per_meal": "20",
+              "unit_of_measure": "ml"
+            }
+          },
+          {
+            "name": "Olive oil",
+            "quantity": 1,
+            "unit": "tablespoon",
+            "db_record": {
+              "id": 10,
+              "name": "olive oil",
+              "qty": "100",
+              "protein": 0.0,
+              "fat": 100.0,
+              "carbs": 0.0,
+              "calories": 884.0,
+              "category": "fat",
+              "flavor_profile": "neutral",
+              "scalable": false,
+              "cooking_ingredient": true,
+              "max_per_meal": "15",
+              "unit_of_measure": "ml"
+            }
+          },
+          {
+            "name": "Garlic, minced",
+            "quantity": 2,
+            "unit": "cloves",
+            "db_record": {
+              "id": 11,
+              "name": "garlic",
+              "qty": "100",
+              "protein": 6.4,
+              "fat": 0.5,
+              "carbs": 33.0,
+              "calories": 149.0,
+              "category": "carb",
+              "flavor_profile": "pungent",
+              "scalable": false,
+              "cooking_ingredient": true,
+              "max_per_meal": "10",
+              "unit_of_measure": "g"
+            }
+          }
+        ],
+        "instructions": [
+          "1. Heat olive oil in a large skillet over medium-high heat.",
+          "2. Add garlic and sautÃ© for about 30 seconds until fragrant.",
+          "3. Add beef slices and cook until browned, about 2-3 minutes.",
+          "4. Remove beef from the skillet and set aside.",
+          "5. In the same skillet, add broccoli, bell pepper, and carrot. Stir-fry for about 5 minutes until the veggies are crispy-tender.",
+          "6. Return beef to the skillet and pour in the soy sauce.",
+          "7. Stir well to combine all ingredients and heat through.",
+          "8. Sprinkle with chopped green onions before serving."
+        ],
+        "calories": 42.0,
+        "protein": 1.9,
+        "fat": 0.4,
+        "carbs": 9.7
+      },
+      "dinner": {
+        "name": "Garlic Herb Grilled Steak with Spinach",
+        "time": "dinner",
+        "description": "A flavorful and protein-rich dinner that's great for weight loss, featuring deliciously seasoned grilled steak and fresh spinach.",
+        "ingredients": [
+          {
+            "name": "Top sirloin steak",
+            "quantity": "200.0g",
+            "unit": "g",
+            "db_record": {
+              "id": 14,
+              "name": "top sirloin steak",
+              "qty": "100",
+              "protein": 26.0,
+              "fat": 9.0,
+              "carbs": 0.0,
+              "calories": 250.0,
+              "category": "protein",
+              "flavor_profile": "savory",
+              "scalable": true,
+              "cooking_ingredient": false,
+              "max_per_meal": "200",
+              "unit_of_measure": "g"
+            }
+          },
+          {
+            "name": "Spinach",
+            "quantity": "100.0g",
+            "unit": "g",
+            "db_record": {
+              "id": 19,
+              "name": "spinach",
+              "qty": "100",
+              "protein": 2.9,
+              "fat": 0.4,
+              "carbs": 3.6,
+              "calories": 23.0,
+              "category": "carb",
+              "flavor_profile": "bitter",
+              "scalable": true,
+              "cooking_ingredient": false,
+              "max_per_meal": "100",
+              "unit_of_measure": "g"
+            }
+          },
+          {
+            "name": "Olive oil",
+            "quantity": 1,
+            "unit": "tablespoon",
+            "db_record": {
+              "id": 10,
+              "name": "olive oil",
+              "qty": "100",
+              "protein": 0.0,
+              "fat": 100.0,
+              "carbs": 0.0,
+              "calories": 884.0,
+              "category": "fat",
+              "flavor_profile": "neutral",
+              "scalable": false,
+              "cooking_ingredient": true,
+              "max_per_meal": "15",
+              "unit_of_measure": "ml"
+            }
+          },
+          {
+            "name": "Garlic, minced",
+            "quantity": 2,
+            "unit": "cloves",
+            "db_record": {
+              "id": 11,
+              "name": "garlic",
+              "qty": "100",
+              "protein": 6.4,
+              "fat": 0.5,
+              "carbs": 33.0,
+              "calories": 149.0,
+              "category": "carb",
+              "flavor_profile": "pungent",
+              "scalable": false,
+              "cooking_ingredient": true,
+              "max_per_meal": "10",
+              "unit_of_measure": "g"
+            }
+          },
+          {
+            "name": "Dried rosemary",
+            "quantity": 0.5,
+            "unit": "teaspoon",
+            "db_record": {
+              "id": 15,
+              "name": "dried rosemary",
+              "qty": "100",
+              "protein": 4.9,
+              "fat": 15.0,
+              "carbs": 64.0,
+              "calories": 331.0,
+              "category": "carb",
+              "flavor_profile": "bitter",
+              "scalable": false,
+              "cooking_ingredient": true,
+              "max_per_meal": "5",
+              "unit_of_measure": "g"
+            }
+          },
+          {
+            "name": "Dried thyme",
+            "quantity": 0.5,
+            "unit": "teaspoon",
+            "db_record": {
+              "id": 16,
+              "name": "dried thyme",
+              "qty": "100",
+              "protein": 9.1,
+              "fat": 7.4,
+              "carbs": 63.0,
+              "calories": 276.0,
+              "category": "carb",
+              "flavor_profile": "bitter",
+              "scalable": false,
+              "cooking_ingredient": true,
+              "max_per_meal": "5",
+              "unit_of_measure": "g"
+            }
+          },
+          {
+            "name": "Salt",
+            "quantity": 0.25,
+            "unit": "teaspoon",
+            "db_record": {
+              "id": 17,
+              "name": "salt",
+              "qty": "100",
+              "protein": 0.0,
+              "fat": 0.0,
+              "carbs": 0.0,
+              "calories": 0.0,
+              "category": "carb",
+              "flavor_profile": "salty",
+              "scalable": false,
+              "cooking_ingredient": true,
+              "max_per_meal": "5",
+              "unit_of_measure": "g"
+            }
+          },
+          {
+            "name": "Black pepper",
+            "quantity": 0.25,
+            "unit": "teaspoon",
+            "db_record": {
+              "id": 18,
+              "name": "black pepper",
+              "qty": "100",
+              "protein": 10.0,
+              "fat": 3.3,
+              "carbs": 64.0,
+              "calories": 251.0,
+              "category": "carb",
+              "flavor_profile": "pungent",
+              "scalable": false,
+              "cooking_ingredient": true,
+              "max_per_meal": "5",
+              "unit_of_measure": "g"
+            }
+          }
+        ],
+        "instructions": [
+          "1. Preheat the grill to medium-high heat.",
+          "2. In a small bowl, mix olive oil, minced garlic, rosemary, thyme, salt, and pepper.",
+          "3. Rub the mixture all over the steak.",
+          "4. Grill the steak for 4-5 minutes on each side or until desired doneness.",
+          "5. Remove steak from grill and let it rest for a couple of minutes.",
+          "6. Meanwhile, lightly sautÃ© the spinach in a pan until just wilted.",
+          "7. Serve the grilled steak with the sautÃ©ed spinach on the side."
+        ],
+        "calories": 523.0,
+        "protein": 54.9,
+        "fat": 18.4,
+        "carbs": 3.6
+      }
+    }
+  },
+  {
+    "label": "Step 3: After flattening meals",
+    "data": {
+      "meals": [
+        {
+          "name": "Berry Nut Yogurt Parfait",
+          "time": "breakfast",
+          "description": "A simple, protein-rich breakfast parfait filled with nutritious berries and crunchy nuts, perfect for supporting your weight loss journey.",
+          "ingredients": [
+            {
+              "name": "Greek yogurt, plain",
+              "quantity": "200.0g",
+              "unit": "g",
+              "db_record": {
+                "id": 1,
+                "name": "greek yogurt",
+                "qty": "100",
+                "protein": 10.0,
+                "fat": 0.4,
+                "carbs": 3.6,
+                "calories": 59.0,
+                "category": "protein",
+                "flavor_profile": "neutral",
+                "scalable": true,
+                "cooking_ingredient": false,
+                "max_per_meal": "200",
+                "unit_of_measure": "g"
+              }
+            },
+            {
+              "name": "Honey",
+              "quantity": 1,
+              "unit": "teaspoon",
+              "db_record": {
+                "id": 4,
+                "name": "honey",
+                "qty": "100",
+                "protein": 0.3,
+                "fat": 0.0,
+                "carbs": 82.0,
+                "calories": 304.0,
+                "category": "carb",
+                "flavor_profile": "sweet",
+                "scalable": false,
+                "cooking_ingredient": false,
+                "max_per_meal": "15",
+                "unit_of_measure": "g"
+              }
+            },
+            {
+              "name": "Almonds, chopped",
+              "quantity": "30.0g",
+              "unit": "g",
+              "db_record": {
+                "id": 3,
+                "name": "almonds",
+                "qty": "100",
+                "protein": 21.0,
+                "fat": 49.0,
+                "carbs": 22.0,
+                "calories": 579.0,
+                "category": "fat",
+                "flavor_profile": "nutty",
+                "scalable": true,
+                "cooking_ingredient": false,
+                "max_per_meal": "30",
+                "unit_of_measure": "g"
+              }
+            },
+            {
+              "name": "Vanilla extract",
+              "quantity": 0.5,
+              "unit": "teaspoon",
+              "db_record": {
+                "id": 5,
+                "name": "vanilla extract",
+                "qty": "100",
+                "protein": 0.0,
+                "fat": 0.0,
+                "carbs": 13.0,
+                "calories": 288.0,
+                "category": "carb",
+                "flavor_profile": "sweet",
+                "scalable": false,
+                "cooking_ingredient": true,
+                "max_per_meal": "5",
+                "unit_of_measure": "ml"
+              }
+            }
+          ],
+          "instructions": [
+            "1. In a bowl, mix the Greek yogurt and vanilla extract until smooth.",
+            "2. Layer half of the yogurt into a glass or bowl.",
+            "3. Add a layer of mixed berries over the yogurt.",
+            "4. Add a tablespoon of chopped almonds over the berries.",
+            "5. Repeat with the remaining yogurt, berries, and almonds.",
+            "6. Drizzle honey over the top before serving."
+          ],
+          "calories": 291.7,
+          "protein": 26.3,
+          "fat": 15.5,
+          "carbs": 13.8
+        },
+        {
+          "name": "Beef and Veggie Stir Fry",
+          "time": "lunch",
+          "description": "This delicious beef and veggie stir fry is a high-protein, balanced meal perfect for weight loss, full of nutrients and flavor.",
+          "ingredients": [
+            {
+              "name": "Bell pepper, sliced",
+              "quantity": "100.0g",
+              "unit": "g",
+              "db_record": {
+                "id": 7,
+                "name": "bell pepper",
+                "qty": "100",
+                "protein": 1.0,
+                "fat": 0.3,
+                "carbs": 6.0,
+                "calories": 26.0,
+                "category": "carb",
+                "flavor_profile": "sweet",
+                "scalable": true,
+                "cooking_ingredient": false,
+                "max_per_meal": "100",
+                "unit_of_measure": "g"
+              }
+            },
+            {
+              "name": "Green onions, chopped",
+              "quantity": "50.0g",
+              "unit": "g",
+              "db_record": {
+                "id": 12,
+                "name": "green onions",
+                "qty": "100",
+                "protein": 1.8,
+                "fat": 0.2,
+                "carbs": 7.3,
+                "calories": 32.0,
+                "category": "carb",
+                "flavor_profile": "savory",
+                "scalable": true,
+                "cooking_ingredient": false,
+                "max_per_meal": "50",
+                "unit_of_measure": "g"
+              }
+            },
+            {
+              "name": "Soy sauce, reduced sodium",
+              "quantity": 2,
+              "unit": "tablespoons",
+              "db_record": {
+                "id": 9,
+                "name": "soy sauce",
+                "qty": "100",
+                "protein": 5.0,
+                "fat": 0.1,
+                "carbs": 4.9,
+                "calories": 53.0,
+                "category": "carb",
+                "flavor_profile": "salty",
+                "scalable": false,
+                "cooking_ingredient": true,
+                "max_per_meal": "20",
+                "unit_of_measure": "ml"
+              }
+            },
+            {
+              "name": "Olive oil",
+              "quantity": 1,
+              "unit": "tablespoon",
+              "db_record": {
+                "id": 10,
+                "name": "olive oil",
+                "qty": "100",
+                "protein": 0.0,
+                "fat": 100.0,
+                "carbs": 0.0,
+                "calories": 884.0,
+                "category": "fat",
+                "flavor_profile": "neutral",
+                "scalable": false,
+                "cooking_ingredient": true,
+                "max_per_meal": "15",
+                "unit_of_measure": "ml"
+              }
+            },
+            {
+              "name": "Garlic, minced",
+              "quantity": 2,
+              "unit": "cloves",
+              "db_record": {
+                "id": 11,
+                "name": "garlic",
+                "qty": "100",
+                "protein": 6.4,
+                "fat": 0.5,
+                "carbs": 33.0,
+                "calories": 149.0,
+                "category": "carb",
+                "flavor_profile": "pungent",
+                "scalable": false,
+                "cooking_ingredient": true,
+                "max_per_meal": "10",
+                "unit_of_measure": "g"
+              }
+            }
+          ],
+          "instructions": [
+            "1. Heat olive oil in a large skillet over medium-high heat.",
+            "2. Add garlic and sautÃ© for about 30 seconds until fragrant.",
+            "3. Add beef slices and cook until browned, about 2-3 minutes.",
+            "4. Remove beef from the skillet and set aside.",
+            "5. In the same skillet, add broccoli, bell pepper, and carrot. Stir-fry for about 5 minutes until the veggies are crispy-tender.",
+            "6. Return beef to the skillet and pour in the soy sauce.",
+            "7. Stir well to combine all ingredients and heat through.",
+            "8. Sprinkle with chopped green onions before serving."
+          ],
+          "calories": 42.0,
+          "protein": 1.9,
+          "fat": 0.4,
+          "carbs": 9.7
+        },
+        {
+          "name": "Garlic Herb Grilled Steak with Spinach",
+          "time": "dinner",
+          "description": "A flavorful and protein-rich dinner that's great for weight loss, featuring deliciously seasoned grilled steak and fresh spinach.",
+          "ingredients": [
+            {
+              "name": "Top sirloin steak",
+              "quantity": "200.0g",
+              "unit": "g",
+              "db_record": {
+                "id": 14,
+                "name": "top sirloin steak",
+                "qty": "100",
+                "protein": 26.0,
+                "fat": 9.0,
+                "carbs": 0.0,
+                "calories": 250.0,
+                "category": "protein",
+                "flavor_profile": "savory",
+                "scalable": true,
+                "cooking_ingredient": false,
+                "max_per_meal": "200",
+                "unit_of_measure": "g"
+              }
+            },
+            {
+              "name": "Spinach",
+              "quantity": "100.0g",
+              "unit": "g",
+              "db_record": {
+                "id": 19,
+                "name": "spinach",
+                "qty": "100",
+                "protein": 2.9,
+                "fat": 0.4,
+                "carbs": 3.6,
+                "calories": 23.0,
+                "category": "carb",
+                "flavor_profile": "bitter",
+                "scalable": true,
+                "cooking_ingredient": false,
+                "max_per_meal": "100",
+                "unit_of_measure": "g"
+              }
+            },
+            {
+              "name": "Olive oil",
+              "quantity": 1,
+              "unit": "tablespoon",
+              "db_record": {
+                "id": 10,
+                "name": "olive oil",
+                "qty": "100",
+                "protein": 0.0,
+                "fat": 100.0,
+                "carbs": 0.0,
+                "calories": 884.0,
+                "category": "fat",
+                "flavor_profile": "neutral",
+                "scalable": false,
+                "cooking_ingredient": true,
+                "max_per_meal": "15",
+                "unit_of_measure": "ml"
+              }
+            },
+            {
+              "name": "Garlic, minced",
+              "quantity": 2,
+              "unit": "cloves",
+              "db_record": {
+                "id": 11,
+                "name": "garlic",
+                "qty": "100",
+                "protein": 6.4,
+                "fat": 0.5,
+                "carbs": 33.0,
+                "calories": 149.0,
+                "category": "carb",
+                "flavor_profile": "pungent",
+                "scalable": false,
+                "cooking_ingredient": true,
+                "max_per_meal": "10",
+                "unit_of_measure": "g"
+              }
+            },
+            {
+              "name": "Dried rosemary",
+              "quantity": 0.5,
+              "unit": "teaspoon",
+              "db_record": {
+                "id": 15,
+                "name": "dried rosemary",
+                "qty": "100",
+                "protein": 4.9,
+                "fat": 15.0,
+                "carbs": 64.0,
+                "calories": 331.0,
+                "category": "carb",
+                "flavor_profile": "bitter",
+                "scalable": false,
+                "cooking_ingredient": true,
+                "max_per_meal": "5",
+                "unit_of_measure": "g"
+              }
+            },
+            {
+              "name": "Dried thyme",
+              "quantity": 0.5,
+              "unit": "teaspoon",
+              "db_record": {
+                "id": 16,
+                "name": "dried thyme",
+                "qty": "100",
+                "protein": 9.1,
+                "fat": 7.4,
+                "carbs": 63.0,
+                "calories": 276.0,
+                "category": "carb",
+                "flavor_profile": "bitter",
+                "scalable": false,
+                "cooking_ingredient": true,
+                "max_per_meal": "5",
+                "unit_of_measure": "g"
+              }
+            },
+            {
+              "name": "Salt",
+              "quantity": 0.25,
+              "unit": "teaspoon",
+              "db_record": {
+                "id": 17,
+                "name": "salt",
+                "qty": "100",
+                "protein": 0.0,
+                "fat": 0.0,
+                "carbs": 0.0,
+                "calories": 0.0,
+                "category": "carb",
+                "flavor_profile": "salty",
+                "scalable": false,
+                "cooking_ingredient": true,
+                "max_per_meal": "5",
+                "unit_of_measure": "g"
+              }
+            },
+            {
+              "name": "Black pepper",
+              "quantity": 0.25,
+              "unit": "teaspoon",
+              "db_record": {
+                "id": 18,
+                "name": "black pepper",
+                "qty": "100",
+                "protein": 10.0,
+                "fat": 3.3,
+                "carbs": 64.0,
+                "calories": 251.0,
+                "category": "carb",
+                "flavor_profile": "pungent",
+                "scalable": false,
+                "cooking_ingredient": true,
+                "max_per_meal": "5",
+                "unit_of_measure": "g"
+              }
+            }
+          ],
+          "instructions": [
+            "1. Preheat the grill to medium-high heat.",
+            "2. In a small bowl, mix olive oil, minced garlic, rosemary, thyme, salt, and pepper.",
+            "3. Rub the mixture all over the steak.",
+            "4. Grill the steak for 4-5 minutes on each side or until desired doneness.",
+            "5. Remove steak from grill and let it rest for a couple of minutes.",
+            "6. Meanwhile, lightly sautÃ© the spinach in a pan until just wilted.",
+            "7. Serve the grilled steak with the sautÃ©ed spinach on the side."
+          ],
+          "calories": 523.0,
+          "protein": 54.9,
+          "fat": 18.4,
+          "carbs": 3.6
+        }
+      ],
+      "snacks": [
+        {
+          "name": "Cottage Cheese with Sliced Peaches",
+          "description": "A creamy and protein-packed snack with the natural sweetness of peaches, offering a satisfying and nutritious option to support weight loss.",
+          "ingredients": [],
+          "instructions": [
+            "1. Place cottage cheese in a bowl.",
+            "2. Top with sliced peach.",
+            "3. Sprinkle chia seeds on top and serve."
+          ],
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Hummus and Veggie Sticks",
+          "description": "A quick, fiber-rich snack featuring creamy hummus paired with crisp, fresh veggie sticks, perfect for healthy weight management.",
+          "ingredients": [],
+          "instructions": [
+            "1. Arrange carrot and celery sticks on a plate.",
+            "2. Add hummus alongside the veggies.",
+            "3. Dip veggie sticks in hummus and enjoy."
+          ],
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        }
+      ],
+      "totals": {
+        "calories": null,
+        "protein": null,
+        "fat": null,
+        "carbs": null
+      },
+      "grocery_list": [],
+      "total_price": null,
+      "breakfast": {
+        "name": "Berry Nut Yogurt Parfait",
+        "time": "breakfast",
+        "description": "A simple, protein-rich breakfast parfait filled with nutritious berries and crunchy nuts, perfect for supporting your weight loss journey.",
+        "ingredients": [
+          {
+            "name": "Greek yogurt, plain",
+            "quantity": "200.0g",
+            "unit": "g",
+            "db_record": {
+              "id": 1,
+              "name": "greek yogurt",
+              "qty": "100",
+              "protein": 10.0,
+              "fat": 0.4,
+              "carbs": 3.6,
+              "calories": 59.0,
+              "category": "protein",
+              "flavor_profile": "neutral",
+              "scalable": true,
+              "cooking_ingredient": false,
+              "max_per_meal": "200",
+              "unit_of_measure": "g"
+            }
+          },
+          {
+            "name": "Honey",
+            "quantity": 1,
+            "unit": "teaspoon",
+            "db_record": {
+              "id": 4,
+              "name": "honey",
+              "qty": "100",
+              "protein": 0.3,
+              "fat": 0.0,
+              "carbs": 82.0,
+              "calories": 304.0,
+              "category": "carb",
+              "flavor_profile": "sweet",
+              "scalable": false,
+              "cooking_ingredient": false,
+              "max_per_meal": "15",
+              "unit_of_measure": "g"
+            }
+          },
+          {
+            "name": "Almonds, chopped",
+            "quantity": "30.0g",
+            "unit": "g",
+            "db_record": {
+              "id": 3,
+              "name": "almonds",
+              "qty": "100",
+              "protein": 21.0,
+              "fat": 49.0,
+              "carbs": 22.0,
+              "calories": 579.0,
+              "category": "fat",
+              "flavor_profile": "nutty",
+              "scalable": true,
+              "cooking_ingredient": false,
+              "max_per_meal": "30",
+              "unit_of_measure": "g"
+            }
+          },
+          {
+            "name": "Vanilla extract",
+            "quantity": 0.5,
+            "unit": "teaspoon",
+            "db_record": {
+              "id": 5,
+              "name": "vanilla extract",
+              "qty": "100",
+              "protein": 0.0,
+              "fat": 0.0,
+              "carbs": 13.0,
+              "calories": 288.0,
+              "category": "carb",
+              "flavor_profile": "sweet",
+              "scalable": false,
+              "cooking_ingredient": true,
+              "max_per_meal": "5",
+              "unit_of_measure": "ml"
+            }
+          }
+        ],
+        "instructions": [
+          "1. In a bowl, mix the Greek yogurt and vanilla extract until smooth.",
+          "2. Layer half of the yogurt into a glass or bowl.",
+          "3. Add a layer of mixed berries over the yogurt.",
+          "4. Add a tablespoon of chopped almonds over the berries.",
+          "5. Repeat with the remaining yogurt, berries, and almonds.",
+          "6. Drizzle honey over the top before serving."
+        ],
+        "calories": 291.7,
+        "protein": 26.3,
+        "fat": 15.5,
+        "carbs": 13.8
+      },
+      "lunch": {
+        "name": "Beef and Veggie Stir Fry",
+        "time": "lunch",
+        "description": "This delicious beef and veggie stir fry is a high-protein, balanced meal perfect for weight loss, full of nutrients and flavor.",
+        "ingredients": [
+          {
+            "name": "Bell pepper, sliced",
+            "quantity": "100.0g",
+            "unit": "g",
+            "db_record": {
+              "id": 7,
+              "name": "bell pepper",
+              "qty": "100",
+              "protein": 1.0,
+              "fat": 0.3,
+              "carbs": 6.0,
+              "calories": 26.0,
+              "category": "carb",
+              "flavor_profile": "sweet",
+              "scalable": true,
+              "cooking_ingredient": false,
+              "max_per_meal": "100",
+              "unit_of_measure": "g"
+            }
+          },
+          {
+            "name": "Green onions, chopped",
+            "quantity": "50.0g",
+            "unit": "g",
+            "db_record": {
+              "id": 12,
+              "name": "green onions",
+              "qty": "100",
+              "protein": 1.8,
+              "fat": 0.2,
+              "carbs": 7.3,
+              "calories": 32.0,
+              "category": "carb",
+              "flavor_profile": "savory",
+              "scalable": true,
+              "cooking_ingredient": false,
+              "max_per_meal": "50",
+              "unit_of_measure": "g"
+            }
+          },
+          {
+            "name": "Soy sauce, reduced sodium",
+            "quantity": 2,
+            "unit": "tablespoons",
+            "db_record": {
+              "id": 9,
+              "name": "soy sauce",
+              "qty": "100",
+              "protein": 5.0,
+              "fat": 0.1,
+              "carbs": 4.9,
+              "calories": 53.0,
+              "category": "carb",
+              "flavor_profile": "salty",
+              "scalable": false,
+              "cooking_ingredient": true,
+              "max_per_meal": "20",
+              "unit_of_measure": "ml"
+            }
+          },
+          {
+            "name": "Olive oil",
+            "quantity": 1,
+            "unit": "tablespoon",
+            "db_record": {
+              "id": 10,
+              "name": "olive oil",
+              "qty": "100",
+              "protein": 0.0,
+              "fat": 100.0,
+              "carbs": 0.0,
+              "calories": 884.0,
+              "category": "fat",
+              "flavor_profile": "neutral",
+              "scalable": false,
+              "cooking_ingredient": true,
+              "max_per_meal": "15",
+              "unit_of_measure": "ml"
+            }
+          },
+          {
+            "name": "Garlic, minced",
+            "quantity": 2,
+            "unit": "cloves",
+            "db_record": {
+              "id": 11,
+              "name": "garlic",
+              "qty": "100",
+              "protein": 6.4,
+              "fat": 0.5,
+              "carbs": 33.0,
+              "calories": 149.0,
+              "category": "carb",
+              "flavor_profile": "pungent",
+              "scalable": false,
+              "cooking_ingredient": true,
+              "max_per_meal": "10",
+              "unit_of_measure": "g"
+            }
+          }
+        ],
+        "instructions": [
+          "1. Heat olive oil in a large skillet over medium-high heat.",
+          "2. Add garlic and sautÃ© for about 30 seconds until fragrant.",
+          "3. Add beef slices and cook until browned, about 2-3 minutes.",
+          "4. Remove beef from the skillet and set aside.",
+          "5. In the same skillet, add broccoli, bell pepper, and carrot. Stir-fry for about 5 minutes until the veggies are crispy-tender.",
+          "6. Return beef to the skillet and pour in the soy sauce.",
+          "7. Stir well to combine all ingredients and heat through.",
+          "8. Sprinkle with chopped green onions before serving."
+        ],
+        "calories": 42.0,
+        "protein": 1.9,
+        "fat": 0.4,
+        "carbs": 9.7
+      },
+      "dinner": {
+        "name": "Garlic Herb Grilled Steak with Spinach",
+        "time": "dinner",
+        "description": "A flavorful and protein-rich dinner that's great for weight loss, featuring deliciously seasoned grilled steak and fresh spinach.",
+        "ingredients": [
+          {
+            "name": "Top sirloin steak",
+            "quantity": "200.0g",
+            "unit": "g",
+            "db_record": {
+              "id": 14,
+              "name": "top sirloin steak",
+              "qty": "100",
+              "protein": 26.0,
+              "fat": 9.0,
+              "carbs": 0.0,
+              "calories": 250.0,
+              "category": "protein",
+              "flavor_profile": "savory",
+              "scalable": true,
+              "cooking_ingredient": false,
+              "max_per_meal": "200",
+              "unit_of_measure": "g"
+            }
+          },
+          {
+            "name": "Spinach",
+            "quantity": "100.0g",
+            "unit": "g",
+            "db_record": {
+              "id": 19,
+              "name": "spinach",
+              "qty": "100",
+              "protein": 2.9,
+              "fat": 0.4,
+              "carbs": 3.6,
+              "calories": 23.0,
+              "category": "carb",
+              "flavor_profile": "bitter",
+              "scalable": true,
+              "cooking_ingredient": false,
+              "max_per_meal": "100",
+              "unit_of_measure": "g"
+            }
+          },
+          {
+            "name": "Olive oil",
+            "quantity": 1,
+            "unit": "tablespoon",
+            "db_record": {
+              "id": 10,
+              "name": "olive oil",
+              "qty": "100",
+              "protein": 0.0,
+              "fat": 100.0,
+              "carbs": 0.0,
+              "calories": 884.0,
+              "category": "fat",
+              "flavor_profile": "neutral",
+              "scalable": false,
+              "cooking_ingredient": true,
+              "max_per_meal": "15",
+              "unit_of_measure": "ml"
+            }
+          },
+          {
+            "name": "Garlic, minced",
+            "quantity": 2,
+            "unit": "cloves",
+            "db_record": {
+              "id": 11,
+              "name": "garlic",
+              "qty": "100",
+              "protein": 6.4,
+              "fat": 0.5,
+              "carbs": 33.0,
+              "calories": 149.0,
+              "category": "carb",
+              "flavor_profile": "pungent",
+              "scalable": false,
+              "cooking_ingredient": true,
+              "max_per_meal": "10",
+              "unit_of_measure": "g"
+            }
+          },
+          {
+            "name": "Dried rosemary",
+            "quantity": 0.5,
+            "unit": "teaspoon",
+            "db_record": {
+              "id": 15,
+              "name": "dried rosemary",
+              "qty": "100",
+              "protein": 4.9,
+              "fat": 15.0,
+              "carbs": 64.0,
+              "calories": 331.0,
+              "category": "carb",
+              "flavor_profile": "bitter",
+              "scalable": false,
+              "cooking_ingredient": true,
+              "max_per_meal": "5",
+              "unit_of_measure": "g"
+            }
+          },
+          {
+            "name": "Dried thyme",
+            "quantity": 0.5,
+            "unit": "teaspoon",
+            "db_record": {
+              "id": 16,
+              "name": "dried thyme",
+              "qty": "100",
+              "protein": 9.1,
+              "fat": 7.4,
+              "carbs": 63.0,
+              "calories": 276.0,
+              "category": "carb",
+              "flavor_profile": "bitter",
+              "scalable": false,
+              "cooking_ingredient": true,
+              "max_per_meal": "5",
+              "unit_of_measure": "g"
+            }
+          },
+          {
+            "name": "Salt",
+            "quantity": 0.25,
+            "unit": "teaspoon",
+            "db_record": {
+              "id": 17,
+              "name": "salt",
+              "qty": "100",
+              "protein": 0.0,
+              "fat": 0.0,
+              "carbs": 0.0,
+              "calories": 0.0,
+              "category": "carb",
+              "flavor_profile": "salty",
+              "scalable": false,
+              "cooking_ingredient": true,
+              "max_per_meal": "5",
+              "unit_of_measure": "g"
+            }
+          },
+          {
+            "name": "Black pepper",
+            "quantity": 0.25,
+            "unit": "teaspoon",
+            "db_record": {
+              "id": 18,
+              "name": "black pepper",
+              "qty": "100",
+              "protein": 10.0,
+              "fat": 3.3,
+              "carbs": 64.0,
+              "calories": 251.0,
+              "category": "carb",
+              "flavor_profile": "pungent",
+              "scalable": false,
+              "cooking_ingredient": true,
+              "max_per_meal": "5",
+              "unit_of_measure": "g"
+            }
+          }
+        ],
+        "instructions": [
+          "1. Preheat the grill to medium-high heat.",
+          "2. In a small bowl, mix olive oil, minced garlic, rosemary, thyme, salt, and pepper.",
+          "3. Rub the mixture all over the steak.",
+          "4. Grill the steak for 4-5 minutes on each side or until desired doneness.",
+          "5. Remove steak from grill and let it rest for a couple of minutes.",
+          "6. Meanwhile, lightly sautÃ© the spinach in a pan until just wilted.",
+          "7. Serve the grilled steak with the sautÃ©ed spinach on the side."
+        ],
+        "calories": 523.0,
+        "protein": 54.9,
+        "fat": 18.4,
+        "carbs": 3.6
+      }
+    }
+  },
+  {
+    "label": "Step 4: After macro allocation",
+    "data": {
+      "meals": [
+        {
+          "name": "Berry Nut Yogurt Parfait",
+          "time": "breakfast",
+          "description": "A simple, protein-rich breakfast parfait filled with nutritious berries and crunchy nuts, perfect for supporting your weight loss journey.",
+          "ingredients": [
+            {
+              "name": "Greek yogurt, plain",
+              "quantity": "200.0g",
+              "unit": "g",
+              "db_record": {
+                "id": 1,
+                "name": "greek yogurt",
+                "qty": "100",
+                "protein": 10.0,
+                "fat": 0.4,
+                "carbs": 3.6,
+                "calories": 59.0,
+                "category": "protein",
+                "flavor_profile": "neutral",
+                "scalable": true,
+                "cooking_ingredient": false,
+                "max_per_meal": "200",
+                "unit_of_measure": "g"
+              }
+            },
+            {
+              "name": "Honey",
+              "quantity": 1,
+              "unit": "teaspoon",
+              "db_record": {
+                "id": 4,
+                "name": "honey",
+                "qty": "100",
+                "protein": 0.3,
+                "fat": 0.0,
+                "carbs": 82.0,
+                "calories": 304.0,
+                "category": "carb",
+                "flavor_profile": "sweet",
+                "scalable": false,
+                "cooking_ingredient": false,
+                "max_per_meal": "15",
+                "unit_of_measure": "g"
+              }
+            },
+            {
+              "name": "Almonds, chopped",
+              "quantity": "30.0g",
+              "unit": "g",
+              "db_record": {
+                "id": 3,
+                "name": "almonds",
+                "qty": "100",
+                "protein": 21.0,
+                "fat": 49.0,
+                "carbs": 22.0,
+                "calories": 579.0,
+                "category": "fat",
+                "flavor_profile": "nutty",
+                "scalable": true,
+                "cooking_ingredient": false,
+                "max_per_meal": "30",
+                "unit_of_measure": "g"
+              }
+            },
+            {
+              "name": "Vanilla extract",
+              "quantity": 0.5,
+              "unit": "teaspoon",
+              "db_record": {
+                "id": 5,
+                "name": "vanilla extract",
+                "qty": "100",
+                "protein": 0.0,
+                "fat": 0.0,
+                "carbs": 13.0,
+                "calories": 288.0,
+                "category": "carb",
+                "flavor_profile": "sweet",
+                "scalable": false,
+                "cooking_ingredient": true,
+                "max_per_meal": "5",
+                "unit_of_measure": "ml"
+              }
+            }
+          ],
+          "instructions": [
+            "1. In a bowl, mix the Greek yogurt and vanilla extract until smooth.",
+            "2. Layer half of the yogurt into a glass or bowl.",
+            "3. Add a layer of mixed berries over the yogurt.",
+            "4. Add a tablespoon of chopped almonds over the berries.",
+            "5. Repeat with the remaining yogurt, berries, and almonds.",
+            "6. Drizzle honey over the top before serving."
+          ],
+          "calories": 291.7,
+          "protein": 26.3,
+          "fat": 15.5,
+          "carbs": 13.8
+        },
+        {
+          "name": "Beef and Veggie Stir Fry",
+          "time": "lunch",
+          "description": "This delicious beef and veggie stir fry is a high-protein, balanced meal perfect for weight loss, full of nutrients and flavor.",
+          "ingredients": [
+            {
+              "name": "Bell pepper, sliced",
+              "quantity": "100.0g",
+              "unit": "g",
+              "db_record": {
+                "id": 7,
+                "name": "bell pepper",
+                "qty": "100",
+                "protein": 1.0,
+                "fat": 0.3,
+                "carbs": 6.0,
+                "calories": 26.0,
+                "category": "carb",
+                "flavor_profile": "sweet",
+                "scalable": true,
+                "cooking_ingredient": false,
+                "max_per_meal": "100",
+                "unit_of_measure": "g"
+              }
+            },
+            {
+              "name": "Green onions, chopped",
+              "quantity": "50.0g",
+              "unit": "g",
+              "db_record": {
+                "id": 12,
+                "name": "green onions",
+                "qty": "100",
+                "protein": 1.8,
+                "fat": 0.2,
+                "carbs": 7.3,
+                "calories": 32.0,
+                "category": "carb",
+                "flavor_profile": "savory",
+                "scalable": true,
+                "cooking_ingredient": false,
+                "max_per_meal": "50",
+                "unit_of_measure": "g"
+              }
+            },
+            {
+              "name": "Soy sauce, reduced sodium",
+              "quantity": 2,
+              "unit": "tablespoons",
+              "db_record": {
+                "id": 9,
+                "name": "soy sauce",
+                "qty": "100",
+                "protein": 5.0,
+                "fat": 0.1,
+                "carbs": 4.9,
+                "calories": 53.0,
+                "category": "carb",
+                "flavor_profile": "salty",
+                "scalable": false,
+                "cooking_ingredient": true,
+                "max_per_meal": "20",
+                "unit_of_measure": "ml"
+              }
+            },
+            {
+              "name": "Olive oil",
+              "quantity": 1,
+              "unit": "tablespoon",
+              "db_record": {
+                "id": 10,
+                "name": "olive oil",
+                "qty": "100",
+                "protein": 0.0,
+                "fat": 100.0,
+                "carbs": 0.0,
+                "calories": 884.0,
+                "category": "fat",
+                "flavor_profile": "neutral",
+                "scalable": false,
+                "cooking_ingredient": true,
+                "max_per_meal": "15",
+                "unit_of_measure": "ml"
+              }
+            },
+            {
+              "name": "Garlic, minced",
+              "quantity": 2,
+              "unit": "cloves",
+              "db_record": {
+                "id": 11,
+                "name": "garlic",
+                "qty": "100",
+                "protein": 6.4,
+                "fat": 0.5,
+                "carbs": 33.0,
+                "calories": 149.0,
+                "category": "carb",
+                "flavor_profile": "pungent",
+                "scalable": false,
+                "cooking_ingredient": true,
+                "max_per_meal": "10",
+                "unit_of_measure": "g"
+              }
+            }
+          ],
+          "instructions": [
+            "1. Heat olive oil in a large skillet over medium-high heat.",
+            "2. Add garlic and sautÃ© for about 30 seconds until fragrant.",
+            "3. Add beef slices and cook until browned, about 2-3 minutes.",
+            "4. Remove beef from the skillet and set aside.",
+            "5. In the same skillet, add broccoli, bell pepper, and carrot. Stir-fry for about 5 minutes until the veggies are crispy-tender.",
+            "6. Return beef to the skillet and pour in the soy sauce.",
+            "7. Stir well to combine all ingredients and heat through.",
+            "8. Sprinkle with chopped green onions before serving."
+          ],
+          "calories": 42.0,
+          "protein": 1.9,
+          "fat": 0.4,
+          "carbs": 9.7
+        },
+        {
+          "name": "Garlic Herb Grilled Steak with Spinach",
+          "time": "dinner",
+          "description": "A flavorful and protein-rich dinner that's great for weight loss, featuring deliciously seasoned grilled steak and fresh spinach.",
+          "ingredients": [
+            {
+              "name": "Top sirloin steak",
+              "quantity": "200.0g",
+              "unit": "g",
+              "db_record": {
+                "id": 14,
+                "name": "top sirloin steak",
+                "qty": "100",
+                "protein": 26.0,
+                "fat": 9.0,
+                "carbs": 0.0,
+                "calories": 250.0,
+                "category": "protein",
+                "flavor_profile": "savory",
+                "scalable": true,
+                "cooking_ingredient": false,
+                "max_per_meal": "200",
+                "unit_of_measure": "g"
+              }
+            },
+            {
+              "name": "Spinach",
+              "quantity": "100.0g",
+              "unit": "g",
+              "db_record": {
+                "id": 19,
+                "name": "spinach",
+                "qty": "100",
+                "protein": 2.9,
+                "fat": 0.4,
+                "carbs": 3.6,
+                "calories": 23.0,
+                "category": "carb",
+                "flavor_profile": "bitter",
+                "scalable": true,
+                "cooking_ingredient": false,
+                "max_per_meal": "100",
+                "unit_of_measure": "g"
+              }
+            },
+            {
+              "name": "Olive oil",
+              "quantity": 1,
+              "unit": "tablespoon",
+              "db_record": {
+                "id": 10,
+                "name": "olive oil",
+                "qty": "100",
+                "protein": 0.0,
+                "fat": 100.0,
+                "carbs": 0.0,
+                "calories": 884.0,
+                "category": "fat",
+                "flavor_profile": "neutral",
+                "scalable": false,
+                "cooking_ingredient": true,
+                "max_per_meal": "15",
+                "unit_of_measure": "ml"
+              }
+            },
+            {
+              "name": "Garlic, minced",
+              "quantity": 2,
+              "unit": "cloves",
+              "db_record": {
+                "id": 11,
+                "name": "garlic",
+                "qty": "100",
+                "protein": 6.4,
+                "fat": 0.5,
+                "carbs": 33.0,
+                "calories": 149.0,
+                "category": "carb",
+                "flavor_profile": "pungent",
+                "scalable": false,
+                "cooking_ingredient": true,
+                "max_per_meal": "10",
+                "unit_of_measure": "g"
+              }
+            },
+            {
+              "name": "Dried rosemary",
+              "quantity": 0.5,
+              "unit": "teaspoon",
+              "db_record": {
+                "id": 15,
+                "name": "dried rosemary",
+                "qty": "100",
+                "protein": 4.9,
+                "fat": 15.0,
+                "carbs": 64.0,
+                "calories": 331.0,
+                "category": "carb",
+                "flavor_profile": "bitter",
+                "scalable": false,
+                "cooking_ingredient": true,
+                "max_per_meal": "5",
+                "unit_of_measure": "g"
+              }
+            },
+            {
+              "name": "Dried thyme",
+              "quantity": 0.5,
+              "unit": "teaspoon",
+              "db_record": {
+                "id": 16,
+                "name": "dried thyme",
+                "qty": "100",
+                "protein": 9.1,
+                "fat": 7.4,
+                "carbs": 63.0,
+                "calories": 276.0,
+                "category": "carb",
+                "flavor_profile": "bitter",
+                "scalable": false,
+                "cooking_ingredient": true,
+                "max_per_meal": "5",
+                "unit_of_measure": "g"
+              }
+            },
+            {
+              "name": "Salt",
+              "quantity": 0.25,
+              "unit": "teaspoon",
+              "db_record": {
+                "id": 17,
+                "name": "salt",
+                "qty": "100",
+                "protein": 0.0,
+                "fat": 0.0,
+                "carbs": 0.0,
+                "calories": 0.0,
+                "category": "carb",
+                "flavor_profile": "salty",
+                "scalable": false,
+                "cooking_ingredient": true,
+                "max_per_meal": "5",
+                "unit_of_measure": "g"
+              }
+            },
+            {
+              "name": "Black pepper",
+              "quantity": 0.25,
+              "unit": "teaspoon",
+              "db_record": {
+                "id": 18,
+                "name": "black pepper",
+                "qty": "100",
+                "protein": 10.0,
+                "fat": 3.3,
+                "carbs": 64.0,
+                "calories": 251.0,
+                "category": "carb",
+                "flavor_profile": "pungent",
+                "scalable": false,
+                "cooking_ingredient": true,
+                "max_per_meal": "5",
+                "unit_of_measure": "g"
+              }
+            }
+          ],
+          "instructions": [
+            "1. Preheat the grill to medium-high heat.",
+            "2. In a small bowl, mix olive oil, minced garlic, rosemary, thyme, salt, and pepper.",
+            "3. Rub the mixture all over the steak.",
+            "4. Grill the steak for 4-5 minutes on each side or until desired doneness.",
+            "5. Remove steak from grill and let it rest for a couple of minutes.",
+            "6. Meanwhile, lightly sautÃ© the spinach in a pan until just wilted.",
+            "7. Serve the grilled steak with the sautÃ©ed spinach on the side."
+          ],
+          "calories": 523.0,
+          "protein": 54.9,
+          "fat": 18.4,
+          "carbs": 3.6
+        }
+      ],
+      "snacks": [
+        {
+          "name": "Cottage Cheese with Sliced Peaches",
+          "description": "A creamy and protein-packed snack with the natural sweetness of peaches, offering a satisfying and nutritious option to support weight loss.",
+          "ingredients": [],
+          "instructions": [
+            "1. Place cottage cheese in a bowl.",
+            "2. Top with sliced peach.",
+            "3. Sprinkle chia seeds on top and serve."
+          ],
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Hummus and Veggie Sticks",
+          "description": "A quick, fiber-rich snack featuring creamy hummus paired with crisp, fresh veggie sticks, perfect for healthy weight management.",
+          "ingredients": [],
+          "instructions": [
+            "1. Arrange carrot and celery sticks on a plate.",
+            "2. Add hummus alongside the veggies.",
+            "3. Dip veggie sticks in hummus and enjoy."
+          ],
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        }
+      ],
+      "totals": {
+        "calories": null,
+        "protein": null,
+        "fat": null,
+        "carbs": null
+      },
+      "grocery_list": [],
+      "total_price": null,
+      "breakfast": {
+        "name": "Berry Nut Yogurt Parfait",
+        "time": "breakfast",
+        "description": "A simple, protein-rich breakfast parfait filled with nutritious berries and crunchy nuts, perfect for supporting your weight loss journey.",
+        "ingredients": [
+          {
+            "name": "Greek yogurt, plain",
+            "quantity": "200.0g",
+            "unit": "g",
+            "db_record": {
+              "id": 1,
+              "name": "greek yogurt",
+              "qty": "100",
+              "protein": 10.0,
+              "fat": 0.4,
+              "carbs": 3.6,
+              "calories": 59.0,
+              "category": "protein",
+              "flavor_profile": "neutral",
+              "scalable": true,
+              "cooking_ingredient": false,
+              "max_per_meal": "200",
+              "unit_of_measure": "g"
+            }
+          },
+          {
+            "name": "Honey",
+            "quantity": 1,
+            "unit": "teaspoon",
+            "db_record": {
+              "id": 4,
+              "name": "honey",
+              "qty": "100",
+              "protein": 0.3,
+              "fat": 0.0,
+              "carbs": 82.0,
+              "calories": 304.0,
+              "category": "carb",
+              "flavor_profile": "sweet",
+              "scalable": false,
+              "cooking_ingredient": false,
+              "max_per_meal": "15",
+              "unit_of_measure": "g"
+            }
+          },
+          {
+            "name": "Almonds, chopped",
+            "quantity": "30.0g",
+            "unit": "g",
+            "db_record": {
+              "id": 3,
+              "name": "almonds",
+              "qty": "100",
+              "protein": 21.0,
+              "fat": 49.0,
+              "carbs": 22.0,
+              "calories": 579.0,
+              "category": "fat",
+              "flavor_profile": "nutty",
+              "scalable": true,
+              "cooking_ingredient": false,
+              "max_per_meal": "30",
+              "unit_of_measure": "g"
+            }
+          },
+          {
+            "name": "Vanilla extract",
+            "quantity": 0.5,
+            "unit": "teaspoon",
+            "db_record": {
+              "id": 5,
+              "name": "vanilla extract",
+              "qty": "100",
+              "protein": 0.0,
+              "fat": 0.0,
+              "carbs": 13.0,
+              "calories": 288.0,
+              "category": "carb",
+              "flavor_profile": "sweet",
+              "scalable": false,
+              "cooking_ingredient": true,
+              "max_per_meal": "5",
+              "unit_of_measure": "ml"
+            }
+          }
+        ],
+        "instructions": [
+          "1. In a bowl, mix the Greek yogurt and vanilla extract until smooth.",
+          "2. Layer half of the yogurt into a glass or bowl.",
+          "3. Add a layer of mixed berries over the yogurt.",
+          "4. Add a tablespoon of chopped almonds over the berries.",
+          "5. Repeat with the remaining yogurt, berries, and almonds.",
+          "6. Drizzle honey over the top before serving."
+        ],
+        "calories": 291.7,
+        "protein": 26.3,
+        "fat": 15.5,
+        "carbs": 13.8
+      },
+      "lunch": {
+        "name": "Beef and Veggie Stir Fry",
+        "time": "lunch",
+        "description": "This delicious beef and veggie stir fry is a high-protein, balanced meal perfect for weight loss, full of nutrients and flavor.",
+        "ingredients": [
+          {
+            "name": "Bell pepper, sliced",
+            "quantity": "100.0g",
+            "unit": "g",
+            "db_record": {
+              "id": 7,
+              "name": "bell pepper",
+              "qty": "100",
+              "protein": 1.0,
+              "fat": 0.3,
+              "carbs": 6.0,
+              "calories": 26.0,
+              "category": "carb",
+              "flavor_profile": "sweet",
+              "scalable": true,
+              "cooking_ingredient": false,
+              "max_per_meal": "100",
+              "unit_of_measure": "g"
+            }
+          },
+          {
+            "name": "Green onions, chopped",
+            "quantity": "50.0g",
+            "unit": "g",
+            "db_record": {
+              "id": 12,
+              "name": "green onions",
+              "qty": "100",
+              "protein": 1.8,
+              "fat": 0.2,
+              "carbs": 7.3,
+              "calories": 32.0,
+              "category": "carb",
+              "flavor_profile": "savory",
+              "scalable": true,
+              "cooking_ingredient": false,
+              "max_per_meal": "50",
+              "unit_of_measure": "g"
+            }
+          },
+          {
+            "name": "Soy sauce, reduced sodium",
+            "quantity": 2,
+            "unit": "tablespoons",
+            "db_record": {
+              "id": 9,
+              "name": "soy sauce",
+              "qty": "100",
+              "protein": 5.0,
+              "fat": 0.1,
+              "carbs": 4.9,
+              "calories": 53.0,
+              "category": "carb",
+              "flavor_profile": "salty",
+              "scalable": false,
+              "cooking_ingredient": true,
+              "max_per_meal": "20",
+              "unit_of_measure": "ml"
+            }
+          },
+          {
+            "name": "Olive oil",
+            "quantity": 1,
+            "unit": "tablespoon",
+            "db_record": {
+              "id": 10,
+              "name": "olive oil",
+              "qty": "100",
+              "protein": 0.0,
+              "fat": 100.0,
+              "carbs": 0.0,
+              "calories": 884.0,
+              "category": "fat",
+              "flavor_profile": "neutral",
+              "scalable": false,
+              "cooking_ingredient": true,
+              "max_per_meal": "15",
+              "unit_of_measure": "ml"
+            }
+          },
+          {
+            "name": "Garlic, minced",
+            "quantity": 2,
+            "unit": "cloves",
+            "db_record": {
+              "id": 11,
+              "name": "garlic",
+              "qty": "100",
+              "protein": 6.4,
+              "fat": 0.5,
+              "carbs": 33.0,
+              "calories": 149.0,
+              "category": "carb",
+              "flavor_profile": "pungent",
+              "scalable": false,
+              "cooking_ingredient": true,
+              "max_per_meal": "10",
+              "unit_of_measure": "g"
+            }
+          }
+        ],
+        "instructions": [
+          "1. Heat olive oil in a large skillet over medium-high heat.",
+          "2. Add garlic and sautÃ© for about 30 seconds until fragrant.",
+          "3. Add beef slices and cook until browned, about 2-3 minutes.",
+          "4. Remove beef from the skillet and set aside.",
+          "5. In the same skillet, add broccoli, bell pepper, and carrot. Stir-fry for about 5 minutes until the veggies are crispy-tender.",
+          "6. Return beef to the skillet and pour in the soy sauce.",
+          "7. Stir well to combine all ingredients and heat through.",
+          "8. Sprinkle with chopped green onions before serving."
+        ],
+        "calories": 42.0,
+        "protein": 1.9,
+        "fat": 0.4,
+        "carbs": 9.7
+      },
+      "dinner": {
+        "name": "Garlic Herb Grilled Steak with Spinach",
+        "time": "dinner",
+        "description": "A flavorful and protein-rich dinner that's great for weight loss, featuring deliciously seasoned grilled steak and fresh spinach.",
+        "ingredients": [
+          {
+            "name": "Top sirloin steak",
+            "quantity": "200.0g",
+            "unit": "g",
+            "db_record": {
+              "id": 14,
+              "name": "top sirloin steak",
+              "qty": "100",
+              "protein": 26.0,
+              "fat": 9.0,
+              "carbs": 0.0,
+              "calories": 250.0,
+              "category": "protein",
+              "flavor_profile": "savory",
+              "scalable": true,
+              "cooking_ingredient": false,
+              "max_per_meal": "200",
+              "unit_of_measure": "g"
+            }
+          },
+          {
+            "name": "Spinach",
+            "quantity": "100.0g",
+            "unit": "g",
+            "db_record": {
+              "id": 19,
+              "name": "spinach",
+              "qty": "100",
+              "protein": 2.9,
+              "fat": 0.4,
+              "carbs": 3.6,
+              "calories": 23.0,
+              "category": "carb",
+              "flavor_profile": "bitter",
+              "scalable": true,
+              "cooking_ingredient": false,
+              "max_per_meal": "100",
+              "unit_of_measure": "g"
+            }
+          },
+          {
+            "name": "Olive oil",
+            "quantity": 1,
+            "unit": "tablespoon",
+            "db_record": {
+              "id": 10,
+              "name": "olive oil",
+              "qty": "100",
+              "protein": 0.0,
+              "fat": 100.0,
+              "carbs": 0.0,
+              "calories": 884.0,
+              "category": "fat",
+              "flavor_profile": "neutral",
+              "scalable": false,
+              "cooking_ingredient": true,
+              "max_per_meal": "15",
+              "unit_of_measure": "ml"
+            }
+          },
+          {
+            "name": "Garlic, minced",
+            "quantity": 2,
+            "unit": "cloves",
+            "db_record": {
+              "id": 11,
+              "name": "garlic",
+              "qty": "100",
+              "protein": 6.4,
+              "fat": 0.5,
+              "carbs": 33.0,
+              "calories": 149.0,
+              "category": "carb",
+              "flavor_profile": "pungent",
+              "scalable": false,
+              "cooking_ingredient": true,
+              "max_per_meal": "10",
+              "unit_of_measure": "g"
+            }
+          },
+          {
+            "name": "Dried rosemary",
+            "quantity": 0.5,
+            "unit": "teaspoon",
+            "db_record": {
+              "id": 15,
+              "name": "dried rosemary",
+              "qty": "100",
+              "protein": 4.9,
+              "fat": 15.0,
+              "carbs": 64.0,
+              "calories": 331.0,
+              "category": "carb",
+              "flavor_profile": "bitter",
+              "scalable": false,
+              "cooking_ingredient": true,
+              "max_per_meal": "5",
+              "unit_of_measure": "g"
+            }
+          },
+          {
+            "name": "Dried thyme",
+            "quantity": 0.5,
+            "unit": "teaspoon",
+            "db_record": {
+              "id": 16,
+              "name": "dried thyme",
+              "qty": "100",
+              "protein": 9.1,
+              "fat": 7.4,
+              "carbs": 63.0,
+              "calories": 276.0,
+              "category": "carb",
+              "flavor_profile": "bitter",
+              "scalable": false,
+              "cooking_ingredient": true,
+              "max_per_meal": "5",
+              "unit_of_measure": "g"
+            }
+          },
+          {
+            "name": "Salt",
+            "quantity": 0.25,
+            "unit": "teaspoon",
+            "db_record": {
+              "id": 17,
+              "name": "salt",
+              "qty": "100",
+              "protein": 0.0,
+              "fat": 0.0,
+              "carbs": 0.0,
+              "calories": 0.0,
+              "category": "carb",
+              "flavor_profile": "salty",
+              "scalable": false,
+              "cooking_ingredient": true,
+              "max_per_meal": "5",
+              "unit_of_measure": "g"
+            }
+          },
+          {
+            "name": "Black pepper",
+            "quantity": 0.25,
+            "unit": "teaspoon",
+            "db_record": {
+              "id": 18,
+              "name": "black pepper",
+              "qty": "100",
+              "protein": 10.0,
+              "fat": 3.3,
+              "carbs": 64.0,
+              "calories": 251.0,
+              "category": "carb",
+              "flavor_profile": "pungent",
+              "scalable": false,
+              "cooking_ingredient": true,
+              "max_per_meal": "5",
+              "unit_of_measure": "g"
+            }
+          }
+        ],
+        "instructions": [
+          "1. Preheat the grill to medium-high heat.",
+          "2. In a small bowl, mix olive oil, minced garlic, rosemary, thyme, salt, and pepper.",
+          "3. Rub the mixture all over the steak.",
+          "4. Grill the steak for 4-5 minutes on each side or until desired doneness.",
+          "5. Remove steak from grill and let it rest for a couple of minutes.",
+          "6. Meanwhile, lightly sautÃ© the spinach in a pan until just wilted.",
+          "7. Serve the grilled steak with the sautÃ©ed spinach on the side."
+        ],
+        "calories": 523.0,
+        "protein": 54.9,
+        "fat": 18.4,
+        "carbs": 3.6
+      }
+    }
+  },
+  {
+    "label": "Step 5: Normalized ingredients",
+    "data": {
+      "breakfast": [
+        "greek yogurt",
+        "berries",
+        "almonds",
+        "honey",
+        "vanilla extract"
+      ],
+      "lunch": [
+        "beef sirloin thinly",
+        "bell pepper",
+        "broccoli florets",
+        "soy sauce",
+        "olive oil",
+        "garlic",
+        "green onions",
+        "carrot julienned"
+      ],
+      "dinner": [
+        "top sirloin steak",
+        "olive oil",
+        "garlic",
+        "dried rosemary",
+        "dried thyme",
+        "salt",
+        "black pepper",
+        "spinach"
+      ],
+      "snacks": [
+        "cottage cheese",
+        "peach",
+        "chia seeds",
+        "hummus",
+        "carrot",
+        "celery"
+      ]
+    }
+  },
+  {
+    "label": "Step 6: Structured matches",
+    "data": [
+      {
+        "meal_time": "breakfast",
+        "ingredient_index": 0,
+        "original": "greek yogurt",
+        "matched_name": "greek yogurt"
+      },
+      {
+        "meal_time": "breakfast",
+        "ingredient_index": 2,
+        "original": "almonds",
+        "matched_name": "almonds"
+      },
+      {
+        "meal_time": "breakfast",
+        "ingredient_index": 3,
+        "original": "honey",
+        "matched_name": "honey"
+      },
+      {
+        "meal_time": "breakfast",
+        "ingredient_index": 4,
+        "original": "vanilla extract",
+        "matched_name": "vanilla extract"
+      },
+      {
+        "meal_time": "lunch",
+        "ingredient_index": 1,
+        "original": "bell pepper",
+        "matched_name": "bell pepper"
+      },
+      {
+        "meal_time": "lunch",
+        "ingredient_index": 3,
+        "original": "soy sauce",
+        "matched_name": "soy sauce"
+      },
+      {
+        "meal_time": "lunch",
+        "ingredient_index": 4,
+        "original": "olive oil",
+        "matched_name": "olive oil"
+      },
+      {
+        "meal_time": "lunch",
+        "ingredient_index": 5,
+        "original": "garlic",
+        "matched_name": "garlic"
+      },
+      {
+        "meal_time": "lunch",
+        "ingredient_index": 6,
+        "original": "green onions",
+        "matched_name": "green onions"
+      },
+      {
+        "meal_time": "dinner",
+        "ingredient_index": 0,
+        "original": "top sirloin steak",
+        "matched_name": "top sirloin steak"
+      },
+      {
+        "meal_time": "dinner",
+        "ingredient_index": 1,
+        "original": "olive oil",
+        "matched_name": "olive oil"
+      },
+      {
+        "meal_time": "dinner",
+        "ingredient_index": 2,
+        "original": "garlic",
+        "matched_name": "garlic"
+      },
+      {
+        "meal_time": "dinner",
+        "ingredient_index": 3,
+        "original": "dried rosemary",
+        "matched_name": "dried rosemary"
+      },
+      {
+        "meal_time": "dinner",
+        "ingredient_index": 4,
+        "original": "dried thyme",
+        "matched_name": "dried thyme"
+      },
+      {
+        "meal_time": "dinner",
+        "ingredient_index": 5,
+        "original": "salt",
+        "matched_name": "salt"
+      },
+      {
+        "meal_time": "dinner",
+        "ingredient_index": 6,
+        "original": "black pepper",
+        "matched_name": "black pepper"
+      },
+      {
+        "meal_time": "dinner",
+        "ingredient_index": 7,
+        "original": "spinach",
+        "matched_name": "spinach"
+      },
+      {
+        "meal_time": "snacks",
+        "ingredient_index": 0,
+        "original": "cottage cheese",
+        "matched_name": "cottage cheese"
+      },
+      {
+        "meal_time": "snacks",
+        "ingredient_index": 1,
+        "original": "peach",
+        "matched_name": "peach"
+      },
+      {
+        "meal_time": "snacks",
+        "ingredient_index": 2,
+        "original": "chia seeds",
+        "matched_name": "chia seeds"
+      },
+      {
+        "meal_time": "snacks",
+        "ingredient_index": 3,
+        "original": "hummus",
+        "matched_name": "hummus"
+      },
+      {
+        "meal_time": "snacks",
+        "ingredient_index": 4,
+        "original": "carrot",
+        "matched_name": "carrot"
+      }
+    ]
+  },
+  {
+    "label": "Step 7: Structured ingredient results",
+    "data": [
+      {
+        "meal_time": "breakfast",
+        "ingredient_index": 0,
+        "original": "greek yogurt",
+        "matched_name": "greek yogurt",
+        "record": {
+          "id": 1,
+          "name": "greek yogurt",
+          "qty": "100",
+          "protein": 10.0,
+          "fat": 0.4,
+          "carbs": 3.6,
+          "calories": 59.0,
+          "category": "protein",
+          "flavor_profile": "neutral",
+          "scalable": true,
+          "cooking_ingredient": false,
+          "max_per_meal": "200",
+          "unit_of_measure": "g"
+        }
+      },
+      {
+        "meal_time": "breakfast",
+        "ingredient_index": 2,
+        "original": "almonds",
+        "matched_name": "almonds",
+        "record": {
+          "id": 3,
+          "name": "almonds",
+          "qty": "100",
+          "protein": 21.0,
+          "fat": 49.0,
+          "carbs": 22.0,
+          "calories": 579.0,
+          "category": "fat",
+          "flavor_profile": "nutty",
+          "scalable": true,
+          "cooking_ingredient": false,
+          "max_per_meal": "30",
+          "unit_of_measure": "g"
+        }
+      },
+      {
+        "meal_time": "breakfast",
+        "ingredient_index": 3,
+        "original": "honey",
+        "matched_name": "honey",
+        "record": {
+          "id": 4,
+          "name": "honey",
+          "qty": "100",
+          "protein": 0.3,
+          "fat": 0.0,
+          "carbs": 82.0,
+          "calories": 304.0,
+          "category": "carb",
+          "flavor_profile": "sweet",
+          "scalable": false,
+          "cooking_ingredient": false,
+          "max_per_meal": "15",
+          "unit_of_measure": "g"
+        }
+      },
+      {
+        "meal_time": "breakfast",
+        "ingredient_index": 4,
+        "original": "vanilla extract",
+        "matched_name": "vanilla extract",
+        "record": {
+          "id": 5,
+          "name": "vanilla extract",
+          "qty": "100",
+          "protein": 0.0,
+          "fat": 0.0,
+          "carbs": 13.0,
+          "calories": 288.0,
+          "category": "carb",
+          "flavor_profile": "sweet",
+          "scalable": false,
+          "cooking_ingredient": true,
+          "max_per_meal": "5",
+          "unit_of_measure": "ml"
+        }
+      },
+      {
+        "meal_time": "lunch",
+        "ingredient_index": 1,
+        "original": "bell pepper",
+        "matched_name": "bell pepper",
+        "record": {
+          "id": 7,
+          "name": "bell pepper",
+          "qty": "100",
+          "protein": 1.0,
+          "fat": 0.3,
+          "carbs": 6.0,
+          "calories": 26.0,
+          "category": "carb",
+          "flavor_profile": "sweet",
+          "scalable": true,
+          "cooking_ingredient": false,
+          "max_per_meal": "100",
+          "unit_of_measure": "g"
+        }
+      },
+      {
+        "meal_time": "lunch",
+        "ingredient_index": 3,
+        "original": "soy sauce",
+        "matched_name": "soy sauce",
+        "record": {
+          "id": 9,
+          "name": "soy sauce",
+          "qty": "100",
+          "protein": 5.0,
+          "fat": 0.1,
+          "carbs": 4.9,
+          "calories": 53.0,
+          "category": "carb",
+          "flavor_profile": "salty",
+          "scalable": false,
+          "cooking_ingredient": true,
+          "max_per_meal": "20",
+          "unit_of_measure": "ml"
+        }
+      },
+      {
+        "meal_time": "lunch",
+        "ingredient_index": 4,
+        "original": "olive oil",
+        "matched_name": "olive oil",
+        "record": {
+          "id": 10,
+          "name": "olive oil",
+          "qty": "100",
+          "protein": 0.0,
+          "fat": 100.0,
+          "carbs": 0.0,
+          "calories": 884.0,
+          "category": "fat",
+          "flavor_profile": "neutral",
+          "scalable": false,
+          "cooking_ingredient": true,
+          "max_per_meal": "15",
+          "unit_of_measure": "ml"
+        }
+      },
+      {
+        "meal_time": "lunch",
+        "ingredient_index": 5,
+        "original": "garlic",
+        "matched_name": "garlic",
+        "record": {
+          "id": 11,
+          "name": "garlic",
+          "qty": "100",
+          "protein": 6.4,
+          "fat": 0.5,
+          "carbs": 33.0,
+          "calories": 149.0,
+          "category": "carb",
+          "flavor_profile": "pungent",
+          "scalable": false,
+          "cooking_ingredient": true,
+          "max_per_meal": "10",
+          "unit_of_measure": "g"
+        }
+      },
+      {
+        "meal_time": "lunch",
+        "ingredient_index": 6,
+        "original": "green onions",
+        "matched_name": "green onions",
+        "record": {
+          "id": 12,
+          "name": "green onions",
+          "qty": "100",
+          "protein": 1.8,
+          "fat": 0.2,
+          "carbs": 7.3,
+          "calories": 32.0,
+          "category": "carb",
+          "flavor_profile": "savory",
+          "scalable": true,
+          "cooking_ingredient": false,
+          "max_per_meal": "50",
+          "unit_of_measure": "g"
+        }
+      },
+      {
+        "meal_time": "dinner",
+        "ingredient_index": 0,
+        "original": "top sirloin steak",
+        "matched_name": "top sirloin steak",
+        "record": {
+          "id": 14,
+          "name": "top sirloin steak",
+          "qty": "100",
+          "protein": 26.0,
+          "fat": 9.0,
+          "carbs": 0.0,
+          "calories": 250.0,
+          "category": "protein",
+          "flavor_profile": "savory",
+          "scalable": true,
+          "cooking_ingredient": false,
+          "max_per_meal": "200",
+          "unit_of_measure": "g"
+        }
+      },
+      {
+        "meal_time": "dinner",
+        "ingredient_index": 1,
+        "original": "olive oil",
+        "matched_name": "olive oil",
+        "record": {
+          "id": 10,
+          "name": "olive oil",
+          "qty": "100",
+          "protein": 0.0,
+          "fat": 100.0,
+          "carbs": 0.0,
+          "calories": 884.0,
+          "category": "fat",
+          "flavor_profile": "neutral",
+          "scalable": false,
+          "cooking_ingredient": true,
+          "max_per_meal": "15",
+          "unit_of_measure": "ml"
+        }
+      },
+      {
+        "meal_time": "dinner",
+        "ingredient_index": 2,
+        "original": "garlic",
+        "matched_name": "garlic",
+        "record": {
+          "id": 11,
+          "name": "garlic",
+          "qty": "100",
+          "protein": 6.4,
+          "fat": 0.5,
+          "carbs": 33.0,
+          "calories": 149.0,
+          "category": "carb",
+          "flavor_profile": "pungent",
+          "scalable": false,
+          "cooking_ingredient": true,
+          "max_per_meal": "10",
+          "unit_of_measure": "g"
+        }
+      },
+      {
+        "meal_time": "dinner",
+        "ingredient_index": 3,
+        "original": "dried rosemary",
+        "matched_name": "dried rosemary",
+        "record": {
+          "id": 15,
+          "name": "dried rosemary",
+          "qty": "100",
+          "protein": 4.9,
+          "fat": 15.0,
+          "carbs": 64.0,
+          "calories": 331.0,
+          "category": "carb",
+          "flavor_profile": "bitter",
+          "scalable": false,
+          "cooking_ingredient": true,
+          "max_per_meal": "5",
+          "unit_of_measure": "g"
+        }
+      },
+      {
+        "meal_time": "dinner",
+        "ingredient_index": 4,
+        "original": "dried thyme",
+        "matched_name": "dried thyme",
+        "record": {
+          "id": 16,
+          "name": "dried thyme",
+          "qty": "100",
+          "protein": 9.1,
+          "fat": 7.4,
+          "carbs": 63.0,
+          "calories": 276.0,
+          "category": "carb",
+          "flavor_profile": "bitter",
+          "scalable": false,
+          "cooking_ingredient": true,
+          "max_per_meal": "5",
+          "unit_of_measure": "g"
+        }
+      },
+      {
+        "meal_time": "dinner",
+        "ingredient_index": 5,
+        "original": "salt",
+        "matched_name": "salt",
+        "record": {
+          "id": 17,
+          "name": "salt",
+          "qty": "100",
+          "protein": 0.0,
+          "fat": 0.0,
+          "carbs": 0.0,
+          "calories": 0.0,
+          "category": "carb",
+          "flavor_profile": "salty",
+          "scalable": false,
+          "cooking_ingredient": true,
+          "max_per_meal": "5",
+          "unit_of_measure": "g"
+        }
+      },
+      {
+        "meal_time": "dinner",
+        "ingredient_index": 6,
+        "original": "black pepper",
+        "matched_name": "black pepper",
+        "record": {
+          "id": 18,
+          "name": "black pepper",
+          "qty": "100",
+          "protein": 10.0,
+          "fat": 3.3,
+          "carbs": 64.0,
+          "calories": 251.0,
+          "category": "carb",
+          "flavor_profile": "pungent",
+          "scalable": false,
+          "cooking_ingredient": true,
+          "max_per_meal": "5",
+          "unit_of_measure": "g"
+        }
+      },
+      {
+        "meal_time": "dinner",
+        "ingredient_index": 7,
+        "original": "spinach",
+        "matched_name": "spinach",
+        "record": {
+          "id": 19,
+          "name": "spinach",
+          "qty": "100",
+          "protein": 2.9,
+          "fat": 0.4,
+          "carbs": 3.6,
+          "calories": 23.0,
+          "category": "carb",
+          "flavor_profile": "bitter",
+          "scalable": true,
+          "cooking_ingredient": false,
+          "max_per_meal": "100",
+          "unit_of_measure": "g"
+        }
+      },
+      {
+        "meal_time": "snacks",
+        "ingredient_index": 0,
+        "original": "cottage cheese",
+        "matched_name": "cottage cheese",
+        "record": {
+          "id": 20,
+          "name": "cottage cheese",
+          "qty": "100",
+          "protein": 11.0,
+          "fat": 4.3,
+          "carbs": 3.4,
+          "calories": 98.0,
+          "category": "protein",
+          "flavor_profile": "savory",
+          "scalable": true,
+          "cooking_ingredient": false,
+          "max_per_meal": "200",
+          "unit_of_measure": "g"
+        }
+      },
+      {
+        "meal_time": "snacks",
+        "ingredient_index": 1,
+        "original": "peach",
+        "matched_name": "peach",
+        "record": {
+          "id": 21,
+          "name": "peach",
+          "qty": "100",
+          "protein": 0.9,
+          "fat": 0.3,
+          "carbs": 10.0,
+          "calories": 39.0,
+          "category": "carb",
+          "flavor_profile": "sweet",
+          "scalable": true,
+          "cooking_ingredient": false,
+          "max_per_meal": "150",
+          "unit_of_measure": "g"
+        }
+      },
+      {
+        "meal_time": "snacks",
+        "ingredient_index": 2,
+        "original": "chia seeds",
+        "matched_name": "chia seeds",
+        "record": {
+          "id": 22,
+          "name": "chia seeds",
+          "qty": "100",
+          "protein": 17.0,
+          "fat": 31.0,
+          "carbs": 42.0,
+          "calories": 486.0,
+          "category": "fat",
+          "flavor_profile": "neutral",
+          "scalable": true,
+          "cooking_ingredient": false,
+          "max_per_meal": "15",
+          "unit_of_measure": "g"
+        }
+      },
+      {
+        "meal_time": "snacks",
+        "ingredient_index": 3,
+        "original": "hummus",
+        "matched_name": "hummus",
+        "record": {
+          "id": 23,
+          "name": "hummus",
+          "qty": "100",
+          "protein": 8.0,
+          "fat": 17.0,
+          "carbs": 14.0,
+          "calories": 237.0,
+          "category": "fat",
+          "flavor_profile": "savory",
+          "scalable": true,
+          "cooking_ingredient": false,
+          "max_per_meal": "50",
+          "unit_of_measure": "g"
+        }
+      },
+      {
+        "meal_time": "snacks",
+        "ingredient_index": 4,
+        "original": "carrot",
+        "matched_name": "carrot",
+        "record": {
+          "id": 13,
+          "name": "carrot",
+          "qty": "100",
+          "protein": 0.9,
+          "fat": 0.2,
+          "carbs": 10.0,
+          "calories": 41.0,
+          "category": "carb",
+          "flavor_profile": "sweet",
+          "scalable": true,
+          "cooking_ingredient": false,
+          "max_per_meal": "100",
+          "unit_of_measure": "g"
+        }
+      }
+    ]
+  },
+  {
+    "label": "Step 8: Meal plan with DB records attached",
+    "data": {
+      "meals": [
+        {
+          "name": "Berry Nut Yogurt Parfait",
+          "time": "breakfast",
+          "description": "A simple, protein-rich breakfast parfait filled with nutritious berries and crunchy nuts, perfect for supporting your weight loss journey.",
+          "ingredients": [
+            {
+              "name": "Greek yogurt, plain",
+              "quantity": "200.0g",
+              "unit": "g",
+              "db_record": {
+                "id": 1,
+                "name": "greek yogurt",
+                "qty": "100",
+                "protein": 10.0,
+                "fat": 0.4,
+                "carbs": 3.6,
+                "calories": 59.0,
+                "category": "protein",
+                "flavor_profile": "neutral",
+                "scalable": true,
+                "cooking_ingredient": false,
+                "max_per_meal": "200",
+                "unit_of_measure": "g"
+              }
+            },
+            {
+              "name": "Honey",
+              "quantity": 1,
+              "unit": "teaspoon",
+              "db_record": {
+                "id": 4,
+                "name": "honey",
+                "qty": "100",
+                "protein": 0.3,
+                "fat": 0.0,
+                "carbs": 82.0,
+                "calories": 304.0,
+                "category": "carb",
+                "flavor_profile": "sweet",
+                "scalable": false,
+                "cooking_ingredient": false,
+                "max_per_meal": "15",
+                "unit_of_measure": "g"
+              }
+            },
+            {
+              "name": "Almonds, chopped",
+              "quantity": "30.0g",
+              "unit": "g",
+              "db_record": {
+                "id": 3,
+                "name": "almonds",
+                "qty": "100",
+                "protein": 21.0,
+                "fat": 49.0,
+                "carbs": 22.0,
+                "calories": 579.0,
+                "category": "fat",
+                "flavor_profile": "nutty",
+                "scalable": true,
+                "cooking_ingredient": false,
+                "max_per_meal": "30",
+                "unit_of_measure": "g"
+              }
+            },
+            {
+              "name": "Vanilla extract",
+              "quantity": 0.5,
+              "unit": "teaspoon",
+              "db_record": {
+                "id": 5,
+                "name": "vanilla extract",
+                "qty": "100",
+                "protein": 0.0,
+                "fat": 0.0,
+                "carbs": 13.0,
+                "calories": 288.0,
+                "category": "carb",
+                "flavor_profile": "sweet",
+                "scalable": false,
+                "cooking_ingredient": true,
+                "max_per_meal": "5",
+                "unit_of_measure": "ml"
+              }
+            }
+          ],
+          "instructions": [
+            "1. In a bowl, mix the Greek yogurt and vanilla extract until smooth.",
+            "2. Layer half of the yogurt into a glass or bowl.",
+            "3. Add a layer of mixed berries over the yogurt.",
+            "4. Add a tablespoon of chopped almonds over the berries.",
+            "5. Repeat with the remaining yogurt, berries, and almonds.",
+            "6. Drizzle honey over the top before serving."
+          ],
+          "calories": 291.7,
+          "protein": 26.3,
+          "fat": 15.5,
+          "carbs": 13.8
+        },
+        {
+          "name": "Beef and Veggie Stir Fry",
+          "time": "lunch",
+          "description": "This delicious beef and veggie stir fry is a high-protein, balanced meal perfect for weight loss, full of nutrients and flavor.",
+          "ingredients": [
+            {
+              "name": "Bell pepper, sliced",
+              "quantity": "100.0g",
+              "unit": "g",
+              "db_record": {
+                "id": 7,
+                "name": "bell pepper",
+                "qty": "100",
+                "protein": 1.0,
+                "fat": 0.3,
+                "carbs": 6.0,
+                "calories": 26.0,
+                "category": "carb",
+                "flavor_profile": "sweet",
+                "scalable": true,
+                "cooking_ingredient": false,
+                "max_per_meal": "100",
+                "unit_of_measure": "g"
+              }
+            },
+            {
+              "name": "Green onions, chopped",
+              "quantity": "50.0g",
+              "unit": "g",
+              "db_record": {
+                "id": 12,
+                "name": "green onions",
+                "qty": "100",
+                "protein": 1.8,
+                "fat": 0.2,
+                "carbs": 7.3,
+                "calories": 32.0,
+                "category": "carb",
+                "flavor_profile": "savory",
+                "scalable": true,
+                "cooking_ingredient": false,
+                "max_per_meal": "50",
+                "unit_of_measure": "g"
+              }
+            },
+            {
+              "name": "Soy sauce, reduced sodium",
+              "quantity": 2,
+              "unit": "tablespoons",
+              "db_record": {
+                "id": 9,
+                "name": "soy sauce",
+                "qty": "100",
+                "protein": 5.0,
+                "fat": 0.1,
+                "carbs": 4.9,
+                "calories": 53.0,
+                "category": "carb",
+                "flavor_profile": "salty",
+                "scalable": false,
+                "cooking_ingredient": true,
+                "max_per_meal": "20",
+                "unit_of_measure": "ml"
+              }
+            },
+            {
+              "name": "Olive oil",
+              "quantity": 1,
+              "unit": "tablespoon",
+              "db_record": {
+                "id": 10,
+                "name": "olive oil",
+                "qty": "100",
+                "protein": 0.0,
+                "fat": 100.0,
+                "carbs": 0.0,
+                "calories": 884.0,
+                "category": "fat",
+                "flavor_profile": "neutral",
+                "scalable": false,
+                "cooking_ingredient": true,
+                "max_per_meal": "15",
+                "unit_of_measure": "ml"
+              }
+            },
+            {
+              "name": "Garlic, minced",
+              "quantity": 2,
+              "unit": "cloves",
+              "db_record": {
+                "id": 11,
+                "name": "garlic",
+                "qty": "100",
+                "protein": 6.4,
+                "fat": 0.5,
+                "carbs": 33.0,
+                "calories": 149.0,
+                "category": "carb",
+                "flavor_profile": "pungent",
+                "scalable": false,
+                "cooking_ingredient": true,
+                "max_per_meal": "10",
+                "unit_of_measure": "g"
+              }
+            }
+          ],
+          "instructions": [
+            "1. Heat olive oil in a large skillet over medium-high heat.",
+            "2. Add garlic and sautÃ© for about 30 seconds until fragrant.",
+            "3. Add beef slices and cook until browned, about 2-3 minutes.",
+            "4. Remove beef from the skillet and set aside.",
+            "5. In the same skillet, add broccoli, bell pepper, and carrot. Stir-fry for about 5 minutes until the veggies are crispy-tender.",
+            "6. Return beef to the skillet and pour in the soy sauce.",
+            "7. Stir well to combine all ingredients and heat through.",
+            "8. Sprinkle with chopped green onions before serving."
+          ],
+          "calories": 42.0,
+          "protein": 1.9,
+          "fat": 0.4,
+          "carbs": 9.7
+        },
+        {
+          "name": "Garlic Herb Grilled Steak with Spinach",
+          "time": "dinner",
+          "description": "A flavorful and protein-rich dinner that's great for weight loss, featuring deliciously seasoned grilled steak and fresh spinach.",
+          "ingredients": [
+            {
+              "name": "Top sirloin steak",
+              "quantity": "200.0g",
+              "unit": "g",
+              "db_record": {
+                "id": 14,
+                "name": "top sirloin steak",
+                "qty": "100",
+                "protein": 26.0,
+                "fat": 9.0,
+                "carbs": 0.0,
+                "calories": 250.0,
+                "category": "protein",
+                "flavor_profile": "savory",
+                "scalable": true,
+                "cooking_ingredient": false,
+                "max_per_meal": "200",
+                "unit_of_measure": "g"
+              }
+            },
+            {
+              "name": "Spinach",
+              "quantity": "100.0g",
+              "unit": "g",
+              "db_record": {
+                "id": 19,
+                "name": "spinach",
+                "qty": "100",
+                "protein": 2.9,
+                "fat": 0.4,
+                "carbs": 3.6,
+                "calories": 23.0,
+                "category": "carb",
+                "flavor_profile": "bitter",
+                "scalable": true,
+                "cooking_ingredient": false,
+                "max_per_meal": "100",
+                "unit_of_measure": "g"
+              }
+            },
+            {
+              "name": "Olive oil",
+              "quantity": 1,
+              "unit": "tablespoon",
+              "db_record": {
+                "id": 10,
+                "name": "olive oil",
+                "qty": "100",
+                "protein": 0.0,
+                "fat": 100.0,
+                "carbs": 0.0,
+                "calories": 884.0,
+                "category": "fat",
+                "flavor_profile": "neutral",
+                "scalable": false,
+                "cooking_ingredient": true,
+                "max_per_meal": "15",
+                "unit_of_measure": "ml"
+              }
+            },
+            {
+              "name": "Garlic, minced",
+              "quantity": 2,
+              "unit": "cloves",
+              "db_record": {
+                "id": 11,
+                "name": "garlic",
+                "qty": "100",
+                "protein": 6.4,
+                "fat": 0.5,
+                "carbs": 33.0,
+                "calories": 149.0,
+                "category": "carb",
+                "flavor_profile": "pungent",
+                "scalable": false,
+                "cooking_ingredient": true,
+                "max_per_meal": "10",
+                "unit_of_measure": "g"
+              }
+            },
+            {
+              "name": "Dried rosemary",
+              "quantity": 0.5,
+              "unit": "teaspoon",
+              "db_record": {
+                "id": 15,
+                "name": "dried rosemary",
+                "qty": "100",
+                "protein": 4.9,
+                "fat": 15.0,
+                "carbs": 64.0,
+                "calories": 331.0,
+                "category": "carb",
+                "flavor_profile": "bitter",
+                "scalable": false,
+                "cooking_ingredient": true,
+                "max_per_meal": "5",
+                "unit_of_measure": "g"
+              }
+            },
+            {
+              "name": "Dried thyme",
+              "quantity": 0.5,
+              "unit": "teaspoon",
+              "db_record": {
+                "id": 16,
+                "name": "dried thyme",
+                "qty": "100",
+                "protein": 9.1,
+                "fat": 7.4,
+                "carbs": 63.0,
+                "calories": 276.0,
+                "category": "carb",
+                "flavor_profile": "bitter",
+                "scalable": false,
+                "cooking_ingredient": true,
+                "max_per_meal": "5",
+                "unit_of_measure": "g"
+              }
+            },
+            {
+              "name": "Salt",
+              "quantity": 0.25,
+              "unit": "teaspoon",
+              "db_record": {
+                "id": 17,
+                "name": "salt",
+                "qty": "100",
+                "protein": 0.0,
+                "fat": 0.0,
+                "carbs": 0.0,
+                "calories": 0.0,
+                "category": "carb",
+                "flavor_profile": "salty",
+                "scalable": false,
+                "cooking_ingredient": true,
+                "max_per_meal": "5",
+                "unit_of_measure": "g"
+              }
+            },
+            {
+              "name": "Black pepper",
+              "quantity": 0.25,
+              "unit": "teaspoon",
+              "db_record": {
+                "id": 18,
+                "name": "black pepper",
+                "qty": "100",
+                "protein": 10.0,
+                "fat": 3.3,
+                "carbs": 64.0,
+                "calories": 251.0,
+                "category": "carb",
+                "flavor_profile": "pungent",
+                "scalable": false,
+                "cooking_ingredient": true,
+                "max_per_meal": "5",
+                "unit_of_measure": "g"
+              }
+            }
+          ],
+          "instructions": [
+            "1. Preheat the grill to medium-high heat.",
+            "2. In a small bowl, mix olive oil, minced garlic, rosemary, thyme, salt, and pepper.",
+            "3. Rub the mixture all over the steak.",
+            "4. Grill the steak for 4-5 minutes on each side or until desired doneness.",
+            "5. Remove steak from grill and let it rest for a couple of minutes.",
+            "6. Meanwhile, lightly sautÃ© the spinach in a pan until just wilted.",
+            "7. Serve the grilled steak with the sautÃ©ed spinach on the side."
+          ],
+          "calories": 523.0,
+          "protein": 54.9,
+          "fat": 18.4,
+          "carbs": 3.6
+        }
+      ],
+      "snacks": [
+        {
+          "name": "Cottage Cheese with Sliced Peaches",
+          "description": "A creamy and protein-packed snack with the natural sweetness of peaches, offering a satisfying and nutritious option to support weight loss.",
+          "ingredients": [],
+          "instructions": [
+            "1. Place cottage cheese in a bowl.",
+            "2. Top with sliced peach.",
+            "3. Sprinkle chia seeds on top and serve."
+          ],
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Hummus and Veggie Sticks",
+          "description": "A quick, fiber-rich snack featuring creamy hummus paired with crisp, fresh veggie sticks, perfect for healthy weight management.",
+          "ingredients": [],
+          "instructions": [
+            "1. Arrange carrot and celery sticks on a plate.",
+            "2. Add hummus alongside the veggies.",
+            "3. Dip veggie sticks in hummus and enjoy."
+          ],
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        }
+      ],
+      "totals": {
+        "calories": null,
+        "protein": null,
+        "fat": null,
+        "carbs": null
+      },
+      "grocery_list": [],
+      "total_price": null,
+      "breakfast": {
+        "name": "Berry Nut Yogurt Parfait",
+        "time": "breakfast",
+        "description": "A simple, protein-rich breakfast parfait filled with nutritious berries and crunchy nuts, perfect for supporting your weight loss journey.",
+        "ingredients": [
+          {
+            "name": "Greek yogurt, plain",
+            "quantity": "200.0g",
+            "unit": "g",
+            "db_record": {
+              "id": 1,
+              "name": "greek yogurt",
+              "qty": "100",
+              "protein": 10.0,
+              "fat": 0.4,
+              "carbs": 3.6,
+              "calories": 59.0,
+              "category": "protein",
+              "flavor_profile": "neutral",
+              "scalable": true,
+              "cooking_ingredient": false,
+              "max_per_meal": "200",
+              "unit_of_measure": "g"
+            }
+          },
+          {
+            "name": "Honey",
+            "quantity": 1,
+            "unit": "teaspoon",
+            "db_record": {
+              "id": 4,
+              "name": "honey",
+              "qty": "100",
+              "protein": 0.3,
+              "fat": 0.0,
+              "carbs": 82.0,
+              "calories": 304.0,
+              "category": "carb",
+              "flavor_profile": "sweet",
+              "scalable": false,
+              "cooking_ingredient": false,
+              "max_per_meal": "15",
+              "unit_of_measure": "g"
+            }
+          },
+          {
+            "name": "Almonds, chopped",
+            "quantity": "30.0g",
+            "unit": "g",
+            "db_record": {
+              "id": 3,
+              "name": "almonds",
+              "qty": "100",
+              "protein": 21.0,
+              "fat": 49.0,
+              "carbs": 22.0,
+              "calories": 579.0,
+              "category": "fat",
+              "flavor_profile": "nutty",
+              "scalable": true,
+              "cooking_ingredient": false,
+              "max_per_meal": "30",
+              "unit_of_measure": "g"
+            }
+          },
+          {
+            "name": "Vanilla extract",
+            "quantity": 0.5,
+            "unit": "teaspoon",
+            "db_record": {
+              "id": 5,
+              "name": "vanilla extract",
+              "qty": "100",
+              "protein": 0.0,
+              "fat": 0.0,
+              "carbs": 13.0,
+              "calories": 288.0,
+              "category": "carb",
+              "flavor_profile": "sweet",
+              "scalable": false,
+              "cooking_ingredient": true,
+              "max_per_meal": "5",
+              "unit_of_measure": "ml"
+            }
+          }
+        ],
+        "instructions": [
+          "1. In a bowl, mix the Greek yogurt and vanilla extract until smooth.",
+          "2. Layer half of the yogurt into a glass or bowl.",
+          "3. Add a layer of mixed berries over the yogurt.",
+          "4. Add a tablespoon of chopped almonds over the berries.",
+          "5. Repeat with the remaining yogurt, berries, and almonds.",
+          "6. Drizzle honey over the top before serving."
+        ],
+        "calories": 291.7,
+        "protein": 26.3,
+        "fat": 15.5,
+        "carbs": 13.8
+      },
+      "lunch": {
+        "name": "Beef and Veggie Stir Fry",
+        "time": "lunch",
+        "description": "This delicious beef and veggie stir fry is a high-protein, balanced meal perfect for weight loss, full of nutrients and flavor.",
+        "ingredients": [
+          {
+            "name": "Bell pepper, sliced",
+            "quantity": "100.0g",
+            "unit": "g",
+            "db_record": {
+              "id": 7,
+              "name": "bell pepper",
+              "qty": "100",
+              "protein": 1.0,
+              "fat": 0.3,
+              "carbs": 6.0,
+              "calories": 26.0,
+              "category": "carb",
+              "flavor_profile": "sweet",
+              "scalable": true,
+              "cooking_ingredient": false,
+              "max_per_meal": "100",
+              "unit_of_measure": "g"
+            }
+          },
+          {
+            "name": "Green onions, chopped",
+            "quantity": "50.0g",
+            "unit": "g",
+            "db_record": {
+              "id": 12,
+              "name": "green onions",
+              "qty": "100",
+              "protein": 1.8,
+              "fat": 0.2,
+              "carbs": 7.3,
+              "calories": 32.0,
+              "category": "carb",
+              "flavor_profile": "savory",
+              "scalable": true,
+              "cooking_ingredient": false,
+              "max_per_meal": "50",
+              "unit_of_measure": "g"
+            }
+          },
+          {
+            "name": "Soy sauce, reduced sodium",
+            "quantity": 2,
+            "unit": "tablespoons",
+            "db_record": {
+              "id": 9,
+              "name": "soy sauce",
+              "qty": "100",
+              "protein": 5.0,
+              "fat": 0.1,
+              "carbs": 4.9,
+              "calories": 53.0,
+              "category": "carb",
+              "flavor_profile": "salty",
+              "scalable": false,
+              "cooking_ingredient": true,
+              "max_per_meal": "20",
+              "unit_of_measure": "ml"
+            }
+          },
+          {
+            "name": "Olive oil",
+            "quantity": 1,
+            "unit": "tablespoon",
+            "db_record": {
+              "id": 10,
+              "name": "olive oil",
+              "qty": "100",
+              "protein": 0.0,
+              "fat": 100.0,
+              "carbs": 0.0,
+              "calories": 884.0,
+              "category": "fat",
+              "flavor_profile": "neutral",
+              "scalable": false,
+              "cooking_ingredient": true,
+              "max_per_meal": "15",
+              "unit_of_measure": "ml"
+            }
+          },
+          {
+            "name": "Garlic, minced",
+            "quantity": 2,
+            "unit": "cloves",
+            "db_record": {
+              "id": 11,
+              "name": "garlic",
+              "qty": "100",
+              "protein": 6.4,
+              "fat": 0.5,
+              "carbs": 33.0,
+              "calories": 149.0,
+              "category": "carb",
+              "flavor_profile": "pungent",
+              "scalable": false,
+              "cooking_ingredient": true,
+              "max_per_meal": "10",
+              "unit_of_measure": "g"
+            }
+          }
+        ],
+        "instructions": [
+          "1. Heat olive oil in a large skillet over medium-high heat.",
+          "2. Add garlic and sautÃ© for about 30 seconds until fragrant.",
+          "3. Add beef slices and cook until browned, about 2-3 minutes.",
+          "4. Remove beef from the skillet and set aside.",
+          "5. In the same skillet, add broccoli, bell pepper, and carrot. Stir-fry for about 5 minutes until the veggies are crispy-tender.",
+          "6. Return beef to the skillet and pour in the soy sauce.",
+          "7. Stir well to combine all ingredients and heat through.",
+          "8. Sprinkle with chopped green onions before serving."
+        ],
+        "calories": 42.0,
+        "protein": 1.9,
+        "fat": 0.4,
+        "carbs": 9.7
+      },
+      "dinner": {
+        "name": "Garlic Herb Grilled Steak with Spinach",
+        "time": "dinner",
+        "description": "A flavorful and protein-rich dinner that's great for weight loss, featuring deliciously seasoned grilled steak and fresh spinach.",
+        "ingredients": [
+          {
+            "name": "Top sirloin steak",
+            "quantity": "200.0g",
+            "unit": "g",
+            "db_record": {
+              "id": 14,
+              "name": "top sirloin steak",
+              "qty": "100",
+              "protein": 26.0,
+              "fat": 9.0,
+              "carbs": 0.0,
+              "calories": 250.0,
+              "category": "protein",
+              "flavor_profile": "savory",
+              "scalable": true,
+              "cooking_ingredient": false,
+              "max_per_meal": "200",
+              "unit_of_measure": "g"
+            }
+          },
+          {
+            "name": "Spinach",
+            "quantity": "100.0g",
+            "unit": "g",
+            "db_record": {
+              "id": 19,
+              "name": "spinach",
+              "qty": "100",
+              "protein": 2.9,
+              "fat": 0.4,
+              "carbs": 3.6,
+              "calories": 23.0,
+              "category": "carb",
+              "flavor_profile": "bitter",
+              "scalable": true,
+              "cooking_ingredient": false,
+              "max_per_meal": "100",
+              "unit_of_measure": "g"
+            }
+          },
+          {
+            "name": "Olive oil",
+            "quantity": 1,
+            "unit": "tablespoon",
+            "db_record": {
+              "id": 10,
+              "name": "olive oil",
+              "qty": "100",
+              "protein": 0.0,
+              "fat": 100.0,
+              "carbs": 0.0,
+              "calories": 884.0,
+              "category": "fat",
+              "flavor_profile": "neutral",
+              "scalable": false,
+              "cooking_ingredient": true,
+              "max_per_meal": "15",
+              "unit_of_measure": "ml"
+            }
+          },
+          {
+            "name": "Garlic, minced",
+            "quantity": 2,
+            "unit": "cloves",
+            "db_record": {
+              "id": 11,
+              "name": "garlic",
+              "qty": "100",
+              "protein": 6.4,
+              "fat": 0.5,
+              "carbs": 33.0,
+              "calories": 149.0,
+              "category": "carb",
+              "flavor_profile": "pungent",
+              "scalable": false,
+              "cooking_ingredient": true,
+              "max_per_meal": "10",
+              "unit_of_measure": "g"
+            }
+          },
+          {
+            "name": "Dried rosemary",
+            "quantity": 0.5,
+            "unit": "teaspoon",
+            "db_record": {
+              "id": 15,
+              "name": "dried rosemary",
+              "qty": "100",
+              "protein": 4.9,
+              "fat": 15.0,
+              "carbs": 64.0,
+              "calories": 331.0,
+              "category": "carb",
+              "flavor_profile": "bitter",
+              "scalable": false,
+              "cooking_ingredient": true,
+              "max_per_meal": "5",
+              "unit_of_measure": "g"
+            }
+          },
+          {
+            "name": "Dried thyme",
+            "quantity": 0.5,
+            "unit": "teaspoon",
+            "db_record": {
+              "id": 16,
+              "name": "dried thyme",
+              "qty": "100",
+              "protein": 9.1,
+              "fat": 7.4,
+              "carbs": 63.0,
+              "calories": 276.0,
+              "category": "carb",
+              "flavor_profile": "bitter",
+              "scalable": false,
+              "cooking_ingredient": true,
+              "max_per_meal": "5",
+              "unit_of_measure": "g"
+            }
+          },
+          {
+            "name": "Salt",
+            "quantity": 0.25,
+            "unit": "teaspoon",
+            "db_record": {
+              "id": 17,
+              "name": "salt",
+              "qty": "100",
+              "protein": 0.0,
+              "fat": 0.0,
+              "carbs": 0.0,
+              "calories": 0.0,
+              "category": "carb",
+              "flavor_profile": "salty",
+              "scalable": false,
+              "cooking_ingredient": true,
+              "max_per_meal": "5",
+              "unit_of_measure": "g"
+            }
+          },
+          {
+            "name": "Black pepper",
+            "quantity": 0.25,
+            "unit": "teaspoon",
+            "db_record": {
+              "id": 18,
+              "name": "black pepper",
+              "qty": "100",
+              "protein": 10.0,
+              "fat": 3.3,
+              "carbs": 64.0,
+              "calories": 251.0,
+              "category": "carb",
+              "flavor_profile": "pungent",
+              "scalable": false,
+              "cooking_ingredient": true,
+              "max_per_meal": "5",
+              "unit_of_measure": "g"
+            }
+          }
+        ],
+        "instructions": [
+          "1. Preheat the grill to medium-high heat.",
+          "2. In a small bowl, mix olive oil, minced garlic, rosemary, thyme, salt, and pepper.",
+          "3. Rub the mixture all over the steak.",
+          "4. Grill the steak for 4-5 minutes on each side or until desired doneness.",
+          "5. Remove steak from grill and let it rest for a couple of minutes.",
+          "6. Meanwhile, lightly sautÃ© the spinach in a pan until just wilted.",
+          "7. Serve the grilled steak with the sautÃ©ed spinach on the side."
+        ],
+        "calories": 523.0,
+        "protein": 54.9,
+        "fat": 18.4,
+        "carbs": 3.6
+      }
+    }
+  },
+  {
+    "label": "Step 9: Final scaled meal plan",
+    "data": {
+      "meals": [
+        {
+          "name": "Berry Nut Yogurt Parfait",
+          "time": "breakfast",
+          "description": "A simple, protein-rich breakfast parfait filled with nutritious berries and crunchy nuts, perfect for supporting your weight loss journey.",
+          "ingredients": [
+            {
+              "name": "Greek yogurt, plain",
+              "quantity": "200.0g",
+              "unit": "g",
+              "db_record": {
+                "id": 1,
+                "name": "greek yogurt",
+                "qty": "100",
+                "protein": 10.0,
+                "fat": 0.4,
+                "carbs": 3.6,
+                "calories": 59.0,
+                "category": "protein",
+                "flavor_profile": "neutral",
+                "scalable": true,
+                "cooking_ingredient": false,
+                "max_per_meal": "200",
+                "unit_of_measure": "g"
+              }
+            },
+            {
+              "name": "Honey",
+              "quantity": 1,
+              "unit": "teaspoon",
+              "db_record": {
+                "id": 4,
+                "name": "honey",
+                "qty": "100",
+                "protein": 0.3,
+                "fat": 0.0,
+                "carbs": 82.0,
+                "calories": 304.0,
+                "category": "carb",
+                "flavor_profile": "sweet",
+                "scalable": false,
+                "cooking_ingredient": false,
+                "max_per_meal": "15",
+                "unit_of_measure": "g"
+              }
+            },
+            {
+              "name": "Almonds, chopped",
+              "quantity": "30.0g",
+              "unit": "g",
+              "db_record": {
+                "id": 3,
+                "name": "almonds",
+                "qty": "100",
+                "protein": 21.0,
+                "fat": 49.0,
+                "carbs": 22.0,
+                "calories": 579.0,
+                "category": "fat",
+                "flavor_profile": "nutty",
+                "scalable": true,
+                "cooking_ingredient": false,
+                "max_per_meal": "30",
+                "unit_of_measure": "g"
+              }
+            },
+            {
+              "name": "Vanilla extract",
+              "quantity": 0.5,
+              "unit": "teaspoon",
+              "db_record": {
+                "id": 5,
+                "name": "vanilla extract",
+                "qty": "100",
+                "protein": 0.0,
+                "fat": 0.0,
+                "carbs": 13.0,
+                "calories": 288.0,
+                "category": "carb",
+                "flavor_profile": "sweet",
+                "scalable": false,
+                "cooking_ingredient": true,
+                "max_per_meal": "5",
+                "unit_of_measure": "ml"
+              }
+            }
+          ],
+          "instructions": [
+            "1. In a bowl, mix the Greek yogurt and vanilla extract until smooth.",
+            "2. Layer half of the yogurt into a glass or bowl.",
+            "3. Add a layer of mixed berries over the yogurt.",
+            "4. Add a tablespoon of chopped almonds over the berries.",
+            "5. Repeat with the remaining yogurt, berries, and almonds.",
+            "6. Drizzle honey over the top before serving."
+          ],
+          "calories": 291.7,
+          "protein": 26.3,
+          "fat": 15.5,
+          "carbs": 13.8
+        },
+        {
+          "name": "Beef and Veggie Stir Fry",
+          "time": "lunch",
+          "description": "This delicious beef and veggie stir fry is a high-protein, balanced meal perfect for weight loss, full of nutrients and flavor.",
+          "ingredients": [
+            {
+              "name": "Bell pepper, sliced",
+              "quantity": "100.0g",
+              "unit": "g",
+              "db_record": {
+                "id": 7,
+                "name": "bell pepper",
+                "qty": "100",
+                "protein": 1.0,
+                "fat": 0.3,
+                "carbs": 6.0,
+                "calories": 26.0,
+                "category": "carb",
+                "flavor_profile": "sweet",
+                "scalable": true,
+                "cooking_ingredient": false,
+                "max_per_meal": "100",
+                "unit_of_measure": "g"
+              }
+            },
+            {
+              "name": "Green onions, chopped",
+              "quantity": "50.0g",
+              "unit": "g",
+              "db_record": {
+                "id": 12,
+                "name": "green onions",
+                "qty": "100",
+                "protein": 1.8,
+                "fat": 0.2,
+                "carbs": 7.3,
+                "calories": 32.0,
+                "category": "carb",
+                "flavor_profile": "savory",
+                "scalable": true,
+                "cooking_ingredient": false,
+                "max_per_meal": "50",
+                "unit_of_measure": "g"
+              }
+            },
+            {
+              "name": "Soy sauce, reduced sodium",
+              "quantity": 2,
+              "unit": "tablespoons",
+              "db_record": {
+                "id": 9,
+                "name": "soy sauce",
+                "qty": "100",
+                "protein": 5.0,
+                "fat": 0.1,
+                "carbs": 4.9,
+                "calories": 53.0,
+                "category": "carb",
+                "flavor_profile": "salty",
+                "scalable": false,
+                "cooking_ingredient": true,
+                "max_per_meal": "20",
+                "unit_of_measure": "ml"
+              }
+            },
+            {
+              "name": "Olive oil",
+              "quantity": 1,
+              "unit": "tablespoon",
+              "db_record": {
+                "id": 10,
+                "name": "olive oil",
+                "qty": "100",
+                "protein": 0.0,
+                "fat": 100.0,
+                "carbs": 0.0,
+                "calories": 884.0,
+                "category": "fat",
+                "flavor_profile": "neutral",
+                "scalable": false,
+                "cooking_ingredient": true,
+                "max_per_meal": "15",
+                "unit_of_measure": "ml"
+              }
+            },
+            {
+              "name": "Garlic, minced",
+              "quantity": 2,
+              "unit": "cloves",
+              "db_record": {
+                "id": 11,
+                "name": "garlic",
+                "qty": "100",
+                "protein": 6.4,
+                "fat": 0.5,
+                "carbs": 33.0,
+                "calories": 149.0,
+                "category": "carb",
+                "flavor_profile": "pungent",
+                "scalable": false,
+                "cooking_ingredient": true,
+                "max_per_meal": "10",
+                "unit_of_measure": "g"
+              }
+            }
+          ],
+          "instructions": [
+            "1. Heat olive oil in a large skillet over medium-high heat.",
+            "2. Add garlic and sautÃ© for about 30 seconds until fragrant.",
+            "3. Add beef slices and cook until browned, about 2-3 minutes.",
+            "4. Remove beef from the skillet and set aside.",
+            "5. In the same skillet, add broccoli, bell pepper, and carrot. Stir-fry for about 5 minutes until the veggies are crispy-tender.",
+            "6. Return beef to the skillet and pour in the soy sauce.",
+            "7. Stir well to combine all ingredients and heat through.",
+            "8. Sprinkle with chopped green onions before serving."
+          ],
+          "calories": 42.0,
+          "protein": 1.9,
+          "fat": 0.4,
+          "carbs": 9.7
+        },
+        {
+          "name": "Garlic Herb Grilled Steak with Spinach",
+          "time": "dinner",
+          "description": "A flavorful and protein-rich dinner that's great for weight loss, featuring deliciously seasoned grilled steak and fresh spinach.",
+          "ingredients": [
+            {
+              "name": "Top sirloin steak",
+              "quantity": "200.0g",
+              "unit": "g",
+              "db_record": {
+                "id": 14,
+                "name": "top sirloin steak",
+                "qty": "100",
+                "protein": 26.0,
+                "fat": 9.0,
+                "carbs": 0.0,
+                "calories": 250.0,
+                "category": "protein",
+                "flavor_profile": "savory",
+                "scalable": true,
+                "cooking_ingredient": false,
+                "max_per_meal": "200",
+                "unit_of_measure": "g"
+              }
+            },
+            {
+              "name": "Spinach",
+              "quantity": "100.0g",
+              "unit": "g",
+              "db_record": {
+                "id": 19,
+                "name": "spinach",
+                "qty": "100",
+                "protein": 2.9,
+                "fat": 0.4,
+                "carbs": 3.6,
+                "calories": 23.0,
+                "category": "carb",
+                "flavor_profile": "bitter",
+                "scalable": true,
+                "cooking_ingredient": false,
+                "max_per_meal": "100",
+                "unit_of_measure": "g"
+              }
+            },
+            {
+              "name": "Olive oil",
+              "quantity": 1,
+              "unit": "tablespoon",
+              "db_record": {
+                "id": 10,
+                "name": "olive oil",
+                "qty": "100",
+                "protein": 0.0,
+                "fat": 100.0,
+                "carbs": 0.0,
+                "calories": 884.0,
+                "category": "fat",
+                "flavor_profile": "neutral",
+                "scalable": false,
+                "cooking_ingredient": true,
+                "max_per_meal": "15",
+                "unit_of_measure": "ml"
+              }
+            },
+            {
+              "name": "Garlic, minced",
+              "quantity": 2,
+              "unit": "cloves",
+              "db_record": {
+                "id": 11,
+                "name": "garlic",
+                "qty": "100",
+                "protein": 6.4,
+                "fat": 0.5,
+                "carbs": 33.0,
+                "calories": 149.0,
+                "category": "carb",
+                "flavor_profile": "pungent",
+                "scalable": false,
+                "cooking_ingredient": true,
+                "max_per_meal": "10",
+                "unit_of_measure": "g"
+              }
+            },
+            {
+              "name": "Dried rosemary",
+              "quantity": 0.5,
+              "unit": "teaspoon",
+              "db_record": {
+                "id": 15,
+                "name": "dried rosemary",
+                "qty": "100",
+                "protein": 4.9,
+                "fat": 15.0,
+                "carbs": 64.0,
+                "calories": 331.0,
+                "category": "carb",
+                "flavor_profile": "bitter",
+                "scalable": false,
+                "cooking_ingredient": true,
+                "max_per_meal": "5",
+                "unit_of_measure": "g"
+              }
+            },
+            {
+              "name": "Dried thyme",
+              "quantity": 0.5,
+              "unit": "teaspoon",
+              "db_record": {
+                "id": 16,
+                "name": "dried thyme",
+                "qty": "100",
+                "protein": 9.1,
+                "fat": 7.4,
+                "carbs": 63.0,
+                "calories": 276.0,
+                "category": "carb",
+                "flavor_profile": "bitter",
+                "scalable": false,
+                "cooking_ingredient": true,
+                "max_per_meal": "5",
+                "unit_of_measure": "g"
+              }
+            },
+            {
+              "name": "Salt",
+              "quantity": 0.25,
+              "unit": "teaspoon",
+              "db_record": {
+                "id": 17,
+                "name": "salt",
+                "qty": "100",
+                "protein": 0.0,
+                "fat": 0.0,
+                "carbs": 0.0,
+                "calories": 0.0,
+                "category": "carb",
+                "flavor_profile": "salty",
+                "scalable": false,
+                "cooking_ingredient": true,
+                "max_per_meal": "5",
+                "unit_of_measure": "g"
+              }
+            },
+            {
+              "name": "Black pepper",
+              "quantity": 0.25,
+              "unit": "teaspoon",
+              "db_record": {
+                "id": 18,
+                "name": "black pepper",
+                "qty": "100",
+                "protein": 10.0,
+                "fat": 3.3,
+                "carbs": 64.0,
+                "calories": 251.0,
+                "category": "carb",
+                "flavor_profile": "pungent",
+                "scalable": false,
+                "cooking_ingredient": true,
+                "max_per_meal": "5",
+                "unit_of_measure": "g"
+              }
+            }
+          ],
+          "instructions": [
+            "1. Preheat the grill to medium-high heat.",
+            "2. In a small bowl, mix olive oil, minced garlic, rosemary, thyme, salt, and pepper.",
+            "3. Rub the mixture all over the steak.",
+            "4. Grill the steak for 4-5 minutes on each side or until desired doneness.",
+            "5. Remove steak from grill and let it rest for a couple of minutes.",
+            "6. Meanwhile, lightly sautÃ© the spinach in a pan until just wilted.",
+            "7. Serve the grilled steak with the sautÃ©ed spinach on the side."
+          ],
+          "calories": 523.0,
+          "protein": 54.9,
+          "fat": 18.4,
+          "carbs": 3.6
+        }
+      ],
+      "snacks": [
+        {
+          "name": "Cottage Cheese with Sliced Peaches",
+          "description": "A creamy and protein-packed snack with the natural sweetness of peaches, offering a satisfying and nutritious option to support weight loss.",
+          "ingredients": [],
+          "instructions": [
+            "1. Place cottage cheese in a bowl.",
+            "2. Top with sliced peach.",
+            "3. Sprinkle chia seeds on top and serve."
+          ],
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Hummus and Veggie Sticks",
+          "description": "A quick, fiber-rich snack featuring creamy hummus paired with crisp, fresh veggie sticks, perfect for healthy weight management.",
+          "ingredients": [],
+          "instructions": [
+            "1. Arrange carrot and celery sticks on a plate.",
+            "2. Add hummus alongside the veggies.",
+            "3. Dip veggie sticks in hummus and enjoy."
+          ],
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        }
+      ],
+      "totals": {
+        "calories": null,
+        "protein": null,
+        "fat": null,
+        "carbs": null
+      },
+      "grocery_list": [],
+      "total_price": null,
+      "breakfast": {
+        "name": "Berry Nut Yogurt Parfait",
+        "time": "breakfast",
+        "description": "A simple, protein-rich breakfast parfait filled with nutritious berries and crunchy nuts, perfect for supporting your weight loss journey.",
+        "ingredients": [
+          {
+            "name": "Greek yogurt, plain",
+            "quantity": "200.0g",
+            "unit": "g",
+            "db_record": {
+              "id": 1,
+              "name": "greek yogurt",
+              "qty": "100",
+              "protein": 10.0,
+              "fat": 0.4,
+              "carbs": 3.6,
+              "calories": 59.0,
+              "category": "protein",
+              "flavor_profile": "neutral",
+              "scalable": true,
+              "cooking_ingredient": false,
+              "max_per_meal": "200",
+              "unit_of_measure": "g"
+            }
+          },
+          {
+            "name": "Honey",
+            "quantity": 1,
+            "unit": "teaspoon",
+            "db_record": {
+              "id": 4,
+              "name": "honey",
+              "qty": "100",
+              "protein": 0.3,
+              "fat": 0.0,
+              "carbs": 82.0,
+              "calories": 304.0,
+              "category": "carb",
+              "flavor_profile": "sweet",
+              "scalable": false,
+              "cooking_ingredient": false,
+              "max_per_meal": "15",
+              "unit_of_measure": "g"
+            }
+          },
+          {
+            "name": "Almonds, chopped",
+            "quantity": "30.0g",
+            "unit": "g",
+            "db_record": {
+              "id": 3,
+              "name": "almonds",
+              "qty": "100",
+              "protein": 21.0,
+              "fat": 49.0,
+              "carbs": 22.0,
+              "calories": 579.0,
+              "category": "fat",
+              "flavor_profile": "nutty",
+              "scalable": true,
+              "cooking_ingredient": false,
+              "max_per_meal": "30",
+              "unit_of_measure": "g"
+            }
+          },
+          {
+            "name": "Vanilla extract",
+            "quantity": 0.5,
+            "unit": "teaspoon",
+            "db_record": {
+              "id": 5,
+              "name": "vanilla extract",
+              "qty": "100",
+              "protein": 0.0,
+              "fat": 0.0,
+              "carbs": 13.0,
+              "calories": 288.0,
+              "category": "carb",
+              "flavor_profile": "sweet",
+              "scalable": false,
+              "cooking_ingredient": true,
+              "max_per_meal": "5",
+              "unit_of_measure": "ml"
+            }
+          }
+        ],
+        "instructions": [
+          "1. In a bowl, mix the Greek yogurt and vanilla extract until smooth.",
+          "2. Layer half of the yogurt into a glass or bowl.",
+          "3. Add a layer of mixed berries over the yogurt.",
+          "4. Add a tablespoon of chopped almonds over the berries.",
+          "5. Repeat with the remaining yogurt, berries, and almonds.",
+          "6. Drizzle honey over the top before serving."
+        ],
+        "calories": 291.7,
+        "protein": 26.3,
+        "fat": 15.5,
+        "carbs": 13.8
+      },
+      "lunch": {
+        "name": "Beef and Veggie Stir Fry",
+        "time": "lunch",
+        "description": "This delicious beef and veggie stir fry is a high-protein, balanced meal perfect for weight loss, full of nutrients and flavor.",
+        "ingredients": [
+          {
+            "name": "Bell pepper, sliced",
+            "quantity": "100.0g",
+            "unit": "g",
+            "db_record": {
+              "id": 7,
+              "name": "bell pepper",
+              "qty": "100",
+              "protein": 1.0,
+              "fat": 0.3,
+              "carbs": 6.0,
+              "calories": 26.0,
+              "category": "carb",
+              "flavor_profile": "sweet",
+              "scalable": true,
+              "cooking_ingredient": false,
+              "max_per_meal": "100",
+              "unit_of_measure": "g"
+            }
+          },
+          {
+            "name": "Green onions, chopped",
+            "quantity": "50.0g",
+            "unit": "g",
+            "db_record": {
+              "id": 12,
+              "name": "green onions",
+              "qty": "100",
+              "protein": 1.8,
+              "fat": 0.2,
+              "carbs": 7.3,
+              "calories": 32.0,
+              "category": "carb",
+              "flavor_profile": "savory",
+              "scalable": true,
+              "cooking_ingredient": false,
+              "max_per_meal": "50",
+              "unit_of_measure": "g"
+            }
+          },
+          {
+            "name": "Soy sauce, reduced sodium",
+            "quantity": 2,
+            "unit": "tablespoons",
+            "db_record": {
+              "id": 9,
+              "name": "soy sauce",
+              "qty": "100",
+              "protein": 5.0,
+              "fat": 0.1,
+              "carbs": 4.9,
+              "calories": 53.0,
+              "category": "carb",
+              "flavor_profile": "salty",
+              "scalable": false,
+              "cooking_ingredient": true,
+              "max_per_meal": "20",
+              "unit_of_measure": "ml"
+            }
+          },
+          {
+            "name": "Olive oil",
+            "quantity": 1,
+            "unit": "tablespoon",
+            "db_record": {
+              "id": 10,
+              "name": "olive oil",
+              "qty": "100",
+              "protein": 0.0,
+              "fat": 100.0,
+              "carbs": 0.0,
+              "calories": 884.0,
+              "category": "fat",
+              "flavor_profile": "neutral",
+              "scalable": false,
+              "cooking_ingredient": true,
+              "max_per_meal": "15",
+              "unit_of_measure": "ml"
+            }
+          },
+          {
+            "name": "Garlic, minced",
+            "quantity": 2,
+            "unit": "cloves",
+            "db_record": {
+              "id": 11,
+              "name": "garlic",
+              "qty": "100",
+              "protein": 6.4,
+              "fat": 0.5,
+              "carbs": 33.0,
+              "calories": 149.0,
+              "category": "carb",
+              "flavor_profile": "pungent",
+              "scalable": false,
+              "cooking_ingredient": true,
+              "max_per_meal": "10",
+              "unit_of_measure": "g"
+            }
+          }
+        ],
+        "instructions": [
+          "1. Heat olive oil in a large skillet over medium-high heat.",
+          "2. Add garlic and sautÃ© for about 30 seconds until fragrant.",
+          "3. Add beef slices and cook until browned, about 2-3 minutes.",
+          "4. Remove beef from the skillet and set aside.",
+          "5. In the same skillet, add broccoli, bell pepper, and carrot. Stir-fry for about 5 minutes until the veggies are crispy-tender.",
+          "6. Return beef to the skillet and pour in the soy sauce.",
+          "7. Stir well to combine all ingredients and heat through.",
+          "8. Sprinkle with chopped green onions before serving."
+        ],
+        "calories": 42.0,
+        "protein": 1.9,
+        "fat": 0.4,
+        "carbs": 9.7
+      },
+      "dinner": {
+        "name": "Garlic Herb Grilled Steak with Spinach",
+        "time": "dinner",
+        "description": "A flavorful and protein-rich dinner that's great for weight loss, featuring deliciously seasoned grilled steak and fresh spinach.",
+        "ingredients": [
+          {
+            "name": "Top sirloin steak",
+            "quantity": "200.0g",
+            "unit": "g",
+            "db_record": {
+              "id": 14,
+              "name": "top sirloin steak",
+              "qty": "100",
+              "protein": 26.0,
+              "fat": 9.0,
+              "carbs": 0.0,
+              "calories": 250.0,
+              "category": "protein",
+              "flavor_profile": "savory",
+              "scalable": true,
+              "cooking_ingredient": false,
+              "max_per_meal": "200",
+              "unit_of_measure": "g"
+            }
+          },
+          {
+            "name": "Spinach",
+            "quantity": "100.0g",
+            "unit": "g",
+            "db_record": {
+              "id": 19,
+              "name": "spinach",
+              "qty": "100",
+              "protein": 2.9,
+              "fat": 0.4,
+              "carbs": 3.6,
+              "calories": 23.0,
+              "category": "carb",
+              "flavor_profile": "bitter",
+              "scalable": true,
+              "cooking_ingredient": false,
+              "max_per_meal": "100",
+              "unit_of_measure": "g"
+            }
+          },
+          {
+            "name": "Olive oil",
+            "quantity": 1,
+            "unit": "tablespoon",
+            "db_record": {
+              "id": 10,
+              "name": "olive oil",
+              "qty": "100",
+              "protein": 0.0,
+              "fat": 100.0,
+              "carbs": 0.0,
+              "calories": 884.0,
+              "category": "fat",
+              "flavor_profile": "neutral",
+              "scalable": false,
+              "cooking_ingredient": true,
+              "max_per_meal": "15",
+              "unit_of_measure": "ml"
+            }
+          },
+          {
+            "name": "Garlic, minced",
+            "quantity": 2,
+            "unit": "cloves",
+            "db_record": {
+              "id": 11,
+              "name": "garlic",
+              "qty": "100",
+              "protein": 6.4,
+              "fat": 0.5,
+              "carbs": 33.0,
+              "calories": 149.0,
+              "category": "carb",
+              "flavor_profile": "pungent",
+              "scalable": false,
+              "cooking_ingredient": true,
+              "max_per_meal": "10",
+              "unit_of_measure": "g"
+            }
+          },
+          {
+            "name": "Dried rosemary",
+            "quantity": 0.5,
+            "unit": "teaspoon",
+            "db_record": {
+              "id": 15,
+              "name": "dried rosemary",
+              "qty": "100",
+              "protein": 4.9,
+              "fat": 15.0,
+              "carbs": 64.0,
+              "calories": 331.0,
+              "category": "carb",
+              "flavor_profile": "bitter",
+              "scalable": false,
+              "cooking_ingredient": true,
+              "max_per_meal": "5",
+              "unit_of_measure": "g"
+            }
+          },
+          {
+            "name": "Dried thyme",
+            "quantity": 0.5,
+            "unit": "teaspoon",
+            "db_record": {
+              "id": 16,
+              "name": "dried thyme",
+              "qty": "100",
+              "protein": 9.1,
+              "fat": 7.4,
+              "carbs": 63.0,
+              "calories": 276.0,
+              "category": "carb",
+              "flavor_profile": "bitter",
+              "scalable": false,
+              "cooking_ingredient": true,
+              "max_per_meal": "5",
+              "unit_of_measure": "g"
+            }
+          },
+          {
+            "name": "Salt",
+            "quantity": 0.25,
+            "unit": "teaspoon",
+            "db_record": {
+              "id": 17,
+              "name": "salt",
+              "qty": "100",
+              "protein": 0.0,
+              "fat": 0.0,
+              "carbs": 0.0,
+              "calories": 0.0,
+              "category": "carb",
+              "flavor_profile": "salty",
+              "scalable": false,
+              "cooking_ingredient": true,
+              "max_per_meal": "5",
+              "unit_of_measure": "g"
+            }
+          },
+          {
+            "name": "Black pepper",
+            "quantity": 0.25,
+            "unit": "teaspoon",
+            "db_record": {
+              "id": 18,
+              "name": "black pepper",
+              "qty": "100",
+              "protein": 10.0,
+              "fat": 3.3,
+              "carbs": 64.0,
+              "calories": 251.0,
+              "category": "carb",
+              "flavor_profile": "pungent",
+              "scalable": false,
+              "cooking_ingredient": true,
+              "max_per_meal": "5",
+              "unit_of_measure": "g"
+            }
+          }
+        ],
+        "instructions": [
+          "1. Preheat the grill to medium-high heat.",
+          "2. In a small bowl, mix olive oil, minced garlic, rosemary, thyme, salt, and pepper.",
+          "3. Rub the mixture all over the steak.",
+          "4. Grill the steak for 4-5 minutes on each side or until desired doneness.",
+          "5. Remove steak from grill and let it rest for a couple of minutes.",
+          "6. Meanwhile, lightly sautÃ© the spinach in a pan until just wilted.",
+          "7. Serve the grilled steak with the sautÃ©ed spinach on the side."
+        ],
+        "calories": 523.0,
+        "protein": 54.9,
+        "fat": 18.4,
+        "carbs": 3.6
+      }
+    }
+  }
+]

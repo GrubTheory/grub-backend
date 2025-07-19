@@ -4,7 +4,9 @@ from utils.parser import parse_meal_plan
 from utils.macro_allocation import allocate_macros
 from utils.normalize_ingredients import extract_normalized_ingredients
 from utils.fuzzy_match import fuzzy_match_ingredient
-from utils.db_lookup import fetch_ingredients_by_name  # ✅ NEW IMPORT
+from utils.db_lookup import fetch_ingredients_by_name
+from utils.unit_conversion import convert_units_to_metric 
+from utils.logger import log_final_output  # ⬅️ Updated import
 
 router = APIRouter()
 
@@ -14,42 +16,47 @@ async def generate_meal_plan(request: Request):
         data = await request.json()
         payload = InputPayload(**data)
 
-        # ✅ Parse the meal_plan string into a Python dict
+        # Step 1: Parse meal_plan string to dict
         meal_plan = parse_meal_plan(payload.meal_plan)
-        print("Parsed meal plan:", meal_plan)
 
-        # ✅ Flatten meals list into dict by 'time' field
+        # Step 2: Convert imperial units to metric
+        meal_plan = convert_units_to_metric(meal_plan)
+
+        # Step 3: Flatten meals list into dict by meal time
         meal_plan.update({m["time"]: m for m in meal_plan.get("meals", [])})
 
-        # ✅ Allocate calories and macros
+        # Step 4: Allocate macros
         allocate_macros(meal_plan, payload.calorie_target)
-        print("Meal plan after macro allocation:", meal_plan)
 
-        # ✅ Normalize ingredient names per meal
+        # Step 5: Normalize ingredient names
         normalized_ingredients = extract_normalized_ingredients(meal_plan)
-        print("Normalized ingredients:", normalized_ingredients)
 
-        # ✅ Fuzzy match each normalized ingredient
-        fuzzy_matched_ingredients = {}
+        # Step 6: Fuzzy match + attach db_records
+        matched_names = set()
         for meal_time, ingredients in normalized_ingredients.items():
-            fuzzy_matched_ingredients[meal_time] = [
-                fuzzy_match_ingredient(ing) for ing in ingredients
-            ]
-        print("Fuzzy matched ingredients:", fuzzy_matched_ingredients)
+            for idx, ing in enumerate(ingredients):
+                match = fuzzy_match_ingredient(ing)
+                if match["matched"]:
+                    matched_names.add(match["matched"])
+                    normalized_ingredients[meal_time][idx]["matched_name"] = match["matched"]
 
-        # ✅ Extract matched names
-        matched_names = [
-            item["matched"]
-            for ingredients in fuzzy_matched_ingredients.values()
-            for item in ingredients
-            if item["matched"]
-        ]
-        print("Matched names:", matched_names)
-        print("Matched name count:", len(matched_names))
+        ingredient_records = fetch_ingredients_by_name(list(matched_names))
 
-        # ✅ Fetch full ingredient records from DB
-        ingredient_records = fetch_ingredients_by_name(matched_names)
-        print("Fetched ingredient records:", ingredient_records)
+        # Step 7: Attach db_record to matched ingredients
+        name_to_record = {r["name"]: r for r in ingredient_records}
+        for meal_time, ingredients in normalized_ingredients.items():
+            for ing in ingredients:
+                matched_name = ing.get("matched_name")
+                if matched_name and matched_name in name_to_record:
+                    ing["db_record"] = name_to_record[matched_name]
+
+        # 🔥 Final log only
+        log_final_output("Final normalized meal plan", {
+            "uuid": payload.uuid,
+            "calorie_target": payload.calorie_target,
+            "meal_plan": meal_plan,
+            "normalized_ingredients": normalized_ingredients
+        })
 
         return {
             "status": "ok",

@@ -1,10 +1,11 @@
 from psycopg2.extras import RealDictCursor
 from utils.db import get_db_connection
 
-def fetch_ingredients_by_name(names: list[str]) -> list[dict]:
-    if not names:
+def fetch_structured_ingredients(matches: list[dict]) -> list[dict]:
+    if not matches:
         return []
 
+    names = list({m["matched_name"] for m in matches})
     placeholders = ', '.join(['%s'] * len(names))
     query = f"""
         SELECT * FROM ingredientsdb
@@ -16,7 +17,21 @@ def fetch_ingredients_by_name(names: list[str]) -> list[dict]:
 
     try:
         cursor.execute(query, names)
-        return cursor.fetchall()
+        raw_results = cursor.fetchall()
+        record_lookup = {rec["name"].lower(): rec for rec in raw_results}
+
+        structured = []
+        for m in matches:
+            rec = record_lookup.get(m["matched_name"].lower())
+            if rec:
+                structured.append({
+                    **m,
+                    "record": rec
+                })
+
+        return structured
+
     finally:
         cursor.close()
         conn.close()
+
