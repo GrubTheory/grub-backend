@@ -3,80 +3,151 @@ from copy import deepcopy
 
 PRIORITY_ORDER = ["protein", "carbs", "green"]
 
-# ✅ Units like “medium”, “stick”, etc., should just be treated as “unit”
-DUMB_UNITS = {
-    "medium", "large", "small", "stick", "slice", "clove", "piece", "serving",
-    "container", "package", "bag", "unit", "head", "cup", "bunch"
+STEP_SIZES = {
+    "cup": 0.5,
+    "tbsp": 0.5,
+    "tsp": 0.5,
+    "oz": 1,
+    "g": 1,
+    "ml": 1,
+    "unit": 1
 }
 
-def normalize_unit(unit: str) -> str:
-    unit = unit.lower().strip()
-    if unit in DUMB_UNITS:
-        return "unit"
-    return unit
+def get_step_size(unit: str) -> float:
+    unit = unit.lower()
+    return STEP_SIZES.get(unit, 1)
+
+CATEGORY_MACRO_MAP = {
+    "protein": "protein",
+    "carbs": "carbs",
+    "green": "carbs"
+}
 
 def scale_meal_plan(meal_plan: Dict) -> Dict:
     scaled = deepcopy(meal_plan)
     scaled["meals"] = []
 
+    total_leftover_p = total_leftover_c = total_leftover_f = total_leftover_kcal = 0
+
     for meal in meal_plan.get("meals", []):
         scaled_meal = scale_single_meal(meal)
         scaled["meals"].append(scaled_meal)
 
-    # ✅ Debug print to inspect snack macros
-    print("\n=== SCALING SNACKS ===")
-    for snack in meal_plan.get("snacks", []):
-        print(f"- {snack.get('name', 'Unnamed snack')}, target: {snack.get('target_macros')}")
+        # accumulate leftover macros if unfilled
+        unfilled = scaled_meal.get("unfilled")
+        if unfilled:
+            total_leftover_p += unfilled.get("protein", 0)
+            total_leftover_c += unfilled.get("carbs", 0)
+            total_leftover_f += unfilled.get("fat", 0)
+            total_leftover_kcal += unfilled.get("calories", 0)
 
-    # ✅ Handle snacks
+    snacks = meal_plan.get("snacks", [])
+    num_snacks = len(snacks)
+
+    if total_leftover_kcal > 0 and num_snacks > 0:
+        per_snack_p = total_leftover_p / num_snacks
+        per_snack_c = total_leftover_c / num_snacks
+        per_snack_f = total_leftover_f / num_snacks
+        per_snack_kcal = total_leftover_kcal / num_snacks
+
+        for snack in snacks:
+            snack.setdefault("target_macros", {})
+            snack["target_macros"]["calories"] = per_snack_kcal + snack["target_macros"].get("calories", 0)
+            snack["target_macros"]["protein"] = per_snack_p + snack["target_macros"].get("protein", 0)
+            snack["target_macros"]["carbs"] = per_snack_c + snack["target_macros"].get("carbs", 0)
+            snack["target_macros"]["fat"] = per_snack_f + snack["target_macros"].get("fat", 0)
+
     scaled["snacks"] = []
-    for snack in meal_plan.get("snacks", []):
+    for snack in snacks:
         scaled_snack = scale_single_meal(snack)
         scaled["snacks"].append(scaled_snack)
 
     return scaled
 
-
 def scale_single_meal(meal: Dict) -> Dict:
     ingredients = meal.get("ingredients", [])
     target = meal.get("target_macros", {})
-    total_p = total_c = total_f = total_kcal = 0
-    
+    if not target:
+        return meal
+
     for ing in ingredients:
-        rec = ing.get("db_record")
-        qty = ing.get("quantity")
-        if not rec or qty is None:
-            continue
-        print(f"▶ INGREDIENT: {ing.get('name')}")
-        print(f"   - quantity: {qty}")
-        print(f"   - unit: {ing.get('unit')}")
-        print(f"   - db_record unit: {rec.get('unit_of_measure')}")
-        print(f"   - db qty: {rec.get('qty')}")
-        print(f"   - protein: {rec.get('protein')}")
-        print(f"   - fat: {rec.get('fat')}")
-        print(f"   - carbs: {rec.get('carbs')}")
-        print("---")
+        rec = ing.get("db_record", {})
+        unit = rec.get("unit_of_measure", "unit").lower()
+        ing["unit"] = unit
+        ing["quantity"] = STEP_SIZES.get(unit, 1)
 
-        # 🔥 Normalize weird units both from ingredient and db_record
-        unit = normalize_unit(ing.get("unit", ""))
-        db_unit = normalize_unit(rec.get("unit_of_measure", ""))
-        if unit != db_unit:
-            unit = db_unit  # force alignment with db if possible
+    def compute_totals():
+        p = c = f = kcal = 0
+        for ing in ingredients:
+            rec = ing.get("db_record")
+            qty = ing.get("quantity")
+            if not rec or qty is None:
+                continue
+            try:
+                multiplier = qty / rec["qty"]
+            except:
+                continue
+            p += rec["protein"] * multiplier
+            c += rec["carbs"] * multiplier
+            f += rec["fat"] * multiplier
+            kcal += rec["calories"] * multiplier
+        return p, c, f, kcal
 
-        try:
-            base_qty = float(rec["qty"])
-            multiplier = qty / base_qty
-        except (ValueError, TypeError, ZeroDivisionError):
-            continue
+    def is_close(p, c, f, kcal):
+        t_kcal = target.get("calories", 0)
+        return abs(kcal - t_kcal) <= 0.02 * t_kcal
 
-        total_p += rec["protein"] * multiplier
-        total_c += rec["carbs"] * multiplier
-        total_f += rec["fat"] * multiplier
-        total_kcal += rec["calories"] * multiplier
+    target_kcal = target.get("calories", 0)
 
-    meal["protein"] = round(total_p, 1)
-    meal["carbs"] = round(total_c, 1)
-    meal["fat"] = round(total_f, 1)
-    meal["calories"] = round(total_kcal)
+    for category in PRIORITY_ORDER:
+        for ing in ingredients:
+            rec = ing.get("db_record")
+            if (
+                not rec
+                or rec.get("scalable") != True
+                or rec.get("category") != category
+                or rec.get("cooking_ingredient") == True
+            ):
+                continue
+
+            base_qty = rec["qty"]
+            max_units = rec.get("max_per_meal", 5)
+            step = get_step_size(rec.get("unit_of_measure", "unit"))
+
+            current_qty = ing.get("quantity", 0)
+            current_units = round(current_qty / base_qty / step) * step
+
+            while current_units + step <= max_units:
+                tentative_units = current_units + step
+                tentative_qty = round(tentative_units * base_qty, 2)
+
+                ing["quantity"] = tentative_qty
+                p, c, f, kcal = compute_totals()
+
+                if is_close(p, c, f, kcal):
+                    break
+                if kcal > target_kcal * 1.02:
+                    ing["quantity"] = round(current_units * base_qty, 2)
+                    break
+
+                current_units = tentative_units
+
+        p, c, f, kcal = compute_totals()
+        if is_close(p, c, f, kcal):
+            break
+
+    p, c, f, kcal = compute_totals()
+    meal["protein"] = round(p, 1)
+    meal["carbs"] = round(c, 1)
+    meal["fat"] = round(f, 1)
+    meal["calories"] = round(kcal)
+
+    if not is_close(p, c, f, kcal):
+        meal["unfilled"] = {
+            "calories": round(target.get("calories", 0) - kcal, 1),
+            "protein": round(target.get("protein", 0) - p, 1),
+            "carbs": round(target.get("carbs", 0) - c, 1),
+            "fat": round(target.get("fat", 0) - f, 1)
+        }
 
     return meal

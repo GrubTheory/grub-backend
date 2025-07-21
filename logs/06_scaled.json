@@ -9,7 +9,7 @@
         "ingredients": [
           {
             "name": "Greek yogurt, plain",
-            "quantity": 1,
+            "quantity": 2.0,
             "unit": "cup",
             "db_record": {
               "id": 1,
@@ -29,13 +29,28 @@
           },
           {
             "name": "Mixed berries (blueberries, strawberries, raspberries)",
-            "quantity": 0.5,
-            "unit": "cup"
+            "quantity": 1.0,
+            "unit": "cup",
+            "db_record": {
+              "id": 2,
+              "name": "berries",
+              "qty": 1.0,
+              "protein": 0.5,
+              "fat": 0.3,
+              "carbs": 14.0,
+              "calories": 70.0,
+              "category": "carbs",
+              "flavor_profile": "sweet",
+              "scalable": true,
+              "cooking_ingredient": false,
+              "max_per_meal": 1.0,
+              "unit_of_measure": "cup"
+            }
           },
           {
             "name": "Almonds, chopped",
-            "quantity": 2,
-            "unit": "tablespoons",
+            "quantity": 1,
+            "unit": "oz",
             "db_record": {
               "id": 3,
               "name": "almonds",
@@ -44,7 +59,7 @@
               "fat": 14.0,
               "carbs": 6.0,
               "calories": 164.0,
-              "category": "carb",
+              "category": "carbs",
               "flavor_profile": "neutral",
               "scalable": true,
               "cooking_ingredient": false,
@@ -54,8 +69,8 @@
           },
           {
             "name": "Honey",
-            "quantity": 1,
-            "unit": "teaspoon",
+            "quantity": 0.5,
+            "unit": "tbsp",
             "db_record": {
               "id": 4,
               "name": "honey",
@@ -64,10 +79,10 @@
               "fat": 0.0,
               "carbs": 17.0,
               "calories": 64.0,
-              "category": "carb",
+              "category": "carbs",
               "flavor_profile": "sweet",
-              "scalable": false,
-              "cooking_ingredient": true,
+              "scalable": true,
+              "cooking_ingredient": false,
               "max_per_meal": 1.0,
               "unit_of_measure": "tbsp"
             }
@@ -75,7 +90,7 @@
           {
             "name": "Vanilla extract",
             "quantity": 0.5,
-            "unit": "teaspoon",
+            "unit": "tsp",
             "db_record": {
               "id": 5,
               "name": "vanilla extract",
@@ -84,7 +99,7 @@
               "fat": 0.0,
               "carbs": 0.5,
               "calories": 12.0,
-              "category": "carb",
+              "category": "carbs",
               "flavor_profile": "sweet",
               "scalable": false,
               "cooking_ingredient": true,
@@ -101,15 +116,21 @@
           "5. Repeat with the remaining yogurt, berries, and almonds.",
           "6. Drizzle honey over the top before serving."
         ],
-        "calories": 457,
-        "protein": 22.1,
-        "fat": 28.4,
-        "carbs": 32.9,
+        "calories": 390,
+        "protein": 26.6,
+        "fat": 15.1,
+        "carbs": 36.0,
         "target_macros": {
           "calories": 400,
           "protein": 40.0,
           "fat": 13.3,
           "carbs": 30.0
+        },
+        "unfilled": {
+          "calories": 10.0,
+          "protein": 13.4,
+          "carbs": -6.0,
+          "fat": -1.8
         }
       },
       {
@@ -119,8 +140,8 @@
         "ingredients": [
           {
             "name": "Beef sirloin, thinly sliced",
-            "quantity": 6,
-            "unit": "ounces",
+            "quantity": 6.0,
+            "unit": "oz",
             "db_record": {
               "id": 6,
               "name": "beef sirloin",
@@ -139,8 +160,8 @@
           },
           {
             "name": "Bell pepper, sliced",
-            "quantity": 1,
-            "unit": "large",
+            "quantity": 2.0,
+            "unit": "unit",
             "db_record": {
               "id": 7,
               "name": "bell pepper",
@@ -159,7 +180,7 @@
           },
           {
             "name": "Broccoli florets",
-            "quantity": 1,
+            "quantity": 2.0,
             "unit": "cup",
             "db_record": {
               "id": 8,
@@ -179,8 +200,8 @@
           },
           {
             "name": "Soy sauce, reduced sodium",
-            "quantity": 2,
-            "unit": "tablespoons",
+            "quantity": 0.5,
+            "unit": "tbsp",
             "db_record": {
               "id": 9,
               "name": "soy sauce",
@@ -199,8 +220,8 @@
           },
           {
             "name": "Olive oil",
-            "quantity": 1,
-            "unit": "tablespoon",
+            "quantity": 0.5,
+            "unit": "tbsp",
             "db_record": {
               "id": 10,
               "name": "olive oil",
@@ -209,7 +230,7 @@
               "fat": 14.0,
               "carbs": 0.0,
               "calories": 119.0,
-              "category": "carb",
+              "category": "carbs",
               "flavor_profile": "neutral",
               "scalable": false,
               "cooking_ingredient": true,
@@ -219,8 +240,8 @@
           },
           {
             "name": "Garlic, minced",
-            "quantity": 2,
-            "unit": "cloves",
+            "quantity": 1,
+            "unit": "unit",
             "db_record": {
               "id": 11,
               "name": "garlic",
@@ -239,8 +260,8 @@
           },
           {
             "name": "Green onions, chopped",
-            "quantity": 2,
-            "unit": "tablespoons",
+            "quantity": 2.0,
+            "unit": "tbsp",
             "db_record": {
               "id": 12,
               "name": "green onions",
@@ -259,8 +280,8 @@
           },
           {
             "name": "Carrot, julienned",
-            "quantity": 1,
-            "unit": "medium",
+            "quantity": 2.0,
+            "unit": "unit",
             "db_record": {
               "id": 24,
               "name": "carrot",
@@ -288,15 +309,21 @@
           "7. Stir well to combine all ingredients and heat through.",
           "8. Sprinkle with chopped green onions before serving."
         ],
-        "calories": 671,
-        "protein": 53.7,
-        "fat": 32.6,
-        "carbs": 24.0,
+        "calories": 678,
+        "protein": 55.8,
+        "fat": 26.2,
+        "carbs": 39.5,
         "target_macros": {
           "calories": 700,
           "protein": 70.0,
           "fat": 23.3,
           "carbs": 52.5
+        },
+        "unfilled": {
+          "calories": 22.5,
+          "protein": 14.2,
+          "carbs": 13.0,
+          "fat": -2.9
         }
       },
       {
@@ -306,8 +333,8 @@
         "ingredients": [
           {
             "name": "Top sirloin steak",
-            "quantity": 6,
-            "unit": "ounces",
+            "quantity": 6.0,
+            "unit": "oz",
             "db_record": {
               "id": 14,
               "name": "top sirloin steak",
@@ -326,8 +353,8 @@
           },
           {
             "name": "Olive oil",
-            "quantity": 1,
-            "unit": "tablespoon",
+            "quantity": 0.5,
+            "unit": "tbsp",
             "db_record": {
               "id": 10,
               "name": "olive oil",
@@ -336,7 +363,7 @@
               "fat": 14.0,
               "carbs": 0.0,
               "calories": 119.0,
-              "category": "carb",
+              "category": "carbs",
               "flavor_profile": "neutral",
               "scalable": false,
               "cooking_ingredient": true,
@@ -346,8 +373,8 @@
           },
           {
             "name": "Garlic, minced",
-            "quantity": 2,
-            "unit": "cloves",
+            "quantity": 1,
+            "unit": "unit",
             "db_record": {
               "id": 11,
               "name": "garlic",
@@ -367,7 +394,7 @@
           {
             "name": "Dried rosemary",
             "quantity": 0.5,
-            "unit": "teaspoon",
+            "unit": "tsp",
             "db_record": {
               "id": 15,
               "name": "dried rosemary",
@@ -387,7 +414,7 @@
           {
             "name": "Dried thyme",
             "quantity": 0.5,
-            "unit": "teaspoon",
+            "unit": "tsp",
             "db_record": {
               "id": 16,
               "name": "dried thyme",
@@ -406,8 +433,8 @@
           },
           {
             "name": "Salt",
-            "quantity": 0.25,
-            "unit": "teaspoon",
+            "quantity": 0.5,
+            "unit": "tsp",
             "db_record": {
               "id": 17,
               "name": "salt",
@@ -426,8 +453,8 @@
           },
           {
             "name": "Black pepper",
-            "quantity": 0.25,
-            "unit": "teaspoon",
+            "quantity": 0.5,
+            "unit": "tsp",
             "db_record": {
               "id": 18,
               "name": "black pepper",
@@ -446,8 +473,8 @@
           },
           {
             "name": "Spinach",
-            "quantity": 2,
-            "unit": "cups",
+            "quantity": 3.0,
+            "unit": "cup",
             "db_record": {
               "id": 19,
               "name": "spinach",
@@ -474,15 +501,21 @@
           "6. Meanwhile, lightly sautÃ© the spinach in a pan until just wilted.",
           "7. Serve the grilled steak with the sautÃ©ed spinach on the side."
         ],
-        "calories": 574,
-        "protein": 49.1,
-        "fat": 32.3,
-        "carbs": 5.2,
+        "calories": 518,
+        "protein": 49.6,
+        "fat": 25.5,
+        "carbs": 5.4,
         "target_macros": {
           "calories": 600,
           "protein": 60.0,
           "fat": 20.0,
           "carbs": 45.0
+        },
+        "unfilled": {
+          "calories": 82.5,
+          "protein": 10.4,
+          "carbs": 39.6,
+          "fat": -5.5
         }
       }
     ],
@@ -493,7 +526,7 @@
         "ingredients": [
           {
             "name": "Cottage cheese, low-fat",
-            "quantity": 1,
+            "quantity": 0.5,
             "unit": "cup",
             "db_record": {
               "id": 20,
@@ -514,7 +547,7 @@
           {
             "name": "Peach, sliced",
             "quantity": 1,
-            "unit": "medium",
+            "unit": "unit",
             "db_record": {
               "id": 21,
               "name": "peach",
@@ -523,7 +556,7 @@
               "fat": 0.4,
               "carbs": 15.0,
               "calories": 58.0,
-              "category": "carb",
+              "category": "carbs",
               "flavor_profile": "sweet",
               "scalable": true,
               "cooking_ingredient": false,
@@ -533,8 +566,8 @@
           },
           {
             "name": "Chia seeds",
-            "quantity": 1,
-            "unit": "teaspoon",
+            "quantity": 0.5,
+            "unit": "tbsp",
             "db_record": {
               "id": 22,
               "name": "chia seeds",
@@ -543,7 +576,7 @@
               "fat": 9.0,
               "carbs": 12.0,
               "calories": 138.0,
-              "category": "carb",
+              "category": "carbs",
               "flavor_profile": "neutral",
               "scalable": true,
               "cooking_ingredient": false,
@@ -557,15 +590,21 @@
           "2. Top with sliced peach.",
           "3. Sprinkle chia seeds on top and serve."
         ],
-        "calories": 294,
-        "protein": 19.0,
-        "fat": 13.4,
-        "carbs": 30.0,
+        "calories": 176,
+        "protein": 10.0,
+        "fat": 6.9,
+        "carbs": 22.5,
         "target_macros": {
-          "calories": 150.0,
-          "protein": 15.0,
-          "fat": 5.0,
-          "carbs": 11.2
+          "calories": 207.5,
+          "protein": 34.0,
+          "fat": -0.09999999999999964,
+          "carbs": 34.5
+        },
+        "unfilled": {
+          "calories": 31.5,
+          "protein": 24.0,
+          "carbs": 12.0,
+          "fat": -7.0
         }
       },
       {
@@ -574,8 +613,8 @@
         "ingredients": [
           {
             "name": "Hummus",
-            "quantity": 0.5,
-            "unit": "cup",
+            "quantity": 5.0,
+            "unit": "tbsp",
             "db_record": {
               "id": 23,
               "name": "hummus",
@@ -595,7 +634,7 @@
           {
             "name": "Carrot sticks",
             "quantity": 1,
-            "unit": "cup",
+            "unit": "unit",
             "db_record": {
               "id": 24,
               "name": "carrot",
@@ -615,7 +654,7 @@
           {
             "name": "Celery sticks",
             "quantity": 1,
-            "unit": "cup",
+            "unit": "unit",
             "db_record": {
               "id": 25,
               "name": "celery",
@@ -638,15 +677,15 @@
           "2. Add hummus alongside the veggies.",
           "3. Dip veggie sticks in hummus and enjoy."
         ],
-        "calories": 52,
-        "protein": 1.4,
-        "fat": 1.5,
-        "carbs": 8.0,
+        "calories": 210,
+        "protein": 5.9,
+        "fat": 12.7,
+        "carbs": 17.0,
         "target_macros": {
-          "calories": 150.0,
-          "protein": 15.0,
-          "fat": 5.0,
-          "carbs": 11.2
+          "calories": 207.5,
+          "protein": 34.0,
+          "fat": -0.09999999999999964,
+          "carbs": 34.5
         }
       }
     ],

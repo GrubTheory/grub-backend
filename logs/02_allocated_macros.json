@@ -9,27 +9,27 @@
         "ingredients": [
           {
             "name": "Greek yogurt, plain",
-            "quantity": 1,
+            "quantity": 0.25,
             "unit": "cup"
           },
           {
             "name": "Mixed berries (blueberries, strawberries, raspberries)",
-            "quantity": 0.5,
+            "quantity": 0.25,
             "unit": "cup"
           },
           {
             "name": "Almonds, chopped",
-            "quantity": 2,
+            "quantity": 0.25,
             "unit": "tablespoons"
           },
           {
             "name": "Honey",
-            "quantity": 1,
+            "quantity": 0.25,
             "unit": "teaspoon"
           },
           {
             "name": "Vanilla extract",
-            "quantity": 0.5,
+            "quantity": 0.25,
             "unit": "teaspoon"
           }
         ],
@@ -59,7 +59,7 @@
         "ingredients": [
           {
             "name": "Beef sirloin, thinly sliced",
-            "quantity": 6,
+            "quantity": 1,
             "unit": "ounces"
           },
           {
@@ -69,27 +69,27 @@
           },
           {
             "name": "Broccoli florets",
-            "quantity": 1,
+            "quantity": 0.25,
             "unit": "cup"
           },
           {
             "name": "Soy sauce, reduced sodium",
-            "quantity": 2,
+            "quantity": 0.25,
             "unit": "tablespoons"
           },
           {
             "name": "Olive oil",
-            "quantity": 1,
+            "quantity": 0.25,
             "unit": "tablespoon"
           },
           {
             "name": "Garlic, minced",
-            "quantity": 2,
+            "quantity": 1,
             "unit": "cloves"
           },
           {
             "name": "Green onions, chopped",
-            "quantity": 2,
+            "quantity": 0.25,
             "unit": "tablespoons"
           },
           {
@@ -126,27 +126,27 @@
         "ingredients": [
           {
             "name": "Top sirloin steak",
-            "quantity": 6,
+            "quantity": 1,
             "unit": "ounces"
           },
           {
             "name": "Olive oil",
-            "quantity": 1,
+            "quantity": 0.25,
             "unit": "tablespoon"
           },
           {
             "name": "Garlic, minced",
-            "quantity": 2,
+            "quantity": 1,
             "unit": "cloves"
           },
           {
             "name": "Dried rosemary",
-            "quantity": 0.5,
+            "quantity": 0.25,
             "unit": "teaspoon"
           },
           {
             "name": "Dried thyme",
-            "quantity": 0.5,
+            "quantity": 0.25,
             "unit": "teaspoon"
           },
           {
@@ -161,7 +161,7 @@
           },
           {
             "name": "Spinach",
-            "quantity": 2,
+            "quantity": 0.25,
             "unit": "cups"
           }
         ],
@@ -193,7 +193,7 @@
         "ingredients": [
           {
             "name": "Cottage cheese, low-fat",
-            "quantity": 1,
+            "quantity": 0.25,
             "unit": "cup"
           },
           {
@@ -203,7 +203,7 @@
           },
           {
             "name": "Chia seeds",
-            "quantity": 1,
+            "quantity": 0.25,
             "unit": "teaspoon"
           }
         ],
@@ -229,17 +229,17 @@
         "ingredients": [
           {
             "name": "Hummus",
-            "quantity": 0.5,
+            "quantity": 0.25,
             "unit": "cup"
           },
           {
             "name": "Carrot sticks",
-            "quantity": 1,
+            "quantity": 0.25,
             "unit": "cup"
           },
           {
             "name": "Celery sticks",
-            "quantity": 1,
+            "quantity": 0.25,
             "unit": "cup"
           }
         ],

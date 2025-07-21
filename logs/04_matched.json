@@ -9,6 +9,12 @@
     },
     {
       "meal_time": "breakfast",
+      "ingredient_index": 1,
+      "original": "berries",
+      "matched_name": "berries"
+    },
+    {
+      "meal_time": "breakfast",
       "ingredient_index": 2,
       "original": "almonds",
       "matched_name": "almonds"
