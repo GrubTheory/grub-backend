@@ -1,0 +1,690 @@
+name,calories,protein,fat,carbs,unit_of_measure,qty
+"Chicken, ground, with additives, raw",138.1,17.9,7.2,0,oz,3.5
+"Chicken, breast, boneless, skinless, raw",112.2,22.5,1.9,0,oz,3.5
+"Chicken, breast, meat and skin, raw",132.8,21.4,4.8,-0.4,oz,3.5
+"Chicken, drumstick, meat and skin, raw",130.1,18.4,5.9,-0.5,oz,3.5
+"Chicken, thigh, boneless, skinless, raw",149.3,18.6,7.9,0,oz,3.5
+"Chicken, thigh, meat and skin, raw",192.8,17.1,13.3,-0.2,oz,3.5
+"Chicken, wing, meat and skin, raw",172.8,18.4,10.6,-0.5,oz,3.5
+"Beef, tenderloin steak, raw",149.0,21.1,6.5,0.2,oz,3.5
+"Beef, top sirloin steak, raw",146.2,22.0,5.7,0.2,oz,3.5
+"Beef, chuck, roast, boneless, choice, raw",237.1,18.4,17.8,0,oz,3.5
+"Beef, flank, steak, boneless, choice, raw",169.6,20.1,9.4,0,oz,3.5
+"Beef, ribeye, steak, boneless, choice, raw",259.6,18.7,20.0,0,oz,3.5
+"Beef, round, top round, boneless, choice, raw",146.4,21.5,5.7,0.9,oz,3.5
+"Beef, short loin (NY strip steak), raw",196.0,21.3,11.5,0.2,oz,3.5
+"Beef, ground, 80% lean meat / 20% fat, raw",247.8,17.5,19.4,0,oz,3.5
+"Beef, ground, 90% lean meat / 10% fat, raw",190.1,18.2,12.8,0,oz,3.5
+"Pork, ground, raw",233.4,17.8,17.5,0,oz,3.5
+"Pork, belly, with skin, raw",385.4,15.2,35.8,-0.7,oz,3.5
+"Pork, loin, boneless, raw",173.7,21.1,9.5,0,oz,3.5
+"Pork, chop, center cut, raw",144.6,22.8,5.5,-0.6,oz,3.5
+"Pork, loin, tenderloin, boneless, raw",125.0,21.6,3.9,0,oz,3.5
+"Fish, salmon, Atlantic, farm raised, raw",203.1,20.3,13.1,0,oz,3.5
+"Fish, salmon, sockeye, wild caught, raw",136.2,22.3,4.9,0,oz,3.5
+"Crustaceans, shrimp, farm raised, raw",75.7,15.6,0.8,0.5,oz,3.5
+"Buttermilk, low fat",42.9,3.5,1.1,4.8,oz,3.5
+"Cheese, cotija, solid",351.8,23.8,27.2,2.7,oz,3.5
+"Cheese, feta, whole milk, crumbled",273.5,19.7,19.1,5.6,oz,3.5
+"Cheese, monterey jack, solid",390.7,22.6,32.6,1.9,oz,3.5
+"Cheese, oaxaca, solid",298.1,22.1,22.1,2.4,oz,3.5
+"Cheese, parmesan, grated, refrigerated",404.8,30.1,29.5,4.3,oz,3.5
+"Cheese, pasteurized process cheese food or product, American, singles",307.9,15.6,23.9,8.2,oz,3.5
+"Cheese, provolone, sliced",356.9,23.5,28.1,2.5,oz,3.5
+"Cheese, queso fresco, solid",297.4,18.9,23.4,3.0,oz,3.5
+"Cottage cheese, full fat, large or small curd",104.6,11.6,4.2,4.6,oz,3.5
+"Cream cheese, full fat, block",336.7,5.8,33.5,4.6,oz,3.5
+"Cream, heavy",335.9,2.0,35.6,3.8,oz,3.5
+"Cream, sour, full fat",192.7,3.1,18.0,5.6,oz,3.5
+"Yogurt, Greek, plain, whole milk",94.5,8.8,4.4,4.8,oz,3.5
+"Yogurt, plain, nonfat",50.1,4.2,0.1,8.1,oz,3.5
+"Yogurt, plain, whole milk",77.3,3.8,4.5,5.6,oz,3.5
+"Lamb, ground, raw",241.7,17.5,18.6,-0.3,oz,3.5
+"Bison, ground, raw",164.4,19.9,8.9,-0.1,oz,3.5
+"Chicken, ground, with additives, raw",138.1,17.9,7.2,0,oz,3.5
+"Chicken, breast, boneless, skinless, raw",112.2,22.5,1.9,0,oz,3.5
+"Chicken, breast, meat and skin, raw",132.8,21.4,4.8,-0.4,oz,3.5
+"Chicken, drumstick, meat and skin, raw",130.1,18.4,5.9,-0.5,oz,3.5
+"Chicken, thigh, boneless, skinless, raw",149.3,18.6,7.9,0,oz,3.5
+"Chicken, thigh, meat and skin, raw",192.8,17.1,13.3,-0.2,oz,3.5
+"Chicken, wing, meat and skin, raw",172.8,18.4,10.6,-0.5,oz,3.5
+"Turkey, ground, 93% lean/ 7% fat, raw",157.6,17.3,9.6,0,oz,3.5
+"Crustaceans, crab, blue swimming, lump, pasteurized, refrigerated",86.0,18.6,0.8,0,oz,3.5
+"Lentils, dry",350.9,23.6,1.9,62.2,oz,3.5
+"Beans, black, canned, sodium added, drained and rinsed",115.3,6.9,1.3,19.8,oz,3.5
+"Plum, black, with skin, raw",52.7,0.6,0.3,13.5,oz,3.5
+"Rice, black, unenriched, raw",360.5,7.6,3.4,77.2,oz,3.5
+"Beans, cannellini, dry",336.6,21.6,2.2,59.8,oz,3.5
+"Beans, snap, green, raw",33.6,2.0,0.3,7.4,oz,3.5
+"Chickpeas, (garbanzo beans, bengal gram), dry",372.0,21.3,6.3,60.4,oz,3.5
+"Beans, cannellini, canned, sodium added, drained and rinsed",112.1,7.4,1.2,18.8,oz,3.5
+"Beans, navy, canned, sodium added, drained and rinsed",115.8,6.6,1.4,20.0,oz,3.5
+"Beans, pinto, canned, sodium added, drained and rinsed",113.6,6.7,1.3,19.6,oz,3.5
+"Beans, great northern, canned, sodium added, drained and rinsed",113.7,7.0,1.3,19.3,oz,3.5
+"Chickpeas (garbanzo beans, bengal gram), canned, sodium added, drained and rinsed",133.0,7.0,3.1,20.3,oz,3.5
+"Beans, kidney, dark red, canned, sodium added, sugar added, drained and rinsed",123.2,7.8,1.3,21.0,oz,3.5
+"Beans, kidney, light red, canned, sodium added, sugar added, drained and rinsed",123.5,7.3,1.3,21.4,oz,3.5
+"Beans, kidney, dark red, canned, sodium added, sugar added, drained and rinsed",123.2,7.8,1.3,21.0,oz,3.5
+"Beans, kidney, light red, canned, sodium added, sugar added, drained and rinsed",123.5,7.3,1.3,21.4,oz,3.5
+"Beans, cannellini, dry",336.6,21.6,2.2,59.8,oz,3.5
+"Beans, snap, green, raw",33.6,2.0,0.3,7.4,oz,3.5
+"Chickpeas, (garbanzo beans, bengal gram), dry",372.0,21.3,6.3,60.4,oz,3.5
+"Beans, black, canned, sodium added, drained and rinsed",115.3,6.9,1.3,19.8,oz,3.5
+"Beans, cannellini, canned, sodium added, drained and rinsed",112.1,7.4,1.2,18.8,oz,3.5
+"Beans, navy, canned, sodium added, drained and rinsed",115.8,6.6,1.4,20.0,oz,3.5
+"Beans, pinto, canned, sodium added, drained and rinsed",113.6,6.7,1.3,19.6,oz,3.5
+"Beans, great northern, canned, sodium added, drained and rinsed",113.7,7.0,1.3,19.3,oz,3.5
+"Chickpeas (garbanzo beans, bengal gram), canned, sodium added, drained and rinsed",133.0,7.0,3.1,20.3,oz,3.5
+"Chickpeas, (garbanzo beans, bengal gram), dry",372.0,21.3,6.3,60.4,oz,3.5
+"Chickpeas (garbanzo beans, bengal gram), canned, sodium added, drained and rinsed",133.0,7.0,3.1,20.3,oz,3.5
+"Cheese, cotija, solid",351.8,23.8,27.2,2.7,oz,3.5
+"Cheese, oaxaca, solid",298.1,22.1,22.1,2.4,oz,3.5
+"Cheese, provolone, sliced",356.9,23.5,28.1,2.5,oz,3.5
+"Cheese, pasteurized process cheese food or product, American, singles",307.9,15.6,23.9,8.2,oz,3.5
+"Cheese, monterey jack, solid",390.7,22.6,32.6,1.9,oz,3.5
+"Cheese, parmesan, grated, refrigerated",404.8,30.1,29.5,4.3,oz,3.5
+"Cheese, queso fresco, solid",297.4,18.9,23.4,3.0,oz,3.5
+"Cheese, feta, whole milk, crumbled",273.5,19.7,19.1,5.6,oz,3.5
+"Cream cheese, full fat, block",336.7,5.8,33.5,4.6,oz,3.5
+"Cottage cheese, full fat, large or small curd",104.6,11.6,4.2,4.6,oz,3.5
+"Cheese, cotija, solid",351.8,23.8,27.2,2.7,oz,3.5
+"Cheese, oaxaca, solid",298.1,22.1,22.1,2.4,oz,3.5
+"Cheese, provolone, sliced",356.9,23.5,28.1,2.5,oz,3.5
+"Cheese, pasteurized process cheese food or product, American, singles",307.9,15.6,23.9,8.2,oz,3.5
+"Cheese, monterey jack, solid",390.7,22.6,32.6,1.9,oz,3.5
+"Cheese, parmesan, grated, refrigerated",404.8,30.1,29.5,4.3,oz,3.5
+"Cheese, queso fresco, solid",297.4,18.9,23.4,3.0,oz,3.5
+"Cheese, feta, whole milk, crumbled",273.5,19.7,19.1,5.6,oz,3.5
+"Cream cheese, full fat, block",336.7,5.8,33.5,4.6,oz,3.5
+"Cottage cheese, full fat, large or small curd",104.6,11.6,4.2,4.6,oz,3.5
+"Cheese, cotija, solid",351.8,23.8,27.2,2.7,oz,3.5
+"Cheese, oaxaca, solid",298.1,22.1,22.1,2.4,oz,3.5
+"Cheese, provolone, sliced",356.9,23.5,28.1,2.5,oz,3.5
+"Cheese, pasteurized process cheese food or product, American, singles",307.9,15.6,23.9,8.2,oz,3.5
+"Cheese, monterey jack, solid",390.7,22.6,32.6,1.9,oz,3.5
+"Cheese, parmesan, grated, refrigerated",404.8,30.1,29.5,4.3,oz,3.5
+"Cheese, queso fresco, solid",297.4,18.9,23.4,3.0,oz,3.5
+"Cheese, feta, whole milk, crumbled",273.5,19.7,19.1,5.6,oz,3.5
+"Cream cheese, full fat, block",336.7,5.8,33.5,4.6,oz,3.5
+"Cottage cheese, full fat, large or small curd",104.6,11.6,4.2,4.6,oz,3.5
+"Yogurt, plain, nonfat",50.1,4.2,0.1,8.1,oz,3.5
+"Yogurt, plain, whole milk",77.3,3.8,4.5,5.6,oz,3.5
+"Yogurt, Greek, plain, whole milk",94.5,8.8,4.4,4.8,oz,3.5
+"Yogurt, plain, nonfat",50.1,4.2,0.1,8.1,oz,3.5
+"Yogurt, plain, whole milk",77.3,3.8,4.5,5.6,oz,3.5
+"Yogurt, Greek, plain, whole milk",94.5,8.8,4.4,4.8,oz,3.5
+"Rice, black, unenriched, raw",360.5,7.6,3.4,77.2,oz,3.5
+"Wild rice, dry, raw",358.6,12.8,1.7,75.7,oz,3.5
+"Rice, red, unenriched, dry, raw",360.0,8.6,3.4,76.2,oz,3.5
+"Rice, brown, long grain, unenriched, raw",368.4,7.3,3.3,76.7,oz,3.5
+"Rice, white, long grain, unenriched, raw",369.6,7.0,1.0,80.3,oz,3.5
+"Rice, black, unenriched, raw",360.5,7.6,3.4,77.2,oz,3.5
+"Wild rice, dry, raw",358.6,12.8,1.7,75.7,oz,3.5
+"Rice, red, unenriched, dry, raw",360.0,8.6,3.4,76.2,oz,3.5
+"Rice, brown, long grain, unenriched, raw",368.4,7.3,3.3,76.7,oz,3.5
+"Rice, white, long grain, unenriched, raw",369.6,7.0,1.0,80.3,oz,3.5
+"Flour, quinoa",378.4,11.9,6.6,69.5,oz,3.5
+"Flour, oat, whole grain",386.4,13.2,6.3,69.9,oz,3.5
+"Oats, whole grain, steel cut",379.2,12.5,5.8,69.8,oz,3.5
+"Oats, whole grain, rolled, old fashioned",378.9,13.5,5.9,68.7,oz,3.5
+"Buckwheat, whole grain",331.6,11.1,3.0,71.1,oz,3.5
+"Bulgur, dry, raw",349.3,11.8,2.4,75.9,oz,3.5
+"Chia seeds, dry, raw",490.1,17.0,32.9,38.3,oz,3.5
+"Corn flour, masa harina, white or yellow, dry, raw",366.0,7.6,4.3,76.7,oz,3.5
+"Einkorn, grain, dry, raw",345.7,15.1,3.8,68.7,oz,3.5
+"Farro, pearled, dry, raw",344.0,12.6,3.1,72.1,oz,3.5
+"Flour, 00",365.6,11.4,1.5,74.4,oz,3.5
+"Flour, amaranth",378.0,13.2,6.2,68.8,oz,3.5
+"Flour, barley",357.2,8.7,2.5,77.4,oz,3.5
+"Flour, buckwheat",334.3,8.9,2.5,75.0,oz,3.5
+"Flour, oat, whole grain",386.4,13.2,6.3,69.9,oz,3.5
+"Flour, quinoa",378.4,11.9,6.6,69.5,oz,3.5
+"Flour, rye",351.0,8.4,1.9,77.2,oz,3.5
+"Flour, semolina, coarse and semi-coarse",365.0,11.7,1.6,73.8,oz,3.5
+"Flour, semolina, fine",366.0,13.3,1.8,72.0,oz,3.5
+"Flour, sorghum",363.9,8.3,3.6,77.4,oz,3.5
+"Flour, spelt, whole grain",340.6,14.5,2.5,70.7,oz,3.5
+"Fonio, grain, dry, raw",376.9,7.2,1.7,81.3,oz,3.5
+"Khorasan, grain, dry, raw",347.8,14.8,2.8,71.8,oz,3.5
+"Millet, whole grain",380.6,10.0,4.2,74.4,oz,3.5
+"Oats, whole grain, rolled, old fashioned",378.9,13.5,5.9,68.7,oz,3.5
+"Oats, whole grain, steel cut",379.2,12.5,5.8,69.8,oz,3.5
+"Rice, black, unenriched, raw",360.5,7.6,3.4,77.2,oz,3.5
+"Rice, brown, long grain, unenriched, raw",368.4,7.3,3.3,76.7,oz,3.5
+"Rice, red, unenriched, dry, raw",360.0,8.6,3.4,76.2,oz,3.5
+"Rice, white, long grain, unenriched, raw",369.6,7.0,1.0,80.3,oz,3.5
+"Sorghum bran, white, unenriched, dry, raw",364.5,11.2,9.3,68.7,oz,3.5
+"Sorghum flour, white, pearled, unenriched, dry, raw",349.6,10.2,3.2,73.5,oz,3.5
+"Sorghum grain, white, pearled, unenriched, dry, raw",338.4,10.2,3.3,74.9,oz,3.5
+"Sorghum, whole grain, white, dry, raw",341.0,10.1,4.2,73.6,oz,3.5
+"Wild rice, dry, raw",358.6,12.8,1.7,75.7,oz,3.5
+"Flour, potato",352.7,8.1,1.0,79.9,oz,3.5
+"Potatoes, gold, without skin, raw",71.6,1.8,0.3,16.0,oz,3.5
+"Potatoes, red, without skin, raw",73.4,2.1,0.2,16.3,oz,3.5
+"Potatoes, russet, without skin, raw",81.0,2.3,0.4,17.8,oz,3.5
+"Sweet potatoes, orange flesh, without skin, raw",77.4,1.6,0.4,17.3,oz,3.5
+"Flour, potato",352.7,8.1,1.0,79.9,oz,3.5
+"Potatoes, gold, without skin, raw",71.6,1.8,0.3,16.0,oz,3.5
+"Potatoes, red, without skin, raw",73.4,2.1,0.2,16.3,oz,3.5
+"Potatoes, russet, without skin, raw",81.0,2.3,0.4,17.8,oz,3.5
+"Sweet potatoes, orange flesh, without skin, raw",77.4,1.6,0.4,17.3,oz,3.5
+"Corn, sweet, yellow and white kernels,  fresh, raw",72.9,2.8,1.6,14.7,oz,3.5
+"Corn flour, masa harina, white or yellow, dry, raw",366.0,7.6,4.3,76.7,oz,3.5
+"Flour, barley",357.2,8.7,2.5,77.4,oz,3.5
+"Bulgur, dry, raw",349.3,11.8,2.4,75.9,oz,3.5
+"Oats, whole grain, rolled, old fashioned",378.9,13.5,5.9,68.7,oz,3.5
+"Carrots, baby, raw",38.3,0.8,0.1,9.1,oz,3.5
+"Carrots, mature, raw",45.0,0.9,0.4,10.3,oz,3.5
+"Spinach, baby",20.7,2.9,0.6,2.4,oz,3.5
+"Spinach, mature",21.6,2.9,0.6,2.6,oz,3.5
+"Peppers, bell, green, raw",19.7,0.7,0.1,4.8,oz,3.5
+"Peppers, bell, orange, raw",27.4,0.9,0.2,6.7,oz,3.5
+"Peppers, bell, red, raw",27.0,0.9,0.1,6.7,oz,3.5
+"Peppers, bell, yellow, raw",26.6,0.8,0.1,6.6,oz,3.5
+"Cucumber, with peel, raw",13.9,0.6,0.2,3.0,oz,3.5
+"Squash, summer, green, zucchini, includes skin, raw",16,1.0,0.2,3.3,oz,3.5
+"Cauliflower, raw",22.9,1.6,0.2,4.7,oz,3.5
+"Tomato, roma",19.0,0.7,0.4,3.8,oz,3.5
+"Tomato, puree, canned",34.8,1.6,0.3,8.0,oz,3.5
+"Tomatoes, crushed, canned",32.3,1.4,0.4,7.1,oz,3.5
+"Tomato, sauce, canned, with salt added",29.1,1.4,0.4,6.3,oz,3.5
+"Tomato, paste, canned, without salt added",88.5,4.2,0.7,20.2,oz,3.5
+"Tomatoes, whole, canned, solids and liquids, with salt added",19.1,0.9,0.2,4.3,oz,3.5
+"Tomato juice, with added ingredients, from concentrate, shelf stable",19.9,0.9,0.3,4.3,oz,3.5
+"Lettuce, iceberg, raw",14.5,0.7,0.1,3.4,oz,3.5
+"Lettuce, leaf, green, raw",18.5,1.1,0.2,4.1,oz,3.5
+"Lettuce, leaf, red, raw",14.7,0.9,0.1,3.3,oz,3.5
+"Lettuce, romaine, green, raw",17.5,1.0,0.1,4.1,oz,3.5
+"Arugula, baby, raw",25.9,1.6,0.3,5.4,oz,3.5
+"Asparagus, green, raw",23.5,1.4,0.2,5.1,oz,3.5
+"Beans, snap, green, raw",33.6,2.0,0.3,7.4,oz,3.5
+"Asparagus, green, raw",23.5,1.4,0.2,5.1,oz,3.5
+"Cabbage, green, raw",27.9,1.0,0.2,6.4,oz,3.5
+"Beans, cannellini, dry",336.6,21.6,2.2,59.8,oz,3.5
+"Grapes, green, seedless, raw",71.9,0.9,0.2,18.6,oz,3.5
+"Lettuce, leaf, green, raw",18.5,1.1,0.2,4.1,oz,3.5
+"Lettuce, romaine, green, raw",17.5,1.0,0.1,4.1,oz,3.5
+"Peppers, bell, green, raw",19.7,0.7,0.1,4.8,oz,3.5
+"Kiwifruit (kiwi), green, peeled, raw",58.5,1.0,0.6,13.8,oz,3.5
+"Pear, Anjou, green, with skin, raw",57.3,0.3,0.4,14.8,oz,3.5
+"Chickpeas, (garbanzo beans, bengal gram), dry",372.0,21.3,6.3,60.4,oz,3.5
+"Squash, summer, green, zucchini, includes skin, raw",16,1.0,0.2,3.3,oz,3.5
+"Beans, black, canned, sodium added, drained and rinsed",115.3,6.9,1.3,19.8,oz,3.5
+"Beans, cannellini, canned, sodium added, drained and rinsed",112.1,7.4,1.2,18.8,oz,3.5
+"Beans, navy, canned, sodium added, drained and rinsed",115.8,6.6,1.4,20.0,oz,3.5
+"Beans, pinto, canned, sodium added, drained and rinsed",113.6,6.7,1.3,19.6,oz,3.5
+"Beans, great northern, canned, sodium added, drained and rinsed",113.7,7.0,1.3,19.3,oz,3.5
+"Peas, green, sweet, canned, sodium added, sugar added, drained and rinsed",77.8,4.7,1.2,12.7,oz,3.5
+"Chickpeas (garbanzo beans, bengal gram), canned, sodium added, drained and rinsed",133.0,7.0,3.1,20.3,oz,3.5
+"Beans, kidney, dark red, canned, sodium added, sugar added, drained and rinsed",123.2,7.8,1.3,21.0,oz,3.5
+"Beans, kidney, light red, canned, sodium added, sugar added, drained and rinsed",123.5,7.3,1.3,21.4,oz,3.5
+"Blackeye pea, dry",345.6,21.2,2.4,61.8,oz,3.5
+"Blackeye pea, canned, sodium added, drained and rinsed",112.9,6.9,1.3,19.2,oz,3.5
+"Peas, green, sweet, canned, sodium added, sugar added, drained and rinsed",77.8,4.7,1.2,12.7,oz,3.5
+"Mushroom, beech",33.0,2.2,0.4,6.8,oz,3.5
+"Mushroom, crimini",23.7,3.1,0.2,4.0,oz,3.5
+"Mushroom, enoki",36.7,2.4,0.2,8.1,oz,3.5
+"Mushroom, maitake",31.0,2.2,0.3,6.6,oz,3.5
+"Mushroom, oyster",33.3,2.9,0.2,6.9,oz,3.5
+"Mushroom, pioppini",31.2,3.5,0.2,5.8,oz,3.5
+"Mushroom, portabella",26.0,2.8,0.3,4.7,oz,3.5
+"Mushrooms, shiitake",36.4,2.4,0.2,8.2,oz,3.5
+"Mushroom, king oyster",38.5,2.4,0.3,8.5,oz,3.5
+"Mushroom, lion's mane",35.1,2.5,0.3,7.6,oz,3.5
+"Mushrooms, white button",24.9,2.9,0.4,4.1,oz,3.5
+"Beets, raw",41.0,1.7,0.3,8.8,oz,3.5
+"Cabbage, green, raw",27.9,1.0,0.2,6.4,oz,3.5
+"Cabbage, red, raw",29.9,1.2,0.2,6.8,oz,3.5
+"Cabbage, bok choy, raw",17.0,1.0,0.2,3.5,oz,3.5
+"Brussels sprouts, raw",48.8,4.0,0.6,9.6,oz,3.5
+"Eggplant, raw",22.4,0.9,0.1,5.4,oz,3.5
+"Celery, raw",14.8,0.5,0.2,3.3,oz,3.5
+"Squash, winter, acorn, raw",42.0,1.2,0.2,10.5,oz,3.5
+"Squash, winter, butternut, raw",41.7,1.1,0.2,10.5,oz,3.5
+"Squash, summer, yellow, includes skin, raw",19,0.9,0.1,4.4,oz,3.5
+"Squash, summer, green, zucchini, includes skin, raw",16,1.0,0.2,3.3,oz,3.5
+"Seeds, pumpkin seeds (pepitas), raw",514.8,29.9,40.0,18.7,oz,3.5
+"Peppers, bell, green, raw",19.7,0.7,0.1,4.8,oz,3.5
+"Peppers, bell, orange, raw",27.4,0.9,0.2,6.7,oz,3.5
+"Peppers, bell, red, raw",27.0,0.9,0.1,6.7,oz,3.5
+"Peppers, bell, yellow, raw",26.6,0.8,0.1,6.6,oz,3.5
+"Apples, fuji, with skin, raw",58.2,0.1,0.2,15.7,oz,3.5
+"Apples, gala, with skin, raw",54.9,0.1,0.1,14.8,oz,3.5
+"Apples, honeycrisp, with skin, raw",54.0,0.1,0.1,14.7,oz,3.5
+"Apples, granny smith, with skin, raw",53.0,0.3,0.1,14.1,oz,3.5
+"Apples, red delicious, with skin, raw",55.6,0.2,0.2,14.8,oz,3.5
+"Apple juice, with added vitamin C, from concentrate, shelf stable",47.2,0.1,0.3,11.4,oz,3.5
+"Peppers, bell, orange, raw",27.4,0.9,0.2,6.7,oz,3.5
+"Orange juice, no pulp, not fortified, from concentrate, refrigerated",45.7,0.7,0.3,10.3,oz,3.5
+"Orange juice, no pulp, not fortified, not from concentrate, refrigerated",45.0,0.8,0.4,10.0,oz,3.5
+"Sweet potatoes, orange flesh, without skin, raw",77.4,1.6,0.4,17.3,oz,3.5
+"Grapes, green, seedless, raw",71.9,0.9,0.2,18.6,oz,3.5
+"Grapes, red, seedless, raw",77.2,0.9,0.2,20.2,oz,3.5
+"Grape juice, purple, with added vitamin C, from concentrate, shelf stable",64.5,0.3,0.3,15.6,oz,3.5
+"Grape juice, white, with added vitamin C, from concentrate, shelf stable",64.6,0.1,0.3,15.8,oz,3.5
+"Strawberries, raw",32.7,0.6,0.2,8.0,oz,3.5
+"Blueberries, raw",57.4,0.7,0.3,14.6,oz,3.5
+"Raspberries, raw",51.4,1.0,0.2,12.9,oz,3.5
+"Mango, Ataulfo, peeled, raw",70.6,0.7,0.7,17.4,oz,3.5
+"Mango, Tommy Atkins, peeled, raw",61.6,0.6,0.6,15.3,oz,3.5
+"Pineapple, raw",54.0,0.5,0.2,14.1,oz,3.5
+"Kiwifruit (kiwi), green, peeled, raw",58.5,1.0,0.6,13.8,oz,3.5
+"Plum, black, with skin, raw",52.7,0.6,0.3,13.5,oz,3.5
+"Pear, Anjou, green, with skin, raw",57.3,0.3,0.4,14.8,oz,3.5
+"Melons, honeydew, raw",32.9,0.5,0.2,8.1,oz,3.5
+"Grapefruit juice, red, not fortified, not from concentrate, refrigerated",39.8,0.6,0.3,9.1,oz,3.5
+"Apricot, with skin, raw",43.5,1.0,0.4,10.2,oz,3.5
+"Almond butter, creamy",602.5,20.8,53.0,21.2,oz,3.5
+"Peanut butter, creamy",589.4,24.0,49.4,22.7,oz,3.5
+"Sesame butter, creamy",648.4,19.7,62.4,14.2,oz,3.5
+"Avocado, Hass, peeled, raw",206.0,1.8,20.3,8.3,oz,3.5
+"Almond butter, creamy",602.5,20.8,53.0,21.2,oz,3.5
+"Peanut butter, creamy",589.4,24.0,49.4,22.7,oz,3.5
+"Sesame butter, creamy",648.4,19.7,62.4,14.2,oz,3.5
+"Almond butter, creamy",602.5,20.8,53.0,21.2,oz,3.5
+"Peanut butter, creamy",589.4,24.0,49.4,22.7,oz,3.5
+"Sesame butter, creamy",648.4,19.7,62.4,14.2,oz,3.5
+"Buttermilk, low fat",42.9,3.5,1.1,4.8,oz,3.5
+"Cream, sour, full fat",192.7,3.1,18.0,5.6,oz,3.5
+"Cream cheese, full fat, block",336.7,5.8,33.5,4.6,oz,3.5
+"Cottage cheese, full fat, large or small curd",104.6,11.6,4.2,4.6,oz,3.5
+"Turkey, ground, 93% lean/ 7% fat, raw",157.6,17.3,9.6,0,oz,3.5
+"Beef, ground, 80% lean meat / 20% fat, raw",247.8,17.5,19.4,0,oz,3.5
+"Beef, ground, 90% lean meat / 10% fat, raw",190.1,18.2,12.8,0,oz,3.5
+"Yogurt, plain, whole milk",77.3,3.8,4.5,5.6,oz,3.5
+"Cheese, feta, whole milk, crumbled",273.5,19.7,19.1,5.6,oz,3.5
+"Yogurt, Greek, plain, whole milk",94.5,8.8,4.4,4.8,oz,3.5
+"Almond milk, unsweetened, plain, shelf stable",14.6,0.6,1.2,0.3,oz,3.5
+"Soy milk, unsweetened, plain, shelf stable",38.5,3.5,2.1,1.3,oz,3.5
+"Cream, heavy",335.9,2.0,35.6,3.8,oz,3.5
+"Cream, sour, full fat",192.7,3.1,18.0,5.6,oz,3.5
+"Cream cheese, full fat, block",336.7,5.8,33.5,4.6,oz,3.5
+"Cream, heavy",335.9,2.0,35.6,3.8,oz,3.5
+"Cream, sour, full fat",192.7,3.1,18.0,5.6,oz,3.5
+"Cream cheese, full fat, block",336.7,5.8,33.5,4.6,oz,3.5
+"Cream, heavy",335.9,2.0,35.6,3.8,oz,3.5
+"Cream, sour, full fat",192.7,3.1,18.0,5.6,oz,3.5
+"Cream cheese, full fat, block",336.7,5.8,33.5,4.6,oz,3.5
+"Soy milk, unsweetened, plain, shelf stable",38.5,3.5,2.1,1.3,oz,3.5
+"Tomato, sauce, canned, with salt added",29.1,1.4,0.4,6.3,oz,3.5
+"Fish, catfish, farm raised, raw",133.8,16.5,7.3,0,oz,3.5
+"Fish, tilapia, farm raised, raw",100.0,19.0,2.5,0,oz,3.5
+"Fish, cod, Atlantic, wild caught, raw",70.5,16.1,0.7,0,oz,3.5
+"Fish, salmon, Atlantic, farm raised, raw",203.1,20.3,13.1,0,oz,3.5
+"Fish, salmon, sockeye, wild caught, raw",136.2,22.3,4.9,0,oz,3.5
+"Tomato, sauce, canned, with salt added",29.1,1.4,0.4,6.3,oz,3.5
+"Tomato, sauce, canned, with salt added",29.1,1.4,0.4,6.3,oz,3.5
+"Tomato, sauce, canned, with salt added",29.1,1.4,0.4,6.3,oz,3.5
+"Tomato, sauce, canned, with salt added",29.1,1.4,0.4,6.3,oz,3.5
+"Peas, green, sweet, canned, sodium added, sugar added, drained and rinsed",77.8,4.7,1.2,12.7,oz,3.5
+"Beans, kidney, dark red, canned, sodium added, sugar added, drained and rinsed",123.2,7.8,1.3,21.0,oz,3.5
+"Beans, kidney, light red, canned, sodium added, sugar added, drained and rinsed",123.5,7.3,1.3,21.4,oz,3.5
+"Peas, green, sweet, canned, sodium added, sugar added, drained and rinsed",77.8,4.7,1.2,12.7,oz,3.5
+"Beans, kidney, dark red, canned, sodium added, sugar added, drained and rinsed",123.2,7.8,1.3,21.0,oz,3.5
+"Beans, kidney, light red, canned, sodium added, sugar added, drained and rinsed",123.5,7.3,1.3,21.4,oz,3.5
+"Flour, 00",365.6,11.4,1.5,74.4,oz,3.5
+"Flour, almond",577.6,26.2,50.2,16.2,oz,3.5
+"Flour, amaranth",378.0,13.2,6.2,68.8,oz,3.5
+"Flour, barley",357.2,8.7,2.5,77.4,oz,3.5
+"Flour, buckwheat",334.3,8.9,2.5,75.0,oz,3.5
+"Flour, cassava",358.6,0.9,0.5,87.3,oz,3.5
+"Flour, chestnut",384.6,5.3,4.6,80.5,oz,3.5
+"Flour, coconut",423.6,16.1,15.3,58.9,oz,3.5
+"Flour, potato",352.7,8.1,1.0,79.9,oz,3.5
+"Flour, quinoa",378.4,11.9,6.6,69.5,oz,3.5
+"Flour, rye",351.0,8.4,1.9,77.2,oz,3.5
+"Flour, sorghum",363.9,8.3,3.6,77.4,oz,3.5
+"Flour, semolina, fine",366.0,13.3,1.8,72.0,oz,3.5
+"Flour, oat, whole grain",386.4,13.2,6.3,69.9,oz,3.5
+"Flour, spelt, whole grain",340.6,14.5,2.5,70.7,oz,3.5
+"Flour, semolina, coarse and semi-coarse",365.0,11.7,1.6,73.8,oz,3.5
+"Sorghum flour, white, pearled, unenriched, dry, raw",349.6,10.2,3.2,73.5,oz,3.5
+"Corn flour, masa harina, white or yellow, dry, raw",366.0,7.6,4.3,76.7,oz,3.5
+"Cabbage, bok choy, raw",17.0,1.0,0.2,3.5,oz,3.5
+"Peppers, bell, green, raw",19.7,0.7,0.1,4.8,oz,3.5
+"Peppers, bell, orange, raw",27.4,0.9,0.2,6.7,oz,3.5
+"Peppers, bell, red, raw",27.0,0.9,0.1,6.7,oz,3.5
+"Peppers, bell, yellow, raw",26.6,0.8,0.1,6.6,oz,3.5
+"Peppers, bell, green, raw",19.7,0.7,0.1,4.8,oz,3.5
+"Peppers, bell, orange, raw",27.4,0.9,0.2,6.7,oz,3.5
+"Peppers, bell, red, raw",27.0,0.9,0.1,6.7,oz,3.5
+"Peppers, bell, yellow, raw",26.6,0.8,0.1,6.6,oz,3.5
+"Asparagus, green, raw",23.5,1.4,0.2,5.1,oz,3.5
+"Cabbage, green, raw",27.9,1.0,0.2,6.4,oz,3.5
+"Beans, snap, green, raw",33.6,2.0,0.3,7.4,oz,3.5
+"Grapes, green, seedless, raw",71.9,0.9,0.2,18.6,oz,3.5
+"Lettuce, leaf, green, raw",18.5,1.1,0.2,4.1,oz,3.5
+"Lettuce, romaine, green, raw",17.5,1.0,0.1,4.1,oz,3.5
+"Peppers, bell, green, raw",19.7,0.7,0.1,4.8,oz,3.5
+"Kiwifruit (kiwi), green, peeled, raw",58.5,1.0,0.6,13.8,oz,3.5
+"Pear, Anjou, green, with skin, raw",57.3,0.3,0.4,14.8,oz,3.5
+"Squash, summer, green, zucchini, includes skin, raw",16,1.0,0.2,3.3,oz,3.5
+"Peas, green, sweet, canned, sodium added, sugar added, drained and rinsed",77.8,4.7,1.2,12.7,oz,3.5
+"Tomato, roma",19.0,0.7,0.4,3.8,oz,3.5
+"Tomato, puree, canned",34.8,1.6,0.3,8.0,oz,3.5
+"Tomatoes, crushed, canned",32.3,1.4,0.4,7.1,oz,3.5
+"Tomato, sauce, canned, with salt added",29.1,1.4,0.4,6.3,oz,3.5
+"Tomato, paste, canned, without salt added",88.5,4.2,0.7,20.2,oz,3.5
+"Tomatoes, whole, canned, solids and liquids, with salt added",19.1,0.9,0.2,4.3,oz,3.5
+"Tomato juice, with added ingredients, from concentrate, shelf stable",19.9,0.9,0.3,4.3,oz,3.5
+"Tomato, paste, canned, without salt added",88.5,4.2,0.7,20.2,oz,3.5
+"Tomato, roma",19.0,0.7,0.4,3.8,oz,3.5
+"Tomato, puree, canned",34.8,1.6,0.3,8.0,oz,3.5
+"Tomatoes, crushed, canned",32.3,1.4,0.4,7.1,oz,3.5
+"Tomato, sauce, canned, with salt added",29.1,1.4,0.4,6.3,oz,3.5
+"Tomatoes, whole, canned, solids and liquids, with salt added",19.1,0.9,0.2,4.3,oz,3.5
+"Tomato juice, with added ingredients, from concentrate, shelf stable",19.9,0.9,0.3,4.3,oz,3.5
+"Tomato, sauce, canned, with salt added",29.1,1.4,0.4,6.3,oz,3.5
+"Tomato, roma",19.0,0.7,0.4,3.8,oz,3.5
+"Tomato, puree, canned",34.8,1.6,0.3,8.0,oz,3.5
+"Tomatoes, crushed, canned",32.3,1.4,0.4,7.1,oz,3.5
+"Tomato, paste, canned, without salt added",88.5,4.2,0.7,20.2,oz,3.5
+"Tomatoes, whole, canned, solids and liquids, with salt added",19.1,0.9,0.2,4.3,oz,3.5
+"Tomato juice, with added ingredients, from concentrate, shelf stable",19.9,0.9,0.3,4.3,oz,3.5
+"Tomato, paste, canned, without salt added",88.5,4.2,0.7,20.2,oz,3.5
+"Cream cheese, full fat, block",336.7,5.8,33.5,4.6,oz,3.5
+"Cream, heavy",335.9,2.0,35.6,3.8,oz,3.5
+"Cream, sour, full fat",192.7,3.1,18.0,5.6,oz,3.5
+"Cheese, cotija, solid",351.8,23.8,27.2,2.7,oz,3.5
+"Cheese, oaxaca, solid",298.1,22.1,22.1,2.4,oz,3.5
+"Cheese, provolone, sliced",356.9,23.5,28.1,2.5,oz,3.5
+"Cheese, pasteurized process cheese food or product, American, singles",307.9,15.6,23.9,8.2,oz,3.5
+"Cheese, monterey jack, solid",390.7,22.6,32.6,1.9,oz,3.5
+"Cheese, parmesan, grated, refrigerated",404.8,30.1,29.5,4.3,oz,3.5
+"Cheese, queso fresco, solid",297.4,18.9,23.4,3.0,oz,3.5
+"Cheese, feta, whole milk, crumbled",273.5,19.7,19.1,5.6,oz,3.5
+"Cottage cheese, full fat, large or small curd",104.6,11.6,4.2,4.6,oz,3.5
+"Cheese, feta, whole milk, crumbled",273.5,19.7,19.1,5.6,oz,3.5
+"Crustaceans, crab, blue swimming, lump, pasteurized, refrigerated",86.0,18.6,0.8,0,oz,3.5
+"Cheese, cotija, solid",351.8,23.8,27.2,2.7,oz,3.5
+"Cheese, oaxaca, solid",298.1,22.1,22.1,2.4,oz,3.5
+"Cheese, provolone, sliced",356.9,23.5,28.1,2.5,oz,3.5
+"Cheese, pasteurized process cheese food or product, American, singles",307.9,15.6,23.9,8.2,oz,3.5
+"Cheese, monterey jack, solid",390.7,22.6,32.6,1.9,oz,3.5
+"Cheese, parmesan, grated, refrigerated",404.8,30.1,29.5,4.3,oz,3.5
+"Cheese, queso fresco, solid",297.4,18.9,23.4,3.0,oz,3.5
+"Cheese, feta, whole milk, crumbled",273.5,19.7,19.1,5.6,oz,3.5
+"Cream cheese, full fat, block",336.7,5.8,33.5,4.6,oz,3.5
+"Cottage cheese, full fat, large or small curd",104.6,11.6,4.2,4.6,oz,3.5
+"Cheese, cotija, solid",351.8,23.8,27.2,2.7,oz,3.5
+"Cheese, oaxaca, solid",298.1,22.1,22.1,2.4,oz,3.5
+"Cheese, provolone, sliced",356.9,23.5,28.1,2.5,oz,3.5
+"Cheese, pasteurized process cheese food or product, American, singles",307.9,15.6,23.9,8.2,oz,3.5
+"Cheese, monterey jack, solid",390.7,22.6,32.6,1.9,oz,3.5
+"Cheese, parmesan, grated, refrigerated",404.8,30.1,29.5,4.3,oz,3.5
+"Cheese, queso fresco, solid",297.4,18.9,23.4,3.0,oz,3.5
+"Cheese, feta, whole milk, crumbled",273.5,19.7,19.1,5.6,oz,3.5
+"Cream cheese, full fat, block",336.7,5.8,33.5,4.6,oz,3.5
+"Cottage cheese, full fat, large or small curd",104.6,11.6,4.2,4.6,oz,3.5
+"Flour, almond",577.6,26.2,50.2,16.2,oz,3.5
+"Almond butter, creamy",602.5,20.8,53.0,21.2,oz,3.5
+"Nuts, almonds, whole, raw",583.6,21.5,51.1,20.0,oz,3.5
+"Almond milk, unsweetened, plain, shelf stable",14.6,0.6,1.2,0.3,oz,3.5
+"Nuts, walnuts, English, halves, raw",678.7,14.6,69.7,10.9,oz,3.5
+"Nuts, pecans, halves, raw",699.6,10.0,73.3,12.7,oz,3.5
+"Nuts, cashew nuts, raw",533.5,17.4,38.9,36.3,oz,3.5
+"Nuts, hazelnuts or filberts, raw",602.4,13.5,53.5,26.5,oz,3.5
+"Nuts, pistachio nuts, raw",560.7,20.5,45.0,27.7,oz,3.5
+"Nuts, pine nuts, raw",643.0,15.7,61.3,18.6,oz,3.5
+"Nuts, cashew nuts, raw",533.5,17.4,38.9,36.3,oz,3.5
+"Nuts, macadamia nuts, raw",668.5,7.8,64.9,24.1,oz,3.5
+"Nuts, pistachio nuts, raw",560.7,20.5,45.0,27.7,oz,3.5
+"Nuts, brazilnuts, raw",621.0,15.0,57.4,21.6,oz,3.5
+"Nuts, almonds, whole, raw",583.6,21.5,51.1,20.0,oz,3.5
+"Nuts, hazelnuts or filberts, raw",602.4,13.5,53.5,26.5,oz,3.5
+"Nuts, pecans, halves, raw",699.6,10.0,73.3,12.7,oz,3.5
+"Nuts, walnuts, English, halves, raw",678.7,14.6,69.7,10.9,oz,3.5
+"Almond butter, creamy",602.5,20.8,53.0,21.2,oz,3.5
+"Flaxseed, ground",514.4,18.0,37.3,34.4,oz,3.5
+"Flour, almond",577.6,26.2,50.2,16.2,oz,3.5
+"Flour, chestnut",384.6,5.3,4.6,80.5,oz,3.5
+"Flour, coconut",423.6,16.1,15.3,58.9,oz,3.5
+"Seeds, pumpkin seeds (pepitas), raw",514.8,29.9,40.0,18.7,oz,3.5
+"Seeds, sunflower seed, kernel, raw",570.7,18.9,48.4,24.5,oz,3.5
+"Sesame butter, creamy",648.4,19.7,62.4,14.2,oz,3.5
+"Chia seeds, dry, raw",490.1,17.0,32.9,38.3,oz,3.5
+"Seeds, pumpkin seeds (pepitas), raw",514.8,29.9,40.0,18.7,oz,3.5
+"Seeds, sunflower seed, kernel, raw",570.7,18.9,48.4,24.5,oz,3.5
+"Almond butter, creamy",602.5,20.8,53.0,21.2,oz,3.5
+"Flaxseed, ground",514.4,18.0,37.3,34.4,oz,3.5
+"Flour, almond",577.6,26.2,50.2,16.2,oz,3.5
+"Flour, chestnut",384.6,5.3,4.6,80.5,oz,3.5
+"Flour, coconut",423.6,16.1,15.3,58.9,oz,3.5
+"Nuts, almonds, whole, raw",583.6,21.5,51.1,20.0,oz,3.5
+"Nuts, brazilnuts, raw",621.0,15.0,57.4,21.6,oz,3.5
+"Nuts, cashew nuts, raw",533.5,17.4,38.9,36.3,oz,3.5
+"Nuts, hazelnuts or filberts, raw",602.4,13.5,53.5,26.5,oz,3.5
+"Nuts, macadamia nuts, raw",668.5,7.8,64.9,24.1,oz,3.5
+"Nuts, pecans, halves, raw",699.6,10.0,73.3,12.7,oz,3.5
+"Nuts, pine nuts, raw",643.0,15.7,61.3,18.6,oz,3.5
+"Nuts, pistachio nuts, raw",560.7,20.5,45.0,27.7,oz,3.5
+"Nuts, walnuts, English, halves, raw",678.7,14.6,69.7,10.9,oz,3.5
+"Sesame butter, creamy",648.4,19.7,62.4,14.2,oz,3.5
+"Flaxseed, ground",514.4,18.0,37.3,34.4,oz,3.5
+"Seeds, pumpkin seeds (pepitas), raw",514.8,29.9,40.0,18.7,oz,3.5
+"Seeds, sunflower seed, kernel, raw",570.7,18.9,48.4,24.5,oz,3.5
+"Chia seeds, dry, raw",490.1,17.0,32.9,38.3,oz,3.5
+"Almond butter, creamy",602.5,20.8,53.0,21.2,oz,3.5
+"Flaxseed, ground",514.4,18.0,37.3,34.4,oz,3.5
+"Flour, almond",577.6,26.2,50.2,16.2,oz,3.5
+"Flour, chestnut",384.6,5.3,4.6,80.5,oz,3.5
+"Flour, coconut",423.6,16.1,15.3,58.9,oz,3.5
+"Nuts, almonds, whole, raw",583.6,21.5,51.1,20.0,oz,3.5
+"Nuts, brazilnuts, raw",621.0,15.0,57.4,21.6,oz,3.5
+"Nuts, cashew nuts, raw",533.5,17.4,38.9,36.3,oz,3.5
+"Nuts, hazelnuts or filberts, raw",602.4,13.5,53.5,26.5,oz,3.5
+"Nuts, macadamia nuts, raw",668.5,7.8,64.9,24.1,oz,3.5
+"Nuts, pecans, halves, raw",699.6,10.0,73.3,12.7,oz,3.5
+"Nuts, pine nuts, raw",643.0,15.7,61.3,18.6,oz,3.5
+"Nuts, pistachio nuts, raw",560.7,20.5,45.0,27.7,oz,3.5
+"Nuts, walnuts, English, halves, raw",678.7,14.6,69.7,10.9,oz,3.5
+"Sesame butter, creamy",648.4,19.7,62.4,14.2,oz,3.5
+"Seeds, pumpkin seeds (pepitas), raw",514.8,29.9,40.0,18.7,oz,3.5
+"Seeds, sunflower seed, kernel, raw",570.7,18.9,48.4,24.5,oz,3.5
+"Chia seeds, dry, raw",490.1,17.0,32.9,38.3,oz,3.5
+"Almond butter, creamy",602.5,20.8,53.0,21.2,oz,3.5
+"Flaxseed, ground",514.4,18.0,37.3,34.4,oz,3.5
+"Flour, almond",577.6,26.2,50.2,16.2,oz,3.5
+"Flour, chestnut",384.6,5.3,4.6,80.5,oz,3.5
+"Flour, coconut",423.6,16.1,15.3,58.9,oz,3.5
+"Nuts, almonds, whole, raw",583.6,21.5,51.1,20.0,oz,3.5
+"Nuts, brazilnuts, raw",621.0,15.0,57.4,21.6,oz,3.5
+"Nuts, cashew nuts, raw",533.5,17.4,38.9,36.3,oz,3.5
+"Nuts, hazelnuts or filberts, raw",602.4,13.5,53.5,26.5,oz,3.5
+"Nuts, macadamia nuts, raw",668.5,7.8,64.9,24.1,oz,3.5
+"Nuts, pecans, halves, raw",699.6,10.0,73.3,12.7,oz,3.5
+"Nuts, pine nuts, raw",643.0,15.7,61.3,18.6,oz,3.5
+"Nuts, pistachio nuts, raw",560.7,20.5,45.0,27.7,oz,3.5
+"Nuts, walnuts, English, halves, raw",678.7,14.6,69.7,10.9,oz,3.5
+"Sesame butter, creamy",648.4,19.7,62.4,14.2,oz,3.5
+"Seeds, sunflower seed, kernel, raw",570.7,18.9,48.4,24.5,oz,3.5
+"Seeds, pumpkin seeds (pepitas), raw",514.8,29.9,40.0,18.7,oz,3.5
+"Chia seeds, dry, raw",490.1,17.0,32.9,38.3,oz,3.5
+"Almond butter, creamy",602.5,20.8,53.0,21.2,oz,3.5
+"Flaxseed, ground",514.4,18.0,37.3,34.4,oz,3.5
+"Flour, almond",577.6,26.2,50.2,16.2,oz,3.5
+"Flour, chestnut",384.6,5.3,4.6,80.5,oz,3.5
+"Flour, coconut",423.6,16.1,15.3,58.9,oz,3.5
+"Nuts, almonds, whole, raw",583.6,21.5,51.1,20.0,oz,3.5
+"Nuts, brazilnuts, raw",621.0,15.0,57.4,21.6,oz,3.5
+"Nuts, cashew nuts, raw",533.5,17.4,38.9,36.3,oz,3.5
+"Nuts, hazelnuts or filberts, raw",602.4,13.5,53.5,26.5,oz,3.5
+"Nuts, macadamia nuts, raw",668.5,7.8,64.9,24.1,oz,3.5
+"Nuts, pecans, halves, raw",699.6,10.0,73.3,12.7,oz,3.5
+"Nuts, pine nuts, raw",643.0,15.7,61.3,18.6,oz,3.5
+"Nuts, pistachio nuts, raw",560.7,20.5,45.0,27.7,oz,3.5
+"Nuts, walnuts, English, halves, raw",678.7,14.6,69.7,10.9,oz,3.5
+"Sesame butter, creamy",648.4,19.7,62.4,14.2,oz,3.5
+"Flour, coconut",423.6,16.1,15.3,58.9,oz,3.5
+"Flour, coconut",423.6,16.1,15.3,58.9,oz,3.5
+"Yogurt, plain, whole milk",77.3,3.8,4.5,5.6,oz,3.5
+"Cheese, feta, whole milk, crumbled",273.5,19.7,19.1,5.6,oz,3.5
+"Yogurt, Greek, plain, whole milk",94.5,8.8,4.4,4.8,oz,3.5
+"Almond milk, unsweetened, plain, shelf stable",14.6,0.6,1.2,0.3,oz,3.5
+"Soy milk, unsweetened, plain, shelf stable",38.5,3.5,2.1,1.3,oz,3.5
+"Flour, coconut",423.6,16.1,15.3,58.9,oz,3.5
+"Cream, heavy",335.9,2.0,35.6,3.8,oz,3.5
+"Cream, sour, full fat",192.7,3.1,18.0,5.6,oz,3.5
+"Cream cheese, full fat, block",336.7,5.8,33.5,4.6,oz,3.5
+"Flour, coconut",423.6,16.1,15.3,58.9,oz,3.5
+"Yogurt, plain, whole milk",77.3,3.8,4.5,5.6,oz,3.5
+"Cheese, feta, whole milk, crumbled",273.5,19.7,19.1,5.6,oz,3.5
+"Yogurt, Greek, plain, whole milk",94.5,8.8,4.4,4.8,oz,3.5
+"Almond milk, unsweetened, plain, shelf stable",14.6,0.6,1.2,0.3,oz,3.5
+"Soy milk, unsweetened, plain, shelf stable",38.5,3.5,2.1,1.3,oz,3.5
+"Yogurt, plain, whole milk",77.3,3.8,4.5,5.6,oz,3.5
+"Cheese, feta, whole milk, crumbled",273.5,19.7,19.1,5.6,oz,3.5
+"Yogurt, Greek, plain, whole milk",94.5,8.8,4.4,4.8,oz,3.5
+"Almond milk, unsweetened, plain, shelf stable",14.6,0.6,1.2,0.3,oz,3.5
+"Soy milk, unsweetened, plain, shelf stable",38.5,3.5,2.1,1.3,oz,3.5
+"Lettuce, leaf, green, raw",18.5,1.1,0.2,4.1,oz,3.5
+"Lettuce, leaf, red, raw",14.7,0.9,0.1,3.3,oz,3.5
+"Buttermilk, low fat",42.9,3.5,1.1,4.8,oz,3.5
+"Cheese, cotija, solid",351.8,23.8,27.2,2.7,oz,3.5
+"Cheese, feta, whole milk, crumbled",273.5,19.7,19.1,5.6,oz,3.5
+"Cheese, monterey jack, solid",390.7,22.6,32.6,1.9,oz,3.5
+"Cheese, oaxaca, solid",298.1,22.1,22.1,2.4,oz,3.5
+"Cheese, parmesan, grated, refrigerated",404.8,30.1,29.5,4.3,oz,3.5
+"Cheese, pasteurized process cheese food or product, American, singles",307.9,15.6,23.9,8.2,oz,3.5
+"Cheese, provolone, sliced",356.9,23.5,28.1,2.5,oz,3.5
+"Cheese, queso fresco, solid",297.4,18.9,23.4,3.0,oz,3.5
+"Cottage cheese, full fat, large or small curd",104.6,11.6,4.2,4.6,oz,3.5
+"Cream cheese, full fat, block",336.7,5.8,33.5,4.6,oz,3.5
+"Cream, heavy",335.9,2.0,35.6,3.8,oz,3.5
+"Cream, sour, full fat",192.7,3.1,18.0,5.6,oz,3.5
+"Yogurt, Greek, plain, whole milk",94.5,8.8,4.4,4.8,oz,3.5
+"Yogurt, plain, nonfat",50.1,4.2,0.1,8.1,oz,3.5
+"Yogurt, plain, whole milk",77.3,3.8,4.5,5.6,oz,3.5
+"Buttermilk, low fat",42.9,3.5,1.1,4.8,oz,3.5
+"Cheese, cotija, solid",351.8,23.8,27.2,2.7,oz,3.5
+"Cheese, feta, whole milk, crumbled",273.5,19.7,19.1,5.6,oz,3.5
+"Cheese, monterey jack, solid",390.7,22.6,32.6,1.9,oz,3.5
+"Cheese, oaxaca, solid",298.1,22.1,22.1,2.4,oz,3.5
+"Cheese, parmesan, grated, refrigerated",404.8,30.1,29.5,4.3,oz,3.5
+"Cheese, pasteurized process cheese food or product, American, singles",307.9,15.6,23.9,8.2,oz,3.5
+"Cheese, provolone, sliced",356.9,23.5,28.1,2.5,oz,3.5
+"Cheese, queso fresco, solid",297.4,18.9,23.4,3.0,oz,3.5
+"Cottage cheese, full fat, large or small curd",104.6,11.6,4.2,4.6,oz,3.5
+"Cream cheese, full fat, block",336.7,5.8,33.5,4.6,oz,3.5
+"Cream, heavy",335.9,2.0,35.6,3.8,oz,3.5
+"Cream, sour, full fat",192.7,3.1,18.0,5.6,oz,3.5
+"Yogurt, Greek, plain, whole milk",94.5,8.8,4.4,4.8,oz,3.5
+"Yogurt, plain, nonfat",50.1,4.2,0.1,8.1,oz,3.5
+"Yogurt, plain, whole milk",77.3,3.8,4.5,5.6,oz,3.5
+"Flour, 00",365.6,11.4,1.5,74.4,oz,3.5
+"Flour, almond",577.6,26.2,50.2,16.2,oz,3.5
+"Flour, amaranth",378.0,13.2,6.2,68.8,oz,3.5
+"Flour, barley",357.2,8.7,2.5,77.4,oz,3.5
+"Flour, buckwheat",334.3,8.9,2.5,75.0,oz,3.5
+"Flour, cassava",358.6,0.9,0.5,87.3,oz,3.5
+"Flour, chestnut",384.6,5.3,4.6,80.5,oz,3.5
+"Flour, coconut",423.6,16.1,15.3,58.9,oz,3.5
+"Flour, potato",352.7,8.1,1.0,79.9,oz,3.5
+"Flour, quinoa",378.4,11.9,6.6,69.5,oz,3.5
+"Flour, rye",351.0,8.4,1.9,77.2,oz,3.5
+"Flour, sorghum",363.9,8.3,3.6,77.4,oz,3.5
+"Flour, semolina, fine",366.0,13.3,1.8,72.0,oz,3.5
+"Flour, oat, whole grain",386.4,13.2,6.3,69.9,oz,3.5
+"Flour, spelt, whole grain",340.6,14.5,2.5,70.7,oz,3.5
+"Flour, semolina, coarse and semi-coarse",365.0,11.7,1.6,73.8,oz,3.5
+"Sorghum flour, white, pearled, unenriched, dry, raw",349.6,10.2,3.2,73.5,oz,3.5
+"Corn flour, masa harina, white or yellow, dry, raw",366.0,7.6,4.3,76.7,oz,3.5
+"Flour, almond",577.6,26.2,50.2,16.2,oz,3.5
+"Flour, 00",365.6,11.4,1.5,74.4,oz,3.5
+"Flour, amaranth",378.0,13.2,6.2,68.8,oz,3.5
+"Flour, barley",357.2,8.7,2.5,77.4,oz,3.5
+"Flour, buckwheat",334.3,8.9,2.5,75.0,oz,3.5
+"Flour, cassava",358.6,0.9,0.5,87.3,oz,3.5
+"Flour, chestnut",384.6,5.3,4.6,80.5,oz,3.5
+"Flour, coconut",423.6,16.1,15.3,58.9,oz,3.5
+"Flour, potato",352.7,8.1,1.0,79.9,oz,3.5
+"Flour, quinoa",378.4,11.9,6.6,69.5,oz,3.5
+"Flour, rye",351.0,8.4,1.9,77.2,oz,3.5
+"Flour, sorghum",363.9,8.3,3.6,77.4,oz,3.5
+"Flour, semolina, fine",366.0,13.3,1.8,72.0,oz,3.5
+"Flour, oat, whole grain",386.4,13.2,6.3,69.9,oz,3.5
+"Flour, spelt, whole grain",340.6,14.5,2.5,70.7,oz,3.5
+"Flour, semolina, coarse and semi-coarse",365.0,11.7,1.6,73.8,oz,3.5
+"Sorghum flour, white, pearled, unenriched, dry, raw",349.6,10.2,3.2,73.5,oz,3.5
+"Almond butter, creamy",602.5,20.8,53.0,21.2,oz,3.5
+"Corn flour, masa harina, white or yellow, dry, raw",366.0,7.6,4.3,76.7,oz,3.5
+"Nuts, almonds, whole, raw",583.6,21.5,51.1,20.0,oz,3.5
+"Almond milk, unsweetened, plain, shelf stable",14.6,0.6,1.2,0.3,oz,3.5
+"Flour, coconut",423.6,16.1,15.3,58.9,oz,3.5
+"Flour, 00",365.6,11.4,1.5,74.4,oz,3.5
+"Flour, almond",577.6,26.2,50.2,16.2,oz,3.5
+"Flour, amaranth",378.0,13.2,6.2,68.8,oz,3.5
+"Flour, barley",357.2,8.7,2.5,77.4,oz,3.5
+"Flour, buckwheat",334.3,8.9,2.5,75.0,oz,3.5
+"Flour, cassava",358.6,0.9,0.5,87.3,oz,3.5
+"Flour, chestnut",384.6,5.3,4.6,80.5,oz,3.5
+"Flour, potato",352.7,8.1,1.0,79.9,oz,3.5
+"Flour, quinoa",378.4,11.9,6.6,69.5,oz,3.5
+"Flour, rye",351.0,8.4,1.9,77.2,oz,3.5
+"Flour, sorghum",363.9,8.3,3.6,77.4,oz,3.5
+"Flour, semolina, fine",366.0,13.3,1.8,72.0,oz,3.5
+"Flour, oat, whole grain",386.4,13.2,6.3,69.9,oz,3.5
+"Flour, spelt, whole grain",340.6,14.5,2.5,70.7,oz,3.5
+"Flour, semolina, coarse and semi-coarse",365.0,11.7,1.6,73.8,oz,3.5
+"Sorghum flour, white, pearled, unenriched, dry, raw",349.6,10.2,3.2,73.5,oz,3.5
+"Corn flour, masa harina, white or yellow, dry, raw",366.0,7.6,4.3,76.7,oz,3.5
+"Flour, spelt, whole grain",340.6,14.5,2.5,70.7,oz,3.5
+"Flour, 00",365.6,11.4,1.5,74.4,oz,3.5
+"Flour, almond",577.6,26.2,50.2,16.2,oz,3.5
+"Flour, amaranth",378.0,13.2,6.2,68.8,oz,3.5
+"Flour, barley",357.2,8.7,2.5,77.4,oz,3.5
+"Flour, buckwheat",334.3,8.9,2.5,75.0,oz,3.5
+"Flour, cassava",358.6,0.9,0.5,87.3,oz,3.5
+"Flour, chestnut",384.6,5.3,4.6,80.5,oz,3.5
+"Flour, coconut",423.6,16.1,15.3,58.9,oz,3.5
+"Flour, potato",352.7,8.1,1.0,79.9,oz,3.5
+"Flour, quinoa",378.4,11.9,6.6,69.5,oz,3.5
+"Flour, rye",351.0,8.4,1.9,77.2,oz,3.5
+"Flour, sorghum",363.9,8.3,3.6,77.4,oz,3.5
+"Flour, semolina, fine",366.0,13.3,1.8,72.0,oz,3.5
+"Flour, oat, whole grain",386.4,13.2,6.3,69.9,oz,3.5
+"Flour, semolina, coarse and semi-coarse",365.0,11.7,1.6,73.8,oz,3.5
+"Sorghum flour, white, pearled, unenriched, dry, raw",349.6,10.2,3.2,73.5,oz,3.5
+"Corn flour, masa harina, white or yellow, dry, raw",366.0,7.6,4.3,76.7,oz,3.5
+"Flour, buckwheat",334.3,8.9,2.5,75.0,oz,3.5
+"Buckwheat, whole grain",331.6,11.1,3.0,71.1,oz,3.5
+"Flour, 00",365.6,11.4,1.5,74.4,oz,3.5
+"Flour, almond",577.6,26.2,50.2,16.2,oz,3.5
+"Flour, amaranth",378.0,13.2,6.2,68.8,oz,3.5
+"Flour, barley",357.2,8.7,2.5,77.4,oz,3.5
+"Flour, cassava",358.6,0.9,0.5,87.3,oz,3.5
+"Flour, chestnut",384.6,5.3,4.6,80.5,oz,3.5
+"Flour, coconut",423.6,16.1,15.3,58.9,oz,3.5
+"Flour, potato",352.7,8.1,1.0,79.9,oz,3.5
+"Flour, quinoa",378.4,11.9,6.6,69.5,oz,3.5
+"Flour, rye",351.0,8.4,1.9,77.2,oz,3.5
+"Flour, sorghum",363.9,8.3,3.6,77.4,oz,3.5
+"Flour, semolina, fine",366.0,13.3,1.8,72.0,oz,3.5
+"Flour, oat, whole grain",386.4,13.2,6.3,69.9,oz,3.5
+"Flour, spelt, whole grain",340.6,14.5,2.5,70.7,oz,3.5
+"Flour, semolina, coarse and semi-coarse",365.0,11.7,1.6,73.8,oz,3.5
+"Sorghum flour, white, pearled, unenriched, dry, raw",349.6,10.2,3.2,73.5,oz,3.5
+"Corn flour, masa harina, white or yellow, dry, raw",366.0,7.6,4.3,76.7,oz,3.5
+"Millet, whole grain",380.6,10.0,4.2,74.4,oz,3.5
+"Flour, amaranth",378.0,13.2,6.2,68.8,oz,3.5
+"Rice, black, unenriched, raw",360.5,7.6,3.4,77.2,oz,3.5
+"Wild rice, dry, raw",358.6,12.8,1.7,75.7,oz,3.5
+"Rice, red, unenriched, dry, raw",360.0,8.6,3.4,76.2,oz,3.5
+"Rice, brown, long grain, unenriched, raw",368.4,7.3,3.3,76.7,oz,3.5
+"Rice, white, long grain, unenriched, raw",369.6,7.0,1.0,80.3,oz,3.5
+"Buttermilk, low fat",42.9,3.5,1.1,4.8,oz,3.5
+"Cheese, cotija, solid",351.8,23.8,27.2,2.7,oz,3.5
+"Cheese, feta, whole milk, crumbled",273.5,19.7,19.1,5.6,oz,3.5
+"Cheese, monterey jack, solid",390.7,22.6,32.6,1.9,oz,3.5
+"Cheese, oaxaca, solid",298.1,22.1,22.1,2.4,oz,3.5
+"Cheese, parmesan, grated, refrigerated",404.8,30.1,29.5,4.3,oz,3.5
+"Cheese, pasteurized process cheese food or product, American, singles",307.9,15.6,23.9,8.2,oz,3.5
+"Cheese, provolone, sliced",356.9,23.5,28.1,2.5,oz,3.5
+"Cheese, queso fresco, solid",297.4,18.9,23.4,3.0,oz,3.5
+"Cottage cheese, full fat, large or small curd",104.6,11.6,4.2,4.6,oz,3.5
+"Cream cheese, full fat, block",336.7,5.8,33.5,4.6,oz,3.5
+"Cream, heavy",335.9,2.0,35.6,3.8,oz,3.5
+"Cream, sour, full fat",192.7,3.1,18.0,5.6,oz,3.5
+"Yogurt, Greek, plain, whole milk",94.5,8.8,4.4,4.8,oz,3.5
+"Yogurt, plain, nonfat",50.1,4.2,0.1,8.1,oz,3.5
+"Yogurt, plain, whole milk",77.3,3.8,4.5,5.6,oz,3.5

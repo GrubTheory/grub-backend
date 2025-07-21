@@ -1,0 +1,22 @@
+id,name,protein,fat,carbs,calories,category,flavor_profile,scalable,cooking_ingredient,unit_of_measure,qty,max_per_meal
+INGREDIENTS = [
+    "chicken breast", "ground beef", "pork chop", "salmon", "tuna", "shrimp", "egg", "tofu", "tempeh",
+    "lamb", "chicken thigh", "turkey breast", "bacon", "ham", "duck", "mussels", "clams", "crab",
+    "sardines", "anchovies", "lentils", "black beans", "kidney beans", "chickpeas", "cottage cheese",
+    "mozzarella", "cheddar cheese", "parmesan cheese", "greek yogurt", "plain yogurt", "white rice",
+    "brown rice", "quinoa", "oats", "pasta", "spaghetti", "whole wheat bread", "white bread",
+    "baguette", "potato", "sweet potato", "corn", "tortilla", "couscous", "barley", "bulgur",
+    "noodles", "rice noodles", "sourdough bread", "english muffin", "crackers", "pita bread",
+    "wraps", "rolls", "broccoli", "carrot", "onion", "garlic", "spinach", "kale", "bell pepper",
+    "cucumber", "zucchini", "cauliflower", "tomato", "lettuce", "arugula", "asparagus", "green beans",
+    "peas", "mushroom", "beet", "radish", "cabbage", "brussels sprouts", "leek", "eggplant", "celery",
+    "butternut squash", "pumpkin", "chili pepper", "banana", "apple", "orange", "grape", "strawberry",
+    "blueberry", "raspberry", "blackberry", "mango", "pineapple", "kiwi", "peach", "plum", "pear",
+    "watermelon", "cantaloupe", "honeydew", "papaya", "lemon", "lime", "grapefruit", "pomegranate",
+    "apricot", "fig", "date", "olive oil", "butter", "ghee", "coconut oil", "vegetable oil",
+    "canola oil", "avocado", "mayonnaise", "peanut butter", "almond butter", "sunflower oil",
+    "sesame oil", "lard", "duck fat", "milk", "cream", "sour cream", "heavy cream", "vinegar",
+    "soy sauce", "fish sauce", "hoisin sauce", "ketchup", "mustard", "bbq sauce", "hot sauce", "honey",
+    "maple syrup", "brown sugar", "white sugar", "baking soda", "baking powder", "yeast", "flour",
+    "cornstarch", "gelatin", "vanilla extract", "chocolate chips", "cocoa powder"
+]
